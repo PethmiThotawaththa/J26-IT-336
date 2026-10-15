@@ -1,0 +1,13 @@
+HSR_Code,Repair_Activity,Unit,Rate_LKR,Cost_Notes,Source_Year,Source_District,Source_Document
+MS1-002,Shallow pothole patching with hot bitumen (<20 mm),sq.m,396.25,Excludes transport of aggregate and bitumen,2025,Colombo,HSR Summary 2025 Colombo
+MS1-003,Shallow pothole patching with MC30 bitumen (<20 mm),sq.m,420.5,Excludes transport of aggregate and bitumen,2025,Colombo,HSR Summary 2025 Colombo
+MS1-004,Shallow pothole patching with CRS-1 emulsion (<20 mm),sq.m,343.05,Excludes transport of aggregate,2025,Colombo,HSR Summary 2025 Colombo
+MS1-005,Medium pothole patching with site-made premix (20-75 mm),sq.m,2949.5,Excludes transport of aggregate,2025,Colombo,HSR Summary 2025 Colombo
+MS1-006,Pothole patching with plant-made bitumen bound base,m.ton,20167.65,Premix included; transport paid separately,2025,Colombo,HSR Summary 2025 Colombo
+MS1-007,Medium pothole patching with graded aggregate (20-75 mm),sq.m,1708.85,Excludes transport of aggregate and bitumen,2025,Colombo,HSR Summary 2025 Colombo
+MS1-008,Deep pothole premix surface layer (>75 mm),sq.m,1666.2,Underlying aggregate/gravel paid separately; excludes transport,2025,Colombo,HSR Summary 2025 Colombo
+MS1-009,Deep pothole water-bound gravel work (>75 mm),sq.m,100.7,Aggregate and gravel paid separately,2025,Colombo,HSR Summary 2025 Colombo
+S1-035,Manual sand sealing,sq.m,196.2,Pothole patching and external transport paid separately,2025,Colombo,HSR Summary 2025 Colombo
+S1-035A,Minor pothole patching before sand sealing,sq.m,30.45,Use only with applicable sand-sealing work,2025,Colombo,HSR Summary 2025 Colombo
+S1-036C,Crack sealing with CSS-1 emulsion using plant,sq.m,242.65,Plant/equipment conditions apply; other work paid separately,2025,Colombo,HSR Summary 2025 Colombo
+MN1-001,"Hot bitumen road-surface patching, 14 L per half-km",half-km,5208.65,"Rate is per half-kilometre, not per sq.m",2025,Colombo,HSR Summary 2025 Colombo
