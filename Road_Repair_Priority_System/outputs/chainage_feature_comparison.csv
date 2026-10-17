@@ -1,0 +1,17 @@
+Model,Feature_Set,Group,Records,MAE_LKR,RMSE_LKR
+Extra_Trees,With_Chainage,Overall,123,165197.28508997295,398707.88393520983
+Extra_Trees,With_Chainage,Small_Area,7,116165.88109999966,261438.96137668606
+Extra_Trees,With_Chainage,Item_51,6,121726.65444999967,280355.8061252707
+Extra_Trees,With_Chainage,Other_Small_Items,1,82801.24099999969,82801.24099999969
+Extra_Trees,Without_Chainage,Overall,123,146879.2627804105,413855.0961117368
+Extra_Trees,Without_Chainage,Small_Area,7,13322.91465238099,28954.844885568004
+Extra_Trees,Without_Chainage,Item_51,6,3110.6639166666987,7118.702583820585
+Extra_Trees,Without_Chainage,Other_Small_Items,1,74596.41906666674,74596.41906666674
+Gradient_Boosting,With_Chainage,Overall,123,201407.02314041884,527649.452705252
+Gradient_Boosting,With_Chainage,Small_Area,7,84183.59261109155,178520.741911698
+Gradient_Boosting,With_Chainage,Item_51,6,20130.10341386854,24464.581490527988
+Gradient_Boosting,With_Chainage,Other_Small_Items,1,468504.52779442957,468504.52779442957
+Gradient_Boosting,Without_Chainage,Overall,123,216326.9065082731,571092.6129658648
+Gradient_Boosting,Without_Chainage,Small_Area,7,75714.36938767621,153981.5562037539
+Gradient_Boosting,Without_Chainage,Item_51,6,21291.152926908322,26344.588358083824
+Gradient_Boosting,Without_Chainage,Other_Small_Items,1,402253.6681522835,402253.6681522835

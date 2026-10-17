@@ -1,0 +1,7 @@
+Model,Item Code,Work_Area_sqm,Predicted_Cost_LKR
+Gradient_Boosting_A,51,30.0,52452.532120254895
+Gradient_Boosting_A,51,60.0,52452.532120254895
+Gradient_Boosting_A,51,90.0,52452.532120254895
+Ridge_Regression,51,30.0,71613.43211810582
+Ridge_Regression,51,60.0,81596.9333722915
+Ridge_Regression,51,90.0,91580.43462647707

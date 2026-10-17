@@ -5,196 +5,362 @@ import joblib
 import pandas as pd
 
 
-# Define project paths
-project = Path(__file__).parent
+# --------------------------------------------------
+# File paths
+# --------------------------------------------------
 
-model_file = project / "models" / "repair_cost_model.joblib"
-data_file = project / "outputs" / "ml_cost_dataset.csv"
+MODEL_FILE = Path(
+    "models/final_extra_trees_cost_model.joblib"
+)
+
+DATA_FILE = Path(
+    "outputs/ml_cost_dataset.csv"
+)
 
 
-# Load the trained machine learning model
-if not model_file.exists():
+# --------------------------------------------------
+# Load trained ML model and historical data
+# --------------------------------------------------
+
+if not MODEL_FILE.exists():
     raise FileNotFoundError(
-        "Trained model not found. Run train_final_cost_model.py first."
+        f"Model not found: {MODEL_FILE}"
     )
 
-model = joblib.load(model_file)
+if not DATA_FILE.exists():
+    raise FileNotFoundError(
+        f"Dataset not found: {DATA_FILE}"
+    )
+
+model_package = joblib.load(MODEL_FILE)
+
+model = model_package["model"]
+input_features = model_package["input_features"]
+
+historical_df = pd.read_csv(DATA_FILE)
+
+historical_df["Item Code"] = (
+    pd.to_numeric(
+        historical_df["Item Code"],
+        errors="coerce"
+    )
+    .astype("Int64")
+    .astype(str)
+)
+
+historical_df["Units"] = (
+    historical_df["Units"]
+    .astype(str)
+    .str.strip()
+)
+
+historical_df["Calculated_Work_Area_sqm"] = (
+    historical_df["Length (m)"].fillna(0)
+    * historical_df["Width (m)"].fillna(0)
+)
 
 
-# Load historical data to provide example input values
-historical_data = pd.read_csv(data_file)
+# --------------------------------------------------
+# Input helper functions
+# --------------------------------------------------
 
-example = historical_data.iloc[0]
-
-
-# Define input features expected by the model
-numeric_features = [
-    "StartChainage(m)",
-    "EndChainage(m)",
-    "Length (m)",
-    "Width (m)",
-    "Depth (m)",
-    "Area (sqm)",
-    "Count",
-    "Times per year (Frequency)",
-    "Density (kg/m3)"
-]
-
-categorical_features = [
-    "RoadID",
-    "Item Code",
-    "Units"
-]
-
-
-# Read text input with an optional example value
-def ask_text(label, default):
-
-    value = input(f"{label} [{default}]: ").strip()
-
-    if value == "":
-        return str(default)
-
-    return value
-
-
-# Read numerical input and reject invalid values
-def ask_number(label, default):
-
+def get_required_text(prompt):
     while True:
+        value = input(prompt).strip()
 
-        value = input(f"{label} [{default}]: ").strip()
+        if value:
+            return value
+
+        print("This field cannot be empty.")
+
+
+def get_nonnegative_number(prompt):
+    while True:
+        value = input(prompt).strip()
 
         if value == "":
-            return float(default)
+            return 0.0
 
         try:
             number = float(value)
 
-            if not pd.notna(number):
-                print("Please enter a finite number.")
-                continue
-
-            if number < 0:
-                print("Please enter zero or a positive number.")
+            if not (
+                number >= 0
+                and number < float("inf")
+            ):
+                print(
+                    "Please enter a finite "
+                    "non-negative number."
+                )
                 continue
 
             return number
 
         except ValueError:
-            print("Invalid number. Please try again.")
+            print("Please enter a valid number.")
 
 
-print("=" * 50)
-print("AI-BASED ROAD REPAIR COST PREDICTION")
-print("=" * 50)
+def normalize_item_code(value):
+    try:
+        number = float(value)
 
-print("\nModel: Gradient Boosting Regressor")
-print("Prediction method: Machine Learning")
+        if number.is_integer():
+            return str(int(number))
 
-print("\nEnter repair details below.")
-print("Press Enter to use the example value in brackets.")
-print("Example values come from a historical training record.")
+    except ValueError:
+        pass
+
+    return value.strip()
 
 
-# Collect categorical inputs
-road_id = ask_text(
-    "Road ID",
-    example["RoadID"]
+# --------------------------------------------------
+# Program heading
+# --------------------------------------------------
+
+print("\n" + "=" * 65)
+print("AI-BASED ROAD REPAIR COST PREDICTION SYSTEM")
+print("=" * 65)
+
+print("\nML Algorithm: Extra Trees Regressor")
+print("Prediction Type: Estimated Repair Cost (LKR)")
+print("Road ID and Chainage are not ML input features.")
+
+
+# --------------------------------------------------
+# Repair item and road details
+# --------------------------------------------------
+
+print("\n" + "-" * 65)
+print("REPAIR DETAILS")
+print("-" * 65)
+
+item_code = normalize_item_code(
+    get_required_text("Repair Item Code : ")
 )
 
-item_code = ask_text(
-    "Repair Item Code",
-    example["Item Code"]
-)
+road_id = get_required_text("Road ID : ")
 
-units = ask_text(
-    "Repair Units",
-    example["Units"]
-)
+matching_records = historical_df[
+    historical_df["Item Code"] == item_code
+].copy()
 
-
-# Collect numerical measurements
-values = {}
-
-print("\nENTER REPAIR MEASUREMENTS")
-print("-" * 30)
-
-for feature in numeric_features:
-
-    values[feature] = ask_number(
-        feature,
-        example[feature]
+if matching_records.empty:
+    print(
+        "\nWARNING: This Item Code is not present "
+        "in the historical training dataset."
+    )
+    print(
+        "Prediction may be unreliable for "
+        "an unseen repair activity."
     )
 
+    units = get_required_text("Units : ")
 
-# Validate chainage measurements
-if values["EndChainage(m)"] < values["StartChainage(m)"]:
-    raise ValueError(
-        "End chainage cannot be smaller than start chainage."
+else:
+    available_units = sorted(
+        matching_records["Units"]
+        .dropna()
+        .unique()
+        .tolist()
     )
 
+    if len(available_units) == 1:
+        units = available_units[0]
+        print(f"Units : {units} (automatically selected)")
 
-# Calculate an additional input feature
-calculated_area = (
-    values["Length (m)"] * values["Width (m)"]
-)
-
-
-# Warn about categories absent from the training dataset
-for column, entered_value in [
-    ("RoadID", road_id),
-    ("Item Code", item_code),
-    ("Units", units)
-]:
-
-    known_values = set(
-        historical_data[column].astype(str)
-    )
-
-    if entered_value not in known_values:
+    else:
         print(
-            f"\nWARNING: {column} '{entered_value}' "
-            "was not seen during training."
+            "\nHistorical units for this item:",
+            ", ".join(available_units)
+        )
+
+        units = get_required_text("Units : ")
+
+        if units not in available_units:
+            print(
+                "WARNING: The selected Units were "
+                "not observed for this Item Code."
+            )
+
+
+# --------------------------------------------------
+# Repair measurements
+# --------------------------------------------------
+
+print("\n" + "-" * 65)
+print("REPAIR MEASUREMENTS")
+print("-" * 65)
+
+print(
+    "Leave a numeric field blank to use 0."
+)
+
+length = get_nonnegative_number(
+    "Length (m) : "
+)
+
+width = get_nonnegative_number(
+    "Width (m) : "
+)
+
+depth = get_nonnegative_number(
+    "Depth (m) : "
+)
+
+historical_area = get_nonnegative_number(
+    "Historical Area Field (sqm) : "
+)
+
+count = get_nonnegative_number(
+    "Count : "
+)
+
+frequency = get_nonnegative_number(
+    "Times per Year (Frequency) : "
+)
+
+density = get_nonnegative_number(
+    "Density (kg/m3) : "
+)
+
+calculated_work_area = length * width
+
+
+# --------------------------------------------------
+# Build model input
+# --------------------------------------------------
+
+input_data = {
+    "Depth (m)": depth,
+    "Area (sqm)": historical_area,
+    "Count": count,
+    "Times per year (Frequency)": frequency,
+    "Density (kg/m3)": density,
+    "Length (m)": length,
+    "Width (m)": width,
+    "Calculated_Work_Area_sqm": calculated_work_area,
+    "Item Code": item_code,
+    "Units": units,
+}
+
+input_df = pd.DataFrame([input_data])
+
+input_df = input_df[input_features]
+
+
+# --------------------------------------------------
+# Predict repair cost using machine learning
+# --------------------------------------------------
+
+raw_prediction = float(
+    model.predict(input_df)[0]
+)
+
+predicted_cost = max(0.0, raw_prediction)
+
+
+# --------------------------------------------------
+# Check historical work-area range
+# --------------------------------------------------
+
+prediction_status = "Limited historical support"
+range_message = ""
+
+if not matching_records.empty:
+
+    same_unit_records = matching_records[
+        matching_records["Units"] == units
+    ]
+
+    positive_areas = same_unit_records[
+        same_unit_records[
+            "Calculated_Work_Area_sqm"
+        ] > 0
+    ]["Calculated_Work_Area_sqm"]
+
+    if not positive_areas.empty:
+
+        min_area = float(positive_areas.min())
+        max_area = float(positive_areas.max())
+
+        range_message = (
+            f"Historical Positive Work-Area Range: "
+            f"{min_area:,.2f} - {max_area:,.2f} sqm"
+        )
+
+        if (
+            calculated_work_area >= min_area
+            and calculated_work_area <= max_area
+        ):
+            prediction_status = (
+                "Within historical work-area range"
+            )
+
+        else:
+            prediction_status = (
+                "Outside historical work-area range"
+            )
+
+    else:
+        prediction_status = (
+            "No positive historical work-area "
+            "examples for this Item Code and Units"
         )
 
 
-# Prepare a single prediction record
-prediction_input = {
-    **values,
-    "Calculated_Work_Area_sqm": calculated_area,
-    "RoadID": road_id,
-    "Item Code": item_code,
-    "Units": units
-}
+# --------------------------------------------------
+# Display prediction results
+# --------------------------------------------------
 
-X_new = pd.DataFrame([prediction_input])
-
-
-# Generate the repair cost prediction using the ML model
-predicted_cost = float(model.predict(X_new)[0])
-
-
-# Display the result
-print("\n" + "=" * 50)
+print("\n" + "=" * 65)
 print("ML REPAIR COST PREDICTION RESULT")
-print("=" * 50)
+print("=" * 65)
 
-print(f"Road ID: {road_id}")
+print(f"\nRoad ID: {road_id}")
 print(f"Repair Item Code: {item_code}")
-print(f"Repair Units: {units}")
+print(f"Units: {units}")
+
+print(f"\nLength: {length:,.2f} m")
+print(f"Width: {width:,.3f} m")
 
 print(
     f"Calculated Work Area: "
-    f"{calculated_area:,.2f} sqm"
+    f"{calculated_work_area:,.2f} sqm"
 )
 
+print("\n" + "-" * 65)
+
 print(
-    f"\nPREDICTED REPAIR COST: "
+    f"PREDICTED REPAIR COST: "
     f"Rs. {predicted_cost:,.2f}"
 )
 
-print("\nPrediction generated by the trained ML model.")
-print("This is an estimate, not a verified repair quotation.")
+print("-" * 65)
 
-print("\nPREDICTION COMPLETED!")
+print(f"\nPrediction Status: {prediction_status}")
+
+if range_message:
+    print(range_message)
+
+if raw_prediction < 0:
+    print(
+        "Note: A negative raw prediction "
+        "was displayed as zero."
+    )
+
+print(
+    "\nThis is an ML-based estimate learned "
+    "from historical RDA costing records."
+)
+
+print(
+    "It is not a verified final contractor "
+    "payment or quotation."
+)
+
+print(
+    "Being within the historical area range "
+    "does not guarantee accuracy."
+)
+
+print("\n" + "=" * 65)
