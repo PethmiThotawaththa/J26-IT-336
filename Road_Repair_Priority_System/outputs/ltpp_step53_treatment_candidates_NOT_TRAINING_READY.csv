@@ -1,0 +1,1064 @@
+﻿source_sheet,state_code,shrp_id,construction_no,implementation_date_excel_serial,ltpp_maint_work_code,ltpp_maint_work_description,candidate_rda_code,candidate_repair_method,rda_mapping_status,crack_type_exp,crack_severity_exp,surface_patches_area_treatment_quantity,total_length_cracks_sealed_treatment_quantity,repr_thickness_treatment_quantity,damage_measurements_verified,training_ready
+ANALYSIS_MNT_RHB_AC_SPOT,1,0607,6,38122,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,1,A310,3,36053,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,275,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,1,B310,3,35200,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,2,1004,3,36312,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,2,9035,3,35247,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,2,9035,4,37073,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,2,9035,5,42522,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0502,5,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0503,4,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0504,4,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0505,5,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0506,5,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0506,7,39295,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0508,4,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0509,5,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0559,5,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0560,5,37377,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0603,3,34766,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,700,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0603,4,36434,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,16,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0604,3,34766,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,450,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0606,3,34765,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,640,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0607,3,34765,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,550,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0607,4,36647,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0608,3,34765,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,240,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0608,4,36647,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0659,3,34765,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,470,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0659,4,35671,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0659,5,36431,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,60,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0659,6,36647,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,58,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0659,7,37145,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,550,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0660,3,34765,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,80,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0660,5,36678,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,807,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0661,3,34766,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,25,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0662,3,34766,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,490,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,0662,4,36678,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,27,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1002,2,33239,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1003,2,32509,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1003,2,32509,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1003,5,41275,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1003,6,42064,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,948,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1006,2,33573,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1006,5,41275,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1006,6,42064,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,661,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1006,7,43983,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1007,3,32874,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1007,5,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,24,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1016,2,33240,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1017,4,41061,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1018,2,32509,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1018,3,33239,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1018,5,41061,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1021,2,32874,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1021,3,33239,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1021,4,34455,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1022,2,33239,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1024,2,32509,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1024,3,32874,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1024,3,32874,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1024,4,34516,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1024,5,35506,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1024,6,35618,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1025,2,32874,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1025,3,33239,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1025,7,42522,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,249,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1034,4,35828,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1062,2,32509,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1062,3,33240,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1062,6,41061,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1065,2,32509,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1065,3,32874,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,1065,4,33239,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,6060,2,32509,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,6060,3,32874,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,6060,4,33970,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,B902,4,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,BA01,4,45108,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,886,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,BA02,4,45108,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,601,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,BA03,4,45108,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,719,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,BA59,4,45108,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,BA60,4,45108,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,509,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,4,BA61,4,45108,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,502,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0501,3,36593,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0502,3,36593,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0503,3,36039,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0503,4,36593,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0505,3,36593,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0506,3,36594,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0506,5,38139,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0509,4,38869,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,14,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0561,3,37043,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0564,4,35339,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,15,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0565,3,35643,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0565,4,36726,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0570,3,35612,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,12,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0571,4,38869,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0603,3,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,411,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0603,5,37895,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,5,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0603,6,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0604,4,35643,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0604,5,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,8,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0604,6,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,333,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0604,9,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0606,3,34547,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,11,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0606,4,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,463,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0606,6,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0607,3,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,311,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0607,5,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0608,3,36342,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,33,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0608,4,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,281,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0659,3,35217,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0659,4,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,726,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0660,4,35643,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,5,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0660,5,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0660,6,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,291,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0660,8,38169,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0661,4,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,626,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0661,4,36708,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0661,5,37151,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,19,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0661,6,37803,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0661,7,38139,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,141,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0662,3,36008,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,16,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0662,4,37408,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0662,4,37408,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,8,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0664,4,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,10,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0664,5,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,448,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0664,7,37043,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0664,8,37803,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0664,9,38169,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,0664,9,38169,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2002,2,33756,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2002,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2002,4,35643,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,22,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2002,7,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,780,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2038,2,34759,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,7,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2038,3,36800,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2040,2,34151,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2040,4,35612,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,99,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2040,6,37408,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2040,7,37681,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2041,2,34881,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,145,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,2051,2,34516,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,10,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,7452,2,36342,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,7456,3,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,7491,3,40756,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8149,4,40756,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8150,2,35643,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8150,4,40391,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8150,4,40391,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8153,4,38899,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8153,5,39934,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8156,2,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8156,4,40452,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8156,5,40756,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8156,6,41061,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,8534,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,A310,3,36448,1,Crack Sealing,2,Crack Sealing,description_match_only,Block cracking (AC),High,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,A311,3,36448,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,A361,3,36448,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,6,A362,3,36448,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0501,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0502,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0502,3,35461,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,44,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0503,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0503,3,35461,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0503,4,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,232,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0504,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0504,3,35461,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,10,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0504,4,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,57,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0505,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0505,4,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,411,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0506,3,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0506,5,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,220,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0507,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0507,4,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,228,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0508,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0508,3,35461,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0508,4,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,173,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0509,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0509,3,35461,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,45,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0509,4,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,483,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0559,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0559,4,35977,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0560,2,35461,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1818,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,0560,4,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,19,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,1029,2,34851,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,1029,4,37469,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,6002,3,38139,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7035,3,39661,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7780,3,38504,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,13,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7780,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7780,5,40391,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7780,6,40695,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7780,7,41487,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,20,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7780,8,41791,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7780,9,42247,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,161,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,7783,2,35582,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,8,A310,3,34851,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,0901,3,37727,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,358,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,0902,4,37727,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,46,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,0903,4,37727,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,482,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,0960,4,37728,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,492,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,0961,4,37728,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,709,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,0961,6,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,0962,4,37728,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,0962,5,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,1803,2,34717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,125,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,1803,3,35271,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1536,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,4020,3,35000,1,Crack Sealing,2,Crack Sealing,description_match_only,Reflection cracking (AC),Moderate,,1250,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,4020,4,35217,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,4020,5,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,4020,8,40330,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,9,4020,9,41426,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,10,1450,2,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,10,1450,4,39479,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,460,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,10,1450,5,40330,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,10,4002,4,36592,1,Crack Sealing,2,Crack Sealing,description_match_only,Reflection cracking (AC),Moderate,,240,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,10,5005,3,39479,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1030,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,12,1370,3,36053,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,170,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,13,7028,2,35323,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,615,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,16,1020,2,34073,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,144,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,16,1020,3,39661,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,16,5025,4,39234,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0603,3,35717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0604,4,35717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0606,5,33695,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0606,6,34912,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0606,7,35717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0607,4,34455,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0607,5,35717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0607,8,38743,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,118,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0608,4,35717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0659,5,36021,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0662,5,35717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0662,6,36046,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0663,4,35717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,0664,4,35717,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,5217,3,36774,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,5217,4,37152,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,5453,3,38930,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,7937,2,34121,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,55,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,9267,3,37408,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,17,B310,3,34135,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,272,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0603,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0603,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0604,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0606,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0606,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0607,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0607,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0608,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0608,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0659,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0659,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0660,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0660,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0661,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0661,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0662,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0662,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0663,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0664,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0665,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0665,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0666,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0666,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0667,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0667,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0668,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0669,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0669,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0670,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0670,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0671,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0671,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0672,3,34486,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,0672,4,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,1037,3,36678,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,1037,5,41791,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,3003,4,34759,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,3003,5,37043,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,3003,7,42156,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,5022,3,34851,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,5022,4,36770,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,5538,4,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,5538,4,41426,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,18,6012,4,43983,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0601,8,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0601,9,39356,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0601,11,40787,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0602,10,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0602,11,39356,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0602,12,40787,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0603,3,33165,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,816,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0603,5,36341,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0604,3,33168,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,610,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0605,12,39356,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0605,13,40787,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0606,3,33168,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,600,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0607,4,33165,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,156,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0608,4,33165,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,204,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0659,3,33165,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,378,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,0659,4,33709,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,1044,2,33655,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,809,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,1044,2,33655,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,27,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,1044,3,34969,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),High,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,1044,6,39083,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,1044,7,40909,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,3055,3,43374,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,9116,3,34943,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,19,9126,3,33142,1,Crack Sealing,2,Crack Sealing,description_match_only,Reflection cracking (AC),Low,,594,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,0104,2,36039,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,0105,2,36039,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,0106,2,35951,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,0109,2,36039,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,0110,2,36039,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,0111,2,36039,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,0112,2,36039,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,1005,2,34486,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,7073,2,33025,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,A310,3,36678,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,20,B310,3,33641,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,21,A310,2,33185,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0502,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0503,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0504,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0505,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0506,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0507,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0508,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,445,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0509,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),High,,348,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,23,0559,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,24,0509,3,37131,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,24,0509,4,37469,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,24,0509,5,37834,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,24,0902,3,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,24,2401,2,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0115,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0115,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0115,4,39965,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0115,6,42156,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0116,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0116,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0116,6,42583,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0117,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0117,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0117,6,42156,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0118,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0118,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0118,6,42583,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0120,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0120,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0120,6,42583,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0121,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0121,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0121,6,42583,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0123,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0123,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0123,6,42156,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0124,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0124,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0124,6,42583,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0159,3,38139,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0159,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,0159,6,42156,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,A310,2,33039,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),Moderate,,100,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,B310,2,33148,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,26,D310,2,33157,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0502,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,400,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0503,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0504,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,298,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0505,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,200,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0506,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,50,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0507,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,85,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0508,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,60,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0509,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,10,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0559,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,33,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0560,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,650,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0561,3,33404,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,600,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,0902,3,34851,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,1016,3,36234,1,Crack Sealing,2,Crack Sealing,description_match_only,Block cracking (AC),Moderate,,1030,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,1018,2,34135,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,1018,5,37712,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,1023,3,36996,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,1023,4,42522,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,6064,3,33147,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,6251,3,37043,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,6251,4,42156,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,B310,3,33302,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,120,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,27,D310,3,34408,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,480,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,28,1001,3,37391,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,28,2807,2,33739,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,20,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0603,5,35582,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0604,4,35582,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0606,3,35582,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0665,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0759,3,36571,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1200,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0901,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1300,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0902,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,660,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0903,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,740,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0959,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1100,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0960,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1100,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0961,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,660,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0962,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1300,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0963,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1600,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,0964,4,37787,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1300,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,4069,3,35858,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,1500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,5393,3,35674,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,153,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,5393,5,37817,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,222,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,5403,4,36678,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,98,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,5473,6,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,5473,7,38139,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,5483,3,35871,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,326,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,5483,4,36851,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,A310,3,35038,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,389,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,A310,4,35947,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,A310,5,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,A310,6,38467,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,A603,3,38061,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,130,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,A604,3,38061,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,940,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,A606,3,38061,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,720,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,A607,3,38061,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,420,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,B310,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,B310,4,37408,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,29,B310,4,37408,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0114,2,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,570,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0114,4,39204,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0114,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0115,2,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,585,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0115,4,39204,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0115,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0117,2,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,680,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0117,4,39204,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0117,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0119,2,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,560,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0119,4,39204,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0119,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0123,2,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,590,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0123,4,39204,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0123,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0124,2,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,545,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0124,4,39204,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0124,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0502,3,36678,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,5,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0502,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0503,3,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0503,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0504,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0505,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0506,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0507,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0508,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0509,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0560,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0561,3,35643,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,0561,5,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,6004,2,36418,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,6004,3,37378,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),Moderate,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,7066,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,7076,6,38504,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,7088,4,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,30,8129,3,41440,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,190,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,3024,5,42156,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,6700,3,33451,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,6700,4,34547,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,6700,6,36238,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1086,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,6700,7,36916,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,150,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,6702,3,35048,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1072,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,7050,3,35899,1,Crack Sealing,2,Crack Sealing,description_match_only,Edge cracking (AC),Low,,569,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,7050,5,38258,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,521,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,31,A310,3,35165,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),High,,1294,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,1020,2,35217,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,1020,2,36271,1,Crack Sealing,2,Crack Sealing,description_match_only,Block cracking (AC),Low,,527,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA01,3,43227,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,330,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA01,4,45435,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,890,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA02,3,43227,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,615,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA02,4,45435,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1015,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA03,3,43227,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,820,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA03,4,45435,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),High,,1000,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA59,3,43227,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,575,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA59,4,45435,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),High,,960,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA60,3,43227,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,705,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA60,4,45435,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,109,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA61,3,43227,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,600,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA61,4,45435,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1030,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA62,3,43227,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,145,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,32,AA62,4,45435,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,850,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,33,1001,5,39295,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,34,0502,3,37043,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,34,1030,1,33294,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),High,,2000,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,34,1030,4,38565,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,40,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,34,1033,4,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,34,1033,5,40695,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,35,0501,4,37026,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,138,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,35,0501,5,37361,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,109,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,35,0501,6,37514,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,230,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,35,0501,7,37756,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,170,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,35,0504,3,37761,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,6,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,35,0902,4,37391,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,14,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,35,6033,2,36661,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,24,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,35,6033,3,37026,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,24,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,36,1643,1,32794,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,300,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,36,1644,3,36312,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,1352,4,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,1801,3,37408,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,1802,2,34151,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,1802,4,35521,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,1803,4,43466,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,1814,3,41791,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,1817,6,41791,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,1992,4,43466,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,37,2824,4,43466,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,39,0111,3,41061,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,39,0159,3,38108,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,39,0159,5,39234,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,39,0159,7,41066,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,39,0160,3,41061,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,39,3801,4,43983,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,39,5010,4,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,39,9006,5,43983,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,0603,4,35323,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1240,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,0604,4,35323,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1200,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,0606,4,35323,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1150,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,0607,3,35323,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1350,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,0607,5,36922,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2349,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,0607,7,37514,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,470,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,0608,3,35323,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1100,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,4086,2,32724,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),High,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,4086,3,36053,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,165,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,40,4164,3,39156,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,307,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,41,7018,4,36312,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,41,7018,5,37802,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),High,,96,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1597,2,33037,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,600,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1597,3,35241,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,1067,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1597,4,35667,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,11,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1597,5,36458,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,1128,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1597,7,40695,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1597,9,43831,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1599,2,36312,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1605,3,37245,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,202,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1608,2,33390,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1614,3,33756,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1614,4,36312,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1614,6,43831,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,1623,4,43831,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,42,7037,2,32791,1,Crack Sealing,2,Crack Sealing,description_match_only,Edge cracking (AC),Low,,1360,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,44,7401,2,36312,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,44,7401,4,40756,1,Crack Sealing,2,Crack Sealing,description_match_only,Reflection cracking (AC),High,,280,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0601,10,38534,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0601,13,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0602,10,38534,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0602,13,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0603,5,38504,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0603,6,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0603,8,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0604,6,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0605,9,38534,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0605,12,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0606,6,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0607,7,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0607,9,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0608,7,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0608,9,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0660,7,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0660,9,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0661,6,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0662,6,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0662,8,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,0859,2,34878,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,48,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,9197,3,33533,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,46,9197,6,37865,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,1023,4,37149,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,745,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,1023,5,38122,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,17,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,2001,5,40544,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,3101,3,35930,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,11,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,3108,3,37026,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,3108,4,37149,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,605,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,3108,5,38122,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,11,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,9024,3,37514,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1540,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,47,C310,2,33032,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,5500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1039,3,33739,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,92,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1039,4,34469,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,99,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1039,5,34957,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,14,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1092,6,37514,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,440,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1096,2,34700,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1096,5,41275,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1096,6,42736,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1116,4,35930,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,14,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,1130,2,33373,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,30,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,2108,3,34912,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,2108,4,36784,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,650,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,3835,2,33861,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,251,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,5154,6,43983,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,5287,3,37514,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,460,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,6079,2,33343,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,6079,3,33770,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,6079,4,34500,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,6079,5,35231,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,6079,6,35961,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,9005,3,38245,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,86,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,AA01,3,43101,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,AA02,3,43101,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,AA03,3,43101,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,B310,2,33130,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,875,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,D310,2,33094,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,605,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,E310,2,33087,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,87,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,J310,3,36784,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,1080,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,K310,2,33046,1,Crack Sealing,2,Crack Sealing,description_match_only,,Low,,265,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,48,L310,2,33105,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,370,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,49,B310,3,36996,1,Crack Sealing,2,Crack Sealing,description_match_only,Reflection cracking (AC),Moderate,,605,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,49,C310,3,36312,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,50,1004,1,36075,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,410,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,50,1004,5,38626,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Low,,125,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,50,1681,3,36370,1,Crack Sealing,2,Crack Sealing,description_match_only,Edge cracking (AC),Low,,735,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,50,1682,3,36370,1,Crack Sealing,2,Crack Sealing,description_match_only,Edge cracking (AC),Low,,671,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,50,1682,4,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),High,,1485,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,50,1682,5,41030,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,50,1683,3,36370,1,Crack Sealing,2,Crack Sealing,description_match_only,Edge cracking (AC),Low,,811,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,50,1683,4,41030,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,51,1417,3,35886,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,15,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,51,1419,4,39965,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,1005,4,39661,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,17,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,1005,5,41426,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,124,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,1005,6,42522,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),High,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,1005,6,42522,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,1007,5,45901,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,623,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,1008,2,34121,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,8,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,6048,3,35947,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,7322,2,34516,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,7,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,7322,3,35920,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,7322,5,39661,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,AA01,2,42177,1,Crack Sealing,2,Crack Sealing,description_match_only,Other AC,Low,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,AA02,2,42177,1,Crack Sealing,2,Crack Sealing,description_match_only,Other AC,Low,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,AA03,2,42177,1,Crack Sealing,2,Crack Sealing,description_match_only,Other AC,Low,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,BA01,2,42177,1,Crack Sealing,2,Crack Sealing,description_match_only,Other AC,Low,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,BA59,2,42177,1,Crack Sealing,2,Crack Sealing,description_match_only,Other AC,Low,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,53,BA60,2,42177,1,Crack Sealing,2,Crack Sealing,description_match_only,Other AC,Low,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,54,1640,5,43617,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,54,1640,5,43617,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0901,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0901,4,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0901,5,38869,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0901,6,39600,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0901,6,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0901,7,41061,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0902,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0902,4,37135,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0902,5,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0902,6,38869,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0902,7,39600,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0902,7,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0902,9,41061,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0903,3,38869,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0903,4,39600,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0903,4,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0907,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0907,6,38869,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0907,7,39600,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0907,7,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0908,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0908,4,38869,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0908,5,39600,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0908,7,41061,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0909,5,38869,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0909,6,39600,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,0909,6,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A901,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A901,4,37135,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A901,5,37865,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A901,7,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A902,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A903,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A903,4,38869,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A903,5,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A907,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A907,4,38869,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A907,6,40695,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A908,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A909,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,A909,4,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B901,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B901,4,37135,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B901,5,37865,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B902,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B902,4,37135,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B902,6,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B903,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B907,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B907,5,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B908,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B908,4,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B909,3,35947,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B909,4,37135,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B909,5,38504,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,55,B909,6,39600,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,2015,3,38899,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,23,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,2017,4,41026,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,2017,7,43262,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),High,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,2020,4,40330,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,6029,2,35582,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,6031,3,37834,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,7772,1,33422,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,410,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,7772,6,37773,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,7772,7,41426,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,56,7775,4,39295,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0502,3,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0502,3,36708,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,36,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0503,3,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0503,3,36708,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0503,4,38139,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,5,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0503,5,38200,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,820,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0504,3,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0505,3,33359,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0505,4,34881,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0505,5,37073,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0505,5,37073,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0505,6,38108,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0506,3,38534,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0506,3,38534,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,28,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0507,3,36708,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0507,4,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,9,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0507,5,38473,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0508,3,36281,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0508,3,36281,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,31,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0508,4,37408,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0508,5,38139,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,14,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0508,6,38504,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,8,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0508,7,38869,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,24,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0509,3,35977,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,5,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0509,4,36678,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,36,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0509,5,37043,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0509,6,37773,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,4,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,0509,7,38139,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,3,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,1804,5,37438,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,1804,6,40695,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,1805,3,40299,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,288,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,8529,2,37408,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,81,8529,3,39661,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,82,6006,3,40391,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,82,6007,4,40391,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0502,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,553,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0502,4,37088,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,145,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0503,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,536,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0503,4,37088,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,265,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0504,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,442,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0504,4,37088,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0505,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0505,4,37088,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,50,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0506,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,410,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0507,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,124,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0507,4,37088,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,490,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0508,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,380,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0508,4,37088,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,500,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,0509,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,470,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6450,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,170,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6450,4,37088,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,490,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6451,3,34080,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Low,,275,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6451,4,37088,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,35,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6452,3,34222,1,Crack Sealing,2,Crack Sealing,description_match_only,Reflection cracking (AC),Low,,752,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,2,33030,1,Crack Sealing,2,Crack Sealing,description_match_only,Alligator cracking (AC),Moderate,,197,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,3,33481,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,60,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,5,33870,1,Crack Sealing,2,Crack Sealing,description_match_only,Reflection cracking (AC),Moderate,,314,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,6,34030,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,7,34627,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,9,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,9,34869,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,68,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,10,35212,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,9,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,11,35688,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,132,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,6454,13,36341,1,Crack Sealing,2,Crack Sealing,description_match_only,Reflection cracking (AC),Low,,97,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,A310,2,33038,1,Crack Sealing,2,Crack Sealing,description_match_only,Transverse cracking (AC),Moderate,,110,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,AA01,3,43466,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,AA02,3,43466,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,AA03,3,43466,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,83,AA61,3,43466,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,87,0960,2,41061,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,87,1806,3,34969,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,1,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,87,A310,2,33094,1,Crack Sealing,2,Crack Sealing,description_match_only,Patch deterioration (AC),Moderate,,737,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,87,A311,2,33063,1,Crack Sealing,2,Crack Sealing,description_match_only,Patch deterioration (AC),Moderate,,685,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,87,AA03,2,42856,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,87,B310,2,33124,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,337,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,87,B311,2,33081,1,Crack Sealing,2,Crack Sealing,description_match_only,Longitudinal cracking (AC),Moderate,,859,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,87,BA03,2,42856,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,89,1021,2,34851,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,89,1021,4,39965,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,90,6405,2,34907,25,"Patch Pot Holes - Hand Spread, Compacted with Truck",1,Pothole Patching,description_match_only,,,2,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SPOT,90,6405,6,37515,1,Crack Sealing,2,Crack Sealing,description_match_only,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,2,1004,2,33391,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,2,9035,2,33086,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,0506,2,33017,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,0506,2,33017,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,0507,2,33017,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,0507,2,33017,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,1003,4,34243,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,1006,4,34243,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,1007,4,34731,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,1018,4,35765,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,1018,4,35765,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,4,B902,3,34776,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0506,2,33714,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0506,2,33714,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0559,2,33714,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0559,2,33714,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0559,2,33714,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0559,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0559,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0559,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0560,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0560,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0561,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0561,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0563,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0563,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0564,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0564,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0564,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0565,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0565,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0565,2,33716,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0567,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0567,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0568,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0568,2,33718,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0569,2,33717,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0569,2,33717,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0570,2,33717,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0570,2,33717,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,0571,2,33717,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,7491,4,41487,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,7491,4,41487,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8149,5,41487,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8149,5,41487,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8153,2,34934,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8156,8,42163,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8534,2,33427,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8534,4,36965,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8534,6,40330,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8535,2,33302,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,6,8535,4,36990,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0501,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0502,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0503,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0504,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0504,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0504,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0504,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0505,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0505,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0505,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0505,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0506,3,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0506,3,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0507,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0507,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0559,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0559,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0559,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0559,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0560,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0560,2,33515,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0560,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,0560,2,33519,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,1029,5,37852,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,6002,2,35195,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,7781,2,33482,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,8,A310,2,33161,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,0901,3,35605,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,0901,3,35605,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,0902,3,35627,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,0902,3,35627,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,0903,3,35610,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,0903,3,35610,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,1803,4,36698,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,1803,4,36698,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,9,4020,7,37030,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,12,1370,5,36754,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,12,4135,2,33650,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,12,4135,2,33650,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,12,4136,2,33650,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,12,4136,2,33650,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,12,4137,2,33650,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,12,4137,2,33650,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,16,1007,2,35649,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,16,1007,2,35649,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,17,7937,3,34591,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,17,B310,2,33462,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,19,0107,2,34284,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,20,1006,2,36095,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,20,1009,2,35015,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,20,6026,2,33707,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,20,6026,3,36024,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,20,A310,2,33177,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,20,B310,2,33182,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,21,A310,2,33185,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,23,0504,2,34877,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,23,0504,2,34877,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,23,0505,2,34877,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,23,0559,2,34877,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,23,0559,2,34877,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,23,1028,3,34584,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,23,1028,3,34584,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,24,0504,2,33756,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,24,0504,2,33756,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,24,0505,2,33756,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,24,0561,2,33764,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,24,0562,2,33764,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,24,2805,3,33884,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,26,A310,3,33176,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,26,B310,2,33148,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,26,D310,2,33158,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,27,1016,2,36055,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,27,6064,2,33124,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,27,6064,2,33124,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,27,B310,2,33130,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,27,D310,2,33818,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,28,7012,2,34044,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,29,5403,2,32767,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,29,5473,3,33004,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,29,A310,2,33151,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,29,B310,2,33151,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,30,0506,2,33492,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,30,0506,2,33492,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,30,0507,2,33492,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,30,0507,2,33492,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,30,6004,2,36418,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,30,7088,2,33485,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,30,8129,2,37773,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,31,6700,2,32445,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,31,A310,2,33162,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,32,1020,6,41129,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,32,1020,6,41129,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,34,1030,3,35691,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0501,3,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0501,3,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0502,2,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0504,2,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0504,2,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0505,2,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0505,2,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0506,3,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0506,3,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0507,3,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0507,3,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0508,3,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0509,3,35318,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0902,3,35325,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,0902,3,35325,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,2007,2,33095,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,35,6033,4,37174,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,36,1643,6,35324,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,36,1643,6,35324,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,36,A310,2,33102,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,36,B310,2,33100,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,37,1801,2,35328,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,37,1802,3,35186,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,40,0504,2,35619,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,40,0504,2,35619,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,40,0505,2,35619,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,40,0560,2,35619,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,40,4086,2,32724,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,40,4164,2,34572,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,41,7018,3,33416,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,42,1605,2,34865,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,42,1618,2,32748,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,42,1618,2,32748,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,42,1618,2,32748,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,46,9197,2,32764,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,1023,3,34572,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,1023,3,34572,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,2001,2,33527,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,2001,2,33527,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,2008,2,32813,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,3108,2,32814,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,3108,2,32814,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,9024,2,34815,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,9024,2,34815,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,9025,3,34947,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,9025,3,34947,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,A310,2,33100,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,47,C310,2,33035,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1039,6,35351,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1087,4,40739,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1092,5,36053,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1092,7,40313,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1093,2,32401,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1096,4,37057,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1111,2,36388,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1113,2,33818,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1113,2,33818,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1116,2,33164,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,1130,3,33899,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,2108,6,41173,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,2176,3,36944,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3669,3,36784,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3729,3,36418,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3835,3,36656,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3835,3,36656,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3835,3,36701,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3835,3,36701,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3855,3,36144,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3865,2,37029,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,3875,2,33416,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,5154,5,41456,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,9005,2,36060,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,A504,2,33532,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,A504,2,33532,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,A505,2,33532,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,B310,3,33135,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,D310,3,33158,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,E310,3,33141,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,J310,2,33177,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,K310,3,33177,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,L310,3,33346,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,48,M310,2,33100,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,50,1681,2,33490,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,50,1683,2,33505,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,51,1417,2,33130,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,51,1417,4,35935,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,51,1419,2,32771,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,51,1419,3,35672,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,51,2004,2,35954,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,51,2021,2,34997,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,53,1005,2,32690,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,53,1007,2,33414,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,53,1007,4,37490,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,53,1008,3,34541,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,53,6056,2,35634,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,53,6056,2,35634,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,53,7322,4,36320,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,54,1640,2,33465,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,2015,2,38139,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,2017,2,36332,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,2019,2,35334,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,2019,2,35334,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,6029,3,35657,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,6031,2,35611,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,7772,5,35962,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,7772,5,35962,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,7775,2,37428,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,56,7775,5,40469,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,0504,2,33149,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,0505,2,33149,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,0506,2,33149,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,0506,2,33149,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,0507,2,33149,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,0507,2,33149,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,1804,3,33878,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,1805,2,34898,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,81,1805,2,34898,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,83,0504,2,32764,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,83,0505,2,32764,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,83,6450,2,32764,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,83,6451,2,32764,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,83,A310,3,33117,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,87,A310,2,33114,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,87,A311,2,33113,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,87,B310,2,33129,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,87,B311,2,33129,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,89,1021,3,34932,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,89,1021,3,34932,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,89,1021,5,40787,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,89,1127,3,34549,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,90,6405,5,36671,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,90,6410,2,33021,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,90,6412,2,33021,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO
+ANALYSIS_MNT_RHB_AC_SURFACE,90,6420,7,35617,19,Asphalt Concrete Overlay,75,Asphalt Concrete Overlay,provisional,,,,,,NO,NO

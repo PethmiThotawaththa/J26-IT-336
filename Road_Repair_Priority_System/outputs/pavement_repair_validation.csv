@@ -1,0 +1,17 @@
+RoadID,Item Code,Length (m),Width (m),Depth (m),Area (sqm),Count,Actual_Method,Predicted_Item_Code,Predicted_Method,Correct
+B0047,1,0.0,0.0,0.0,0,0,Pothole Patching,2,Crack Sealing,False
+B0047,2,0.0,0.0,0.0,0,0,Crack Sealing,2,Crack Sealing,True
+B0047,1,0.0,0.0,0.0,0,0,Pothole Patching,2,Crack Sealing,False
+B0047,2,0.0,0.0,0.0,0,0,Crack Sealing,2,Crack Sealing,True
+B0047,75,150.0,6.0,0.05,0,0,Section Overlay,75,Section Overlay,True
+B0174,1,0.0,0.0,0.0,0,0,Pothole Patching,1,Pothole Patching,True
+B0214,2,0.0,0.0,0.0,0,0,Crack Sealing,2,Crack Sealing,True
+B0214,75,7.249,8.0,0.5,0,0,Section Overlay,75,Section Overlay,True
+B0240,1,0.0,0.0,0.0,0,0,Pothole Patching,1,Pothole Patching,True
+B0240,2,0.0,0.0,0.0,0,0,Crack Sealing,1,Pothole Patching,False
+B0240,1,0.0,0.0,0.0,0,0,Pothole Patching,1,Pothole Patching,True
+B0263,1,0.0,0.0,0.0,0,0,Pothole Patching,1,Pothole Patching,True
+B0263,75,150.0,6.0,0.05,0,0,Section Overlay,75,Section Overlay,True
+B0435,1,0.0,0.0,0.0,0,0,Pothole Patching,1,Pothole Patching,True
+B0435,2,0.0,0.0,0.0,0,0,Crack Sealing,1,Pothole Patching,False
+B0435,75,150.0,6.0,0.05,0,0,Section Overlay,75,Section Overlay,True
