@@ -1,0 +1,10 @@
+road_id,section_start_m,section_end_m,damage_related_work_item_count,damage_related_forecast_budget_lkr,damage_related_amounts_missing,planned_item_1_count,planned_item_1_present,planned_item_2_count,planned_item_2_present,planned_item_3_count,planned_item_3_present,planned_item_57_count,planned_item_57_present,planned_item_73_count,planned_item_73_present,planned_item_74_count,planned_item_74_present,planned_item_75_count,planned_item_75_present,planned_item_76_count,planned_item_76_present,planned_item_77_count,planned_item_77_present,planned_damage_work_descriptions
+B047,0,3680,2,360897.0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crack sealing; Patching potholes
+B047,3680,7420,3,2637030.91,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Crack sealing; Patching potholes; Section overlay
+B174,0,9490,1,281712.0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Patching potholes
+B214,0,18460,1,3000040.32,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crack sealing
+B214,18460,28520,1,1000003.61,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Section overlay
+B240,0,2550,2,346178.0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crack sealing; Patching potholes
+B240,2550,13100,1,469520.0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Patching potholes
+B263,0,5555,2,2901787.91,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Patching potholes; Section overlay
+B435,0,7700,3,3124623.91,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Crack sealing; Patching potholes; Section overlay

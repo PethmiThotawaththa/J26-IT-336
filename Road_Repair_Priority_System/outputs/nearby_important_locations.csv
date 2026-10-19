@@ -1,0 +1,407 @@
+road_id,osm_type,osm_id,location_name,amenity_type,latitude,longitude
+B047,node,255179653,Sri Jayawardenapura teaching hospital,hospital,6.8683337,79.9261518
+B047,node,599822882,"Ananda Vidyalaya,  Kottawa",school,6.8442343,79.9581677
+B047,node,599822883,Dharmapala Vidyalaya Kottawa North,school,6.8655244,79.9584867
+B047,node,617205465,Vidya Wardana,school,6.8880799,79.9299768
+B047,node,617213481,Police Station Thalangama - Koswatte,police,6.9108998,79.9293481
+B047,node,617214076,Divisional Hospital Thalangama,hospital,6.9062331,79.9285198
+B047,node,617262855,Pannipitiya Nursing Home,hospital,6.8468216,79.9522616
+B047,node,618005039,President's College,school,6.8443786,79.9296221
+B047,node,618005040,Vidyakara Balika Vidyalaya,school,6.8451252,79.9260058
+B047,node,619923261,Buwanekaba Vidyalaya,school,6.8488433,79.9249391
+B047,node,619944442,Nawinna Medicare Hospital,hospital,6.8546505,79.9143409
+B047,node,620524466,Sri Rahula Balika Maha Vidyalaya,school,6.9036373,79.9561321
+B047,node,625833966,Vidyaraja Maha Vidyalaya,school,6.8813645,79.9597468
+B047,node,637044384,Siddhartha Vidyalaya,school,6.8676383,79.9160249
+B047,node,672197375,Dharmashoka Primary School,school,6.8450065,79.9352518
+B047,node,672197378,Central College Maharagama,school,6.8432797,79.9352557
+B047,node,679045166,Sri Subuthi Vidyalaya,school,6.902909,79.9240445
+B047,node,847630668,Sathara Institute,school,6.8448237,79.9302225
+B047,node,973582530,Thalangama Maha Vidyalaya,school,6.9136763,79.9467156
+B047,node,1523693927,Dental Institute,hospital,6.8457107,79.9286112
+B047,node,1530607218,Louvre Int. School,school,6.856859,79.946069
+B047,node,1650226106,Ayurveda Corporation,hospital,6.855884,79.9176997
+B047,node,1650227458,Nursing Home,hospital,6.8507988,79.9215162
+B047,node,1651231509,Buwanekaba Vidyala (Primary),school,6.8519965,79.9224078
+B047,node,1651231510,I E M,school,6.8483694,79.9244302
+B047,node,1651265545,OxFord,school,6.8654741,79.9115636
+B047,node,1662139981,Asia Hospital,hospital,6.8453097,79.92922
+B047,node,1853812162,Police Station,police,6.84548,79.9289658
+B047,node,1988112233,Asiri Laboratory,hospital,6.8920418,79.9290176
+B047,node,2093133903,Sri Chandrarathna Manawasinghe Vidyalaya,school,6.8406688,79.9161897
+B047,node,2099315134,President's College (Primary Section),school,6.856095,79.909678
+B047,node,2552014804,Highland International School,school,6.8443675,79.9299547
+B047,node,2552015799,Odent Dental Surgery,hospital,6.8449276,79.9308043
+B047,node,3133617669,Subhodhi Junior School,school,6.9085954,79.9367591
+B047,node,3593176175,Lankasaba Primary School,school,6.9041507,79.9233938
+B047,node,3780541997,Etul Kotte Primary School,school,6.9012258,79.9078684
+B047,node,3844292092,Bauddha Kanishta Vidyalaya,school,6.8489027,79.9372992
+B047,node,4945203417,M D H Jayawardena Vidyalaya,school,6.9127523,79.9288284
+B047,node,5172629872,Pathway Montessori International,school,6.8493904,79.9489167
+B047,node,6486926128,,police,6.9044362,79.9110778
+B047,node,6626986799,Mahindarama Dhamma School,school,6.8971981,79.9094356
+B047,node,6626986800,Nippon Computer Academy,school,6.8975321,79.9100076
+B047,node,6657814469,Body Doc Medical Center,hospital,6.8955508,79.9601667
+B047,node,6897167576,Newgen Montessori,school,6.8758317,79.951592
+B047,node,8658907685,Ranpatha Weda Madura,hospital,6.8487554,79.9485862
+B047,node,9179924434,,police,6.8475697,79.9267078
+B047,node,10009376814,Asian International Montessori School,school,6.8853793,79.9391165
+B047,node,11232745339,,school,6.8731857,79.9106859
+B047,node,11841725079,,hospital,6.8507098,79.9077135
+B047,way,77604221,Dharmapala Vidyalaya,school,6.8437043,79.9542733
+B047,way,258604407,KIU University,school,6.9078748,79.9283783
+B047,way,319055605,,school,6.8815756,79.9581539
+B047,way,382365352,I-Gate College,school,6.8703269,79.9372265
+B047,way,399559227,Ceylinco Sussex College,school,6.9012095,79.9546061
+B047,way,407282848,Natural Back Health Service,hospital,6.8976909,79.9584917
+B047,way,482789831,Police Post Malabe,police,6.9038244,79.9542534
+B047,way,495869594,Don't Know,school,6.9066231,79.9451105
+B047,way,495869595,,school,6.9067336,79.9450475
+B047,way,495869596,,school,6.9066176,79.9451765
+B047,way,495869597,,school,6.9066071,79.9450253
+B047,way,506221336,Vidura College,school,6.8738269,79.9499775
+B047,way,525279178,,hospital,6.8961738,79.9230759
+B047,way,536506634,Malabe Boys Model School,school,6.9039505,79.9577098
+B047,way,540107089,ESOL College (Pvt) Ltd,school,6.8456718,79.9385171
+B047,way,540228571,,school,6.8483964,79.9375089
+B047,way,577623229,RAZAVI Medical Complex,hospital,6.8379619,79.9191863
+B047,way,577626005,Apeksha Cancer Hospital Maharagama,hospital,6.8373118,79.9199665
+B047,way,606856963,Arawwala Junior School,school,6.8385571,79.9463834
+B047,way,752114264,Overseas School of Colombo,school,6.8931119,79.929556
+B047,way,856252503,Hemas Hospital,hospital,6.8784297,79.9354936
+B047,way,1183374132,,hospital,6.8724068,79.9417423
+B174,node,864953531,Mahamathya Vidyalaya,school,6.874376,79.9933818
+B174,node,864953533,Police Station Athurugiriya,police,6.8722563,79.9962035
+B174,node,1843534104,Nawagamuwa Police Station,police,6.9252749,80.0166174
+B174,node,1843534112,Kothalawala Maha Vidyalaya,school,6.9303637,79.9835031
+B174,node,1843565870,Biyagama Junior School,school,6.9452528,79.9910991
+B174,node,2724797181,Habarakada Primary School,school,6.8670747,80.0146199
+B174,node,4053938940,Bomiriya Central College,school,6.9347123,80.0024965
+B174,node,4054041376,Kumarathunga Munidasa Vidyalaya,school,6.9344144,79.9933592
+B174,node,4550744390,,school,6.8894303,79.997046
+B174,node,5140700400,Munidasa Kumaratunga Vidyalaya - Bomiriya,school,6.9348108,79.9939263
+B174,node,6536295719,M D.H. Jayawardana Divisional Hospital Nawagamuwa,hospital,6.9225061,80.014342
+B174,node,6743276485,Special Task Force Post Aturugiriya,police,6.8833636,79.9781159
+B174,way,419745692,Nisansala,school,6.9162449,79.9934795
+B174,way,922907793,Oruwala Hospital,hospital,6.8808206,79.9928368
+B174,way,1155366295,Seth ulpatha weda medura,hospital,6.881425,79.9784634
+B174,way,1180931460,,school,6.9306367,79.9839858
+B214,node,1843603891,Weera Wijayaba Vidyalaya,school,6.9947678,80.0160491
+B214,node,2407659796,Regent Int. School,school,7.0756399,80.012589
+B214,node,3918017664,ayurvedic hospital,hospital,7.0219408,80.009878
+B214,node,4943568452,Police staion - Yakkala,police,7.0678602,80.0126695
+B214,node,10773683911,Sri Siduhath Kanishta Vidyalaya,school,7.0268429,80.0368822
+B214,way,286527850,Sri Rahula Primary School,school,7.0625967,80.0041058
+B214,way,286528449,Wimaladarmasooriya Kanishta Vidyalaya,school,7.0731636,80.0002229
+B214,way,286531101,Madduma Bandara Junior School,school,7.0310208,80.0291657
+B214,way,287003123,,school,7.0484574,80.0003283
+B214,way,287003126,,school,7.0488715,80.0003268
+B214,way,287240950,Yale colleage,school,7.074195,80.0149944
+B214,way,287241201,Miriswaththa kanishta vidyalaya,school,7.0743782,80.0157028
+B214,way,287244743,,school,7.0600096,80.015111
+B214,way,287246231,Madduma Bandara School,school,7.0258119,80.0260371
+B214,way,376214375,,school,7.0607273,80.0065422
+B214,way,376931752,,school,7.0527088,80.0172163
+B214,way,376931765,,school,7.0527106,80.0171203
+B214,way,376955550,,school,7.0598175,80.0153997
+B214,way,376957538,,school,7.060036,80.0153391
+B214,way,376958477,,school,7.0508708,80.0243826
+B214,way,376964522,,school,7.0497904,80.024152
+B214,way,376964523,,school,7.0500347,80.0239975
+B214,way,377411963,,school,7.0756162,80.0126858
+B214,way,377411975,,school,7.0752998,80.0124223
+B214,way,377412645,,school,7.0753102,80.0125469
+B214,way,377415861,,school,7.0755564,80.0131702
+B214,way,377430307,Minco International College,school,7.0779505,80.0139907
+B214,way,377436921,,school,7.0761701,80.0135681
+B214,way,377441377,,school,7.0744655,80.0157385
+B214,way,377927612,,school,7.0473626,80.0051154
+B214,way,377929436,,school,7.0474759,80.0055589
+B214,way,377929450,,school,7.0472907,80.0055143
+B214,way,377929484,,school,7.0471575,80.0052424
+B214,way,378089488,Leza,school,7.0781932,80.0244241
+B214,way,378246375,,school,7.0736389,80.0222956
+B214,way,378276568,,school,7.0487962,80.000572
+B214,way,378276575,,school,7.0486864,80.000638
+B214,way,378276611,,school,7.0485278,80.0006225
+B214,way,378597709,,school,7.0380891,80.0255805
+B214,way,386911085,GN Office,school,7.04713,80.0101174
+B214,way,387274866,Weliweriya Police station,police,7.0344685,80.0262048
+B214,way,389827926,,school,7.0760677,80.0136223
+B214,way,390169670,,school,7.0389002,80.0170138
+B214,way,405262346,Christ King College,school,7.0392111,80.0263008
+B214,way,405443130,Mihidu junior school,school,7.0164921,80.0249524
+B214,way,405804600,,school,7.0502609,80.0009103
+B214,way,405804660,,school,7.047356,80.0053493
+B214,way,422132824,,school,7.0498611,80.0240479
+B214,way,766431164,ABC_1,school,7.0663532,80.0124914
+B214,way,766431165,ABC_3,school,7.0662627,80.0125969
+B214,relation,7799979,Imbulgoda Rajasinghe Vidyalaya,school,7.0487305,79.9999575
+B240,node,255179653,Sri Jayawardenapura teaching hospital,hospital,6.8683337,79.9261518
+B240,node,262607762,Gateway College Colombo,school,6.9030734,79.8996815
+B240,node,599742328,President's College,school,6.8396183,80.0035762
+B240,node,599742332,Niyandagala Kanishta Vidyalaya,school,6.826409,79.9894893
+B240,node,599762465,Vidyadeepa Maha Vidyalaya,school,6.8295514,79.966435
+B240,node,599815326,Homagama,police,6.8360377,80.0037376
+B240,node,599822882,"Ananda Vidyalaya,  Kottawa",school,6.8442343,79.9581677
+B240,node,599822883,Dharmapala Vidyalaya Kottawa North,school,6.8655244,79.9584867
+B240,node,617205465,Vidya Wardana,school,6.8880799,79.9299768
+B240,node,617213481,Police Station Thalangama - Koswatte,police,6.9108998,79.9293481
+B240,node,617214076,Divisional Hospital Thalangama,hospital,6.9062331,79.9285198
+B240,node,617262855,Pannipitiya Nursing Home,hospital,6.8468216,79.9522616
+B240,node,618005039,President's College,school,6.8443786,79.9296221
+B240,node,618005040,Vidyakara Balika Vidyalaya,school,6.8451252,79.9260058
+B240,node,619923261,Buwanekaba Vidyalaya,school,6.8488433,79.9249391
+B240,node,619944442,Nawinna Medicare Hospital,hospital,6.8546505,79.9143409
+B240,node,620524466,Sri Rahula Balika Maha Vidyalaya,school,6.9036373,79.9561321
+B240,node,625793252,Mirihana Police Station,police,6.8743483,79.9020231
+B240,node,625833966,Vidyaraja Maha Vidyalaya,school,6.8813645,79.9597468
+B240,node,637044384,Siddhartha Vidyalaya,school,6.8676383,79.9160249
+B240,node,670306322,Sri Jayawardanepura Girl School,school,6.8920362,79.900427
+B240,node,672197375,Dharmashoka Primary School,school,6.8450065,79.9352518
+B240,node,672197378,Central College Maharagama,school,6.8432797,79.9352557
+B240,node,679023681,Ananda Sastralaya kotte,school,6.882926,79.902713
+B240,node,679045166,Sri Subuthi Vidyalaya,school,6.902909,79.9240445
+B240,node,847630668,Sathara Institute,school,6.8448237,79.9302225
+B240,node,864953531,Mahamathya Vidyalaya,school,6.874376,79.9933818
+B240,node,864953533,Police Station Athurugiriya,police,6.8722563,79.9962035
+B240,node,973582530,Thalangama Maha Vidyalaya,school,6.9136763,79.9467156
+B240,node,1128190304,Padukka Police Station,police,6.84219,80.0924442
+B240,node,1272975443,Neelammahara school,school,6.8286454,79.9201573
+B240,node,1463832354,Meegoda Ayurveda Hospital,hospital,6.8461319,80.042246
+B240,node,1463832361,Meegoda Pilice Station,police,6.8443263,80.0457436
+B240,node,1523693927,Dental Institute,hospital,6.8457107,79.9286112
+B240,node,1530607218,Louvre Int. School,school,6.856859,79.946069
+B240,node,1650226106,Ayurveda Corporation,hospital,6.855884,79.9176997
+B240,node,1650227458,Nursing Home,hospital,6.8507988,79.9215162
+B240,node,1651231509,Buwanekaba Vidyala (Primary),school,6.8519965,79.9224078
+B240,node,1651231510,I E M,school,6.8483694,79.9244302
+B240,node,1651265545,OxFord,school,6.8654741,79.9115636
+B240,node,1651265548,St.Thomas College,school,6.8800909,79.8997064
+B240,node,1662139981,Asia Hospital,hospital,6.8453097,79.92922
+B240,node,1694066040,Rotary Int. School,school,6.8647884,79.9006969
+B240,node,1736059667,,school,6.8446268,79.9771002
+B240,node,1788271737,Dharmaraja Vidyalaya,school,6.8439807,80.0436651
+B240,node,1788297004,Meegoda Maha Vidyalaya,school,6.8522951,80.0468501
+B240,node,1794014674,Dharmapala Adarsha Kanishta Vidyalaya,school,6.8304653,79.9615868
+B240,node,1796819687,Padukka Base Hospital,hospital,6.8400553,80.0896596
+B240,node,1796819703,Siri Piyarathana College,school,6.8395546,80.0883829
+B240,node,1796819790,Siri Piyarathana Primary College,school,6.8406039,80.0917839
+B240,node,1843491283,Rajasinghe National College,school,6.9089095,80.0886393
+B240,node,1843502798,Mayadunna Maha Vidyalaya,school,6.9079564,80.0834559
+B240,node,1843502800,Pahathgama Roman Catholic School,school,6.9017748,80.0865748
+B240,node,1843502801,St. John Bosco College,school,6.9181661,80.0996052
+B240,node,1843502803,Parhathgama Police Station,police,6.9007846,80.0876172
+B240,node,1853812162,Police Station,police,6.84548,79.9289658
+B240,node,1934839393,Kottawa Cemetery,fire_station,6.8448435,79.9660017
+B240,node,1988112233,Asiri Laboratory,hospital,6.8920418,79.9290176
+B240,node,2093133903,Sri Chandrarathna Manawasinghe Vidyalaya,school,6.8406688,79.9161897
+B240,node,2099315134,President's College (Primary Section),school,6.856095,79.909678
+B240,node,2100972630,Homagama Base Hospital,hospital,6.8469074,79.9923651
+B240,node,2503479378,WP/HO Batawala Junior School,school,6.8813611,80.0536198
+B240,node,2552014804,Highland International School,school,6.8443675,79.9299547
+B240,node,2552015799,Odent Dental Surgery,hospital,6.8449276,79.9308043
+B240,node,2710652543,Walgama Gunasekara Vidyalaya,school,6.8643528,79.9965536
+B240,node,2724797181,Habarakada Primary School,school,6.8670747,80.0146199
+B240,node,2741681951,Subharathi Mahamatya Vidyalaya,school,6.8504844,80.0329229
+B240,node,2741745598,Panagoda Sri Parakrama Maha Vidyalaya,school,6.8631394,80.0254353
+B240,node,2916096305,Homagama Kanishta Vidyalaya,school,6.8473786,80.0027316
+B240,node,3133617669,Subhodhi Junior School,school,6.9085954,79.9367591
+B240,node,3510759544,Extra-Lesson Classes,school,6.9155277,79.9716086
+B240,node,3593176175,Lankasaba Primary School,school,6.9041507,79.9233938
+B240,node,3752537139,Primary School Pitumpe,school,6.856003,80.0972341
+B240,node,3780541997,Etul Kotte Primary School,school,6.9012258,79.9078684
+B240,node,3811213342,Ananda Sasthralaya School Ground,school,6.8841135,79.9071818
+B240,node,3844292092,Bauddha Kanishta Vidyalaya,school,6.8489027,79.9372992
+B240,node,4082836501,Lenagala Kanista Vidyalaya,school,6.8809302,80.0343875
+B240,node,4099087960,Artigala Kanishta Vidyalaya,school,6.8917585,80.0579079
+B240,node,4235822157,,school,6.8933567,79.9730933
+B240,node,4550744390,,school,6.8894303,79.997046
+B240,node,4553215190,,school,6.846844,80.0059226
+B240,node,4945203417,M D H Jayawardena Vidyalaya,school,6.9127523,79.9288284
+B240,node,5172629872,Pathway Montessori International,school,6.8493904,79.9489167
+B240,node,6354466448,Colombo School of Construction Technology,school,6.8840048,79.9034954
+B240,node,6486926128,,police,6.9044362,79.9110778
+B240,node,6626986799,Mahindarama Dhamma School,school,6.8971981,79.9094356
+B240,node,6626986800,Nippon Computer Academy,school,6.8975321,79.9100076
+B240,node,6626986857,Christian Missionary College,school,6.8932307,79.900367
+B240,node,6626986858,Sri Jayawardhanapura Maha Vidyalaya,school,6.8929616,79.9001844
+B240,node,6631008087,Rawana Arana,hospital,6.8854297,79.8990978
+B240,node,6631008094,Royal Way Minco College & Academy,school,6.8840543,79.900104
+B240,node,6657814469,Body Doc Medical Center,hospital,6.8955508,79.9601667
+B240,node,6743276485,Special Task Force Post Aturugiriya,police,6.8833636,79.9781159
+B240,node,6834037015,,school,6.8334818,80.0591294
+B240,node,6897167576,Newgen Montessori,school,6.8758317,79.951592
+B240,node,7133201560,Alpha Kids Ami Montessori,school,6.882067,79.9009206
+B240,node,7133230074,Sevana Special School,school,6.8818849,79.9007165
+B240,node,8607505751,Suwasewana Ayurvedic center,hospital,6.8251147,79.9754494
+B240,node,8621676742,,police,6.8436322,79.9742632
+B240,node,8658907685,Ranpatha Weda Madura,hospital,6.8487554,79.9485862
+B240,node,9179924434,,police,6.8475697,79.9267078
+B240,node,9707457215,Shanta Mayadunne School of Cooking Art,school,6.8440262,79.9607154
+B240,node,10009376814,Asian International Montessori School,school,6.8853793,79.9391165
+B240,node,11232745339,,school,6.8731857,79.9106859
+B240,node,11841725079,,hospital,6.8507098,79.9077135
+B240,way,77306473,Kottawa Dharmapala MV,school,6.8381591,79.9658448
+B240,way,77604221,Dharmapala Vidyalaya,school,6.8437043,79.9542733
+B240,way,258604407,KIU University,school,6.9078748,79.9283783
+B240,way,286363215,Jeewaka Private Hospital,hospital,6.840611,80.0932686
+B240,way,319055605,,school,6.8815756,79.9581539
+B240,way,340460259,Yashodara Maha Vidyalaya playground,school,6.9092223,79.9720198
+B240,way,342262305,Horizon College International,school,6.9196857,79.9635027
+B240,way,371776906,,school,6.8539967,80.0741305
+B240,way,380930146,ABC school,school,6.8816161,79.900463
+B240,way,381188825,Sinhala class,school,6.8399095,80.0581723
+B240,way,382365352,I-Gate College,school,6.8703269,79.9372265
+B240,way,399559227,Ceylinco Sussex College,school,6.9012095,79.9546061
+B240,way,407282848,Natural Back Health Service,hospital,6.8976909,79.9584917
+B240,way,415813601,piyum kekulu per school,school,6.9029255,79.968051
+B240,way,419745692,Nisansala,school,6.9162449,79.9934795
+B240,way,419887859,English school,school,6.9092707,79.9703258
+B240,way,420074429,Kotalawala Nursing Home,hospital,6.918007,79.9738624
+B240,way,471825163,,school,6.8284464,79.9346294
+B240,way,482789831,Police Post Malabe,police,6.9038244,79.9542534
+B240,way,491770388,Vidayadana School playground,school,6.8553426,79.9688634
+B240,way,495869594,Don't Know,school,6.9066231,79.9451105
+B240,way,495869595,,school,6.9067336,79.9450475
+B240,way,495869596,,school,6.9066176,79.9451765
+B240,way,495869597,,school,6.9066071,79.9450253
+B240,way,506221336,Vidura College,school,6.8738269,79.9499775
+B240,way,511507930,Mahinda Rajapaksa National School,school,6.8238487,80.0393551
+B240,way,525279178,,hospital,6.8961738,79.9230759
+B240,way,536506634,Malabe Boys Model School,school,6.9039505,79.9577098
+B240,way,539166540,Vidyaloka Maha Vidyalaya,school,6.8293276,79.9344043
+B240,way,539167626,Linfield College,school,6.8293927,79.9349278
+B240,way,540107089,ESOL College (Pvt) Ltd,school,6.8456718,79.9385171
+B240,way,540228571,,school,6.8483964,79.9375089
+B240,way,556471809,,school,6.8479592,80.0881715
+B240,way,577623229,RAZAVI Medical Complex,hospital,6.8379619,79.9191863
+B240,way,577626005,Apeksha Cancer Hospital Maharagama,hospital,6.8373118,79.9199665
+B240,way,583172768,,hospital,6.8803658,79.9007175
+B240,way,599122709,Boralesgamuwa Police Station,police,6.8413258,79.9012784
+B240,way,606856963,Arawwala Junior School,school,6.8385571,79.9463834
+B240,way,611009157,Boralesgamuwa Primary School,school,6.8389196,79.9007462
+B240,way,611095690,Brisbane International School,school,6.8381788,79.9012343
+B240,way,611124048,Boralesgamuwa Maha Vidyalaya,school,6.8375232,79.902357
+B240,way,705375135,,school,6.840643,80.0798506
+B240,way,742170873,Army Camp Hospital,hospital,6.8479473,80.0164065
+B240,way,752114264,Overseas School of Colombo,school,6.8931119,79.929556
+B240,way,856252503,Hemas Hospital,hospital,6.8784297,79.9354936
+B240,way,875546562,Rajapola Maha Vidyalaya,school,6.8697027,80.1198316
+B240,way,922907793,Oruwala Hospital,hospital,6.8808206,79.9928368
+B240,way,1155366295,Seth ulpatha weda medura,hospital,6.881425,79.9784634
+B240,way,1183374132,,hospital,6.8724068,79.9417423
+B240,way,1231056362,Samudradevi Primary School,school,6.8598935,79.9051407
+B240,way,1232957081,University Hospital KDU,hospital,6.8251645,79.9073723
+B240,way,1290148400,Helan Hospital,hospital,6.8413374,79.9990422
+B240,way,1320950739,Play Ground,hospital,6.9044628,80.1202686
+B240,way,1320950871,ground,hospital,6.9176608,80.1001045
+B240,way,1542861274,,school,6.9028936,79.8994401
+B263,node,620524466,Sri Rahula Balika Maha Vidyalaya,school,6.9036373,79.9561321
+B263,node,621180350,Bollegala Maha Vidyalayaa,school,6.9443959,79.9481511
+B263,node,973582530,Thalangama Maha Vidyalaya,school,6.9136763,79.9467156
+B263,node,1843534112,Kothalawala Maha Vidyalaya,school,6.9303637,79.9835031
+B263,node,1843565817,Biyagama Central College,school,6.9474414,79.9938994
+B263,node,1843565870,Biyagama Junior School,school,6.9452528,79.9910991
+B263,node,1843565879,Biyagama Hospital,hospital,6.9469426,79.9939404
+B263,node,3510759544,Extra-Lesson Classes,school,6.9155277,79.9716086
+B263,node,4054041376,Kumarathunga Munidasa Vidyalaya,school,6.9344144,79.9933592
+B263,node,4235822157,,school,6.8933567,79.9730933
+B263,node,5140700400,Munidasa Kumaratunga Vidyalaya - Bomiriya,school,6.9348108,79.9939263
+B263,node,6657814469,Body Doc Medical Center,hospital,6.8955508,79.9601667
+B263,node,8594986749,Half Way Home Mulleriyawa,hospital,6.9222495,79.9474219
+B263,way,340460259,Yashodara Maha Vidyalaya playground,school,6.9092223,79.9720198
+B263,way,342262305,Horizon College International,school,6.9196857,79.9635027
+B263,way,399559227,Ceylinco Sussex College,school,6.9012095,79.9546061
+B263,way,407282848,Natural Back Health Service,hospital,6.8976909,79.9584917
+B263,way,415813601,piyum kekulu per school,school,6.9029255,79.968051
+B263,way,419745692,Nisansala,school,6.9162449,79.9934795
+B263,way,419887859,English school,school,6.9092707,79.9703258
+B263,way,419994625,Dr. Neville Fernando Sri Lanka - Russia Friendship Teaching Hospital,hospital,6.9248784,79.9625056
+B263,way,420074429,Kotalawala Nursing Home,hospital,6.918007,79.9738624
+B263,way,482789831,Police Post Malabe,police,6.9038244,79.9542534
+B263,way,495869594,Don't Know,school,6.9066231,79.9451105
+B263,way,495869595,,school,6.9067336,79.9450475
+B263,way,495869596,,school,6.9066176,79.9451765
+B263,way,495869597,,school,6.9066071,79.9450253
+B263,way,536506634,Malabe Boys Model School,school,6.9039505,79.9577098
+B263,way,1180931460,,school,6.9306367,79.9839858
+B435,node,618491025,Ananda College,school,6.9243358,79.8685501
+B435,node,618551719,Weluwana Vidyalaya,school,6.926872,79.8798243
+B435,node,621180350,Bollegala Maha Vidyalayaa,school,6.9443959,79.9481511
+B435,node,621183283,Mulleriyawa Hospital,hospital,6.9247709,79.942918
+B435,node,654176450,St. Josephs College,school,6.9481518,79.8747958
+B435,node,681537053,Maligawatta Mahavidyalaya,school,6.9416932,79.8780917
+B435,node,681816262,Maligakanda Maha Vidyalaya,school,6.9266367,79.8729488
+B435,node,681871474,Alhijra School,school,6.9289905,79.8749014
+B435,node,681871529,Ananda Balika Viidyalaya Maradana,school,6.9269456,79.869655
+B435,node,681977644,Clifton Balika vidyalaya,school,6.9272438,79.868389
+B435,node,681977660,Vidyadaya Pirivena,school,6.9273503,79.8694405
+B435,node,682080543,Anuruddha Balika Vidyalaya,school,6.9295763,79.8784098
+B435,node,682080552,Dematagoda,police,6.9304283,79.8770365
+B435,node,683789963,ColHenry Olcat Vidyalaya,school,6.9258036,79.895989
+B435,node,696486176,Gamini Vidyalaya,school,6.9534804,79.8905296
+B435,node,696497073,Waragoda Junior school,school,6.9485708,79.8853368
+B435,node,1133150118,Police Station Peliyagoda,police,6.9555033,79.8859993
+B435,node,1815547061,Ediriweera Sarachchandra College - Himbutana,school,6.9240694,79.9408452
+B435,node,1815549933,Mulleriyawa Police Station,police,6.9272619,79.9292124
+B435,node,1918165069,Soma Devi Girls School,school,6.9350605,79.9152261
+B435,node,1918165073,Sri Rajasinghe College,school,6.9362286,79.9201009
+B435,node,1918174780,Dharmapala Vidyalaya,school,6.9378908,79.9165525
+B435,node,1924788516,Darus Salam Vidyalaya,school,6.9376166,79.8717569
+B435,node,2034242941,Tamil School,school,6.9289525,79.8808764
+B435,node,2034260174,Sri Rahula Vidyalaya,school,6.9377124,79.8886441
+B435,node,2091834870,Police Station Wellampitiya,police,6.937369,79.8962223
+B435,node,2094311012,Ananda College,school,6.9246176,79.8686836
+B435,node,2096452649,YMBA Hospital,hospital,6.9333964,79.894408
+B435,node,2096504872,CCD,police,6.9306912,79.8821932
+B435,node,2124720725,Suwentha Eye Hospital,hospital,6.9270534,79.9125702
+B435,node,3188322284,Police Station,police,6.9343105,79.8698002
+B435,node,3592963444,Colombo Fire And Rescue (Sub Unit),fire_station,6.9477406,79.8706321
+B435,node,3780541961,Ai-Hijra Maha Vidyalaya,school,6.929026,79.874892
+B435,node,3780541963,Al Nassar Maha Vidyalaya,school,6.9472,79.871373
+B435,node,3780541966,Ananda Balika Vidyalaya,school,6.926799,79.869785
+B435,node,3780541986,Church & School,school,6.93122,79.872966
+B435,node,3780541988,Clifton Balikaa Vidyalaya,school,6.92718,79.86847
+B435,node,3780541993,Darus Salam Maha Vidyalaya,school,6.937614,79.872274
+B435,node,3780542005,Jayanthi Vidyalaya,school,6.944336,79.87281
+B435,node,3780542019,Maligakanda Maha Vidyalaya,school,6.926515,79.872778
+B435,node,3780542020,Rajasingha Maha Vidyalaya,school,6.941358,79.877949
+B435,node,3780542028,Padhanaghara Maha Vidyalaya,school,6.928736,79.868798
+B435,node,3780542054,St. John's School;St.John's College,school,6.9306626,79.8737642
+B435,node,3780547657,St. Josephs Vidyalaya,school,6.948552,79.875326
+B435,node,3780547665,St. Matthew's College,school,6.930152,79.877756
+B435,node,3780547672,Tamil School,school,6.9285,79.880894
+B435,node,3780547676,Vijayaba Maha Vidyalaya,school,6.946524,79.872242
+B435,node,3780547679,Waragoda Kanishta Vidyalaya,school,6.948434,79.885261
+B435,node,4309700697,Yaathra,school,6.9252203,79.8676624
+B435,node,4310399690,Alexor international college,school,6.9364204,79.8730281
+B435,node,4943264087,Ensef Pvt School,school,6.9258434,79.9275883
+B435,node,4962948825,Somadevi Girls School,school,6.9360606,79.9151888
+B435,node,5156572433,S Mahinda Himi Vidyalaya,school,6.9473271,79.9069463
+B435,node,5174218748,Presidents College,school,6.9543205,79.9019351
+B435,node,5488611321,,school,6.9281906,79.907954
+B435,node,8594973278,Oxford Lanka Medical,hospital,6.9559333,79.8875746
+B435,node,10218912917,,hospital,6.956163,79.9151086
+B435,node,11449379402,,school,6.9425341,79.8907831
+B435,node,11449379403,Medi Channel Centre,hospital,6.9424666,79.8907761
+B435,node,13514155001,,hospital,6.9388184,79.8928232
+B435,node,14080337540,Colombo Fire & Rescue,fire_station,6.9481775,79.8712198
+B435,way,52433692,Siddhartha Maha Vidyalaya,school,6.9451161,79.8978975
+B435,way,271080986,Angoda Mental Hospital,hospital,6.9261672,79.9262511
+B435,way,330084034,Gothutuwa Mahavidyalaya Play Ground,school,6.9271063,79.9069647
+B435,way,419551857,Helena Wijewardane Girls School,school,6.9555693,79.9175094
+B435,way,419596511,Dharmapala Vidalaya,school,6.9379306,79.9166568
+B435,way,419747182,,school,6.9490185,79.8758681
+B435,way,419753432,,school,6.9487805,79.875663
+B435,way,531387299,National Institute of Infectious Diseases,hospital,6.9240758,79.9187672
+B435,way,539090354,Gothami Balika Vidyalaya,school,6.92387,79.8721119
+B435,way,736445194,Kelani Maha Vidyalaya,school,6.949074,79.9187328
+B435,way,736445205,Police Station Kelaniya,police,6.9503738,79.9176473
+B435,way,737192745,President's College,school,6.9517933,79.9099763
+B435,way,760218079,,school,6.9320891,79.8999572
+B435,way,766617361,St.johnn,school,6.9263193,79.8731011
+B435,way,766617362,Chundikuli Girls College,school,6.9264722,79.8736
+B435,way,949700674,,fire_station,6.9240719,79.89023
+B435,way,1207954519,Heamamali balika vidyalaya,school,6.9354517,79.8728387
+B435,way,1543203665,Gothatuwa Police Station,police,6.9244208,79.9121899

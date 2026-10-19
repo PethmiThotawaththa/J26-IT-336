@@ -1,0 +1,10 @@
+﻿section_id,road_id,section_length_m,traffic_mean_vehicles_per_hour,nearby_hospital_count_500m,nearby_school_count_500m,nearby_police_count_500m,section_forecast_budget_lkr,planned_item_1_count,planned_item_2_count,planned_item_75_count,priority_label
+B047_0_3680,B047,3680,2447.58,6,7,0,4031260.74,1,1,0,High
+B047_3680_7420,B047,3740,2447.58,6,7,0,3742079.08,1,1,1,High
+B174_0_9490,B174,9490,1186.16,1,4,0,7168407.67,1,0,0,Low
+B214_0_18460,B214,18460,1764.38,0,14,2,10208184.92,0,1,0,Medium
+B214_18460_28520,B214,10060,1764.38,0,14,2,4083512.71,0,0,1,Medium
+B240_0_2550,B240,2550,1781.61,7,21,7,3636353.68,1,1,0,High
+B240_2550_13100,B240,10550,1781.61,7,21,7,12438282.85,1,0,0,Low
+B263_0_5555,B263,5555,2620.58,1,8,1,8665160.72,1,0,1,High
+B435_0_7700,B435,7700,1549.5,3,11,1,13318927.26,1,1,1,Medium
