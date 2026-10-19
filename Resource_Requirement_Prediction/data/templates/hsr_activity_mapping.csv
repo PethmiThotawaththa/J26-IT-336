@@ -1,0 +1,5 @@
+repair_type,hsr_item_code,required_unit,description
+drain_cleaning,DR1-010,metres,Clearing silt from kerbs and channels
+culvert_cleaning,DR1-012,culverts,Cleaning and desilting culverts
+choked_culvert_cleaning,DR1-013,cubic_metres,Cleaning choked culverts with headroom above 1 metre
+side_drain_desilting,DR1-014,metres,Cleaning and desilting existing side drains and lead-up drains
