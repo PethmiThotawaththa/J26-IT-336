@@ -1,0 +1,10 @@
+task_id,resource_type,resource_name,required_quantity,unit,data_status,source_id,notes
+DEMO-01,LABOUR,skilled_worker,2,person_days,SIMULATED,DEMO,Illustrative only
+DEMO-01,MATERIAL,asphalt_mix,1,tonnes,SIMULATED,DEMO,Illustrative only
+DEMO-01,EQUIPMENT,roller,2,machine_hours,SIMULATED,DEMO,Illustrative only
+DEMO-02,LABOUR,unskilled_worker,3,person_days,SIMULATED,DEMO,Illustrative only
+DEMO-02,MATERIAL,aggregate,0.5,tonnes,SIMULATED,DEMO,Illustrative only
+DEMO-02,EQUIPMENT,excavator,1,machine_hours,SIMULATED,DEMO,Illustrative only
+DEMO-03,LABOUR,skilled_worker,4,person_days,SIMULATED,DEMO,Illustrative only
+DEMO-03,MATERIAL,asphalt_mix,3,tonnes,SIMULATED,DEMO,Illustrative only
+DEMO-03,EQUIPMENT,roller,4,machine_hours,SIMULATED,DEMO,Illustrative only

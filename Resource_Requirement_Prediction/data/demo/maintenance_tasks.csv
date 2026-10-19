@@ -1,0 +1,4 @@
+task_id,road_id,road_section,repair_type,priority,quantity,quantity_unit,planned_start,source_id,data_status,notes
+DEMO-01,DEMO-ROAD-A,chainage-demo-A,pothole_patch,10,1,job,,DEMO,SIMULATED,Illustrative only - not RDA data
+DEMO-02,DEMO-ROAD-B,chainage-demo-B,drain_cleaning,7,1,job,,DEMO,SIMULATED,Illustrative only - not RDA data
+DEMO-03,DEMO-ROAD-C,chainage-demo-C,resurfacing,5,1,job,,DEMO,SIMULATED,Illustrative only - not RDA data

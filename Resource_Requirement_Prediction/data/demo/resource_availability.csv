@@ -1,0 +1,7 @@
+resource_name,available_quantity,unit,planning_period,source_id,data_status,notes
+skilled_worker,4,person_days,DEMO-PERIOD,DEMO,SIMULATED,Illustrative only
+unskilled_worker,2,person_days,DEMO-PERIOD,DEMO,SIMULATED,Illustrative only
+asphalt_mix,3,tonnes,DEMO-PERIOD,DEMO,SIMULATED,Illustrative only
+aggregate,1,tonnes,DEMO-PERIOD,DEMO,SIMULATED,Illustrative only
+roller,4,machine_hours,DEMO-PERIOD,DEMO,SIMULATED,Illustrative only
+excavator,1,machine_hours,DEMO-PERIOD,DEMO,SIMULATED,Illustrative only

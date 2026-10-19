@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Resource Requirement Prediction - local/private research data
+Resource_Requirement_Prediction/data/raw/
+Resource_Requirement_Prediction/data/processed/
+Resource_Requirement_Prediction/data/private/
+Resource_Requirement_Prediction/outputs/
+Resource_Requirement_Prediction/.venv/
+Resource_Requirement_Prediction/venv/
+Resource_Requirement_Prediction/.env
+Resource_Requirement_Prediction/*.pdf
+Resource_Requirement_Prediction/*.xlsx
+Resource_Requirement_Prediction/*.xls
+Resource_Requirement_Prediction/*.zip
