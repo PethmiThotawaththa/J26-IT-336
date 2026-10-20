@@ -1,10 +1,12 @@
 
+from datetime import datetime, timezone
 from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
 import pandas as pd
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from joblib import load
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
@@ -37,6 +39,21 @@ app = FastAPI(
         "and equipment requirements for road maintenance tasks."
     ),
     version="1.0.0",
+)
+
+# Allow the Vite dev server (port 5173) and any localhost origin.
+# In production this list should be restricted to the deployed frontend domain.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:4173",
+        "http://127.0.0.1:4173",
+    ],
+    allow_credentials=False,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type"],
 )
 
 
@@ -129,6 +146,7 @@ def health():
         "status": "ok" if available else "degraded",
         "model_available": available,
         "data_status": "SIMULATED",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
     }
 
 
