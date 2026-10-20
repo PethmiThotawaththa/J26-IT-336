@@ -6,7 +6,7 @@ from typing import Literal
 import pandas as pd
 from fastapi import FastAPI, HTTPException
 from joblib import load
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
 # --------------------------------------------------
@@ -62,7 +62,24 @@ class PredictionRequest(BaseModel):
         description="Maintenance quantity; must be positive.",
     )
 
-    quantity_unit: Literal["sq_m", "metres"]
+    quantity_unit: Literal["sq_m", "metres"] = Field(
+        description="sq_m for pothole_patch/resurfacing; metres for drain_cleaning."
+    )
+
+    @model_validator(mode="after")
+    def validate_quantity_unit(self):
+        expected_units = {
+            "pothole_patch": "sq_m",
+            "drain_cleaning": "metres",
+            "resurfacing": "sq_m",
+        }
+        expected_unit = expected_units[self.repair_type]
+        if self.quantity_unit != expected_unit:
+            raise ValueError(
+                f"{self.repair_type} requires quantity_unit "
+                f"'{expected_unit}', not '{self.quantity_unit}'."
+            )
+        return self
 
     priority: float = Field(
         ge=0,
