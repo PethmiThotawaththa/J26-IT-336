@@ -19,11 +19,11 @@ REPORT_FILE = OUTPUT_DIR / "allocation_comparison.csv"
 
 
 def load_inputs():
+    """Load and validate simulated demonstration inputs."""
     tasks = pd.read_csv(TASKS_FILE)
     requirements = pd.read_csv(REQUIREMENTS_FILE)
     availability = pd.read_csv(AVAILABILITY_FILE)
 
-    # This comparison is restricted to the simulated demonstration.
     for name, frame in [
         ("tasks", tasks),
         ("requirements", requirements),
@@ -40,11 +40,32 @@ def load_inputs():
                 "This script is for demonstration data only."
             )
 
+    if tasks["task_id"].duplicated().any():
+        raise ValueError("Tasks contain duplicate task_id values.")
+
+    if requirements.duplicated(["task_id", "resource_name"]).any():
+        raise ValueError(
+            "Requirements contain duplicate task/resource rows."
+        )
+
+    if availability["resource_name"].duplicated().any():
+        raise ValueError(
+            "Availability contains duplicate resource_name values."
+        )
+
+    if not set(requirements["task_id"]).issubset(set(tasks["task_id"])):
+        raise ValueError("Requirements reference unknown task IDs.")
+
+    if not set(requirements["resource_name"]).issubset(
+        set(availability["resource_name"])
+    ):
+        raise ValueError("Requirements reference unknown resources.")
+
     return tasks, requirements, availability
 
 
 def prepare_allocation(frame, method):
-    """Standardize the columns needed for comparison."""
+    """Standardize allocation columns and validate quantities."""
     required_columns = {
         "task_id",
         "resource_name",
@@ -67,18 +88,14 @@ def prepare_allocation(frame, method):
             result[column], errors="raise"
         )
 
-    if (
-        result[["required_quantity", "allocated_quantity"]]
-        .isna()
-        .any()
-        .any()
-    ):
-        raise ValueError(f"{method} contains missing quantities.")
+    quantities = result[
+        ["required_quantity", "allocated_quantity"]
+    ].to_numpy(dtype=float)
 
-    if (
-        result[["required_quantity", "allocated_quantity"]]
-        .to_numpy(dtype=float) < -1e-8
-    ).any():
+    if not np.isfinite(quantities).all():
+        raise ValueError(f"{method} contains non-finite quantities.")
+
+    if (quantities < -1e-8).any():
         raise ValueError(f"{method} contains negative quantities.")
 
     if result.duplicated(["task_id", "resource_name"]).any():
@@ -98,9 +115,8 @@ def prepare_allocation(frame, method):
 
 
 def calculate_metrics(frame, tasks):
-    """Calculate both shared objectives and completion metrics."""
+    """Calculate shared shortage objectives and task completion."""
     task_priority = tasks.set_index("task_id")["priority"].to_dict()
-
     task_shortages = {}
 
     for task_id, group in frame.groupby("task_id"):
@@ -133,7 +149,6 @@ def calculate_metrics(frame, tasks):
 
     objective_2 = max(task_shortages.values(), default=0.0)
 
-    # A task is complete only if every positive requirement is met.
     task_complete = {}
 
     for task_id, group in frame.groupby("task_id"):
@@ -146,19 +161,16 @@ def calculate_metrics(frame, tasks):
             ).all()
         )
 
-    completed_count = sum(task_complete.values())
-    total_tasks = len(task_complete)
-
     return {
         "Objective_1_Weighted_Shortage": objective_1,
         "Objective_2_Worst_Task_Shortage": objective_2,
-        "Fully_Completed_Tasks": completed_count,
-        "Total_Tasks": total_tasks,
+        "Fully_Completed_Tasks": sum(task_complete.values()),
+        "Total_Tasks": len(task_complete),
     }
 
 
 def check_resource_capacity(frame, availability):
-    """Check that allocations do not exceed supply by resource."""
+    """Check total allocated quantity against resource capacity."""
     supply = availability.set_index(
         "resource_name"
     )["available_quantity"].to_dict()
@@ -170,19 +182,18 @@ def check_resource_capacity(frame, availability):
     problems = []
 
     for resource_name, group in frame.groupby("resource_name"):
-        expected_unit = resource_units.get(resource_name)
-
-        if expected_unit is None:
+        if resource_name not in supply:
             problems.append(f"{resource_name}: missing supply record")
             continue
 
-        if not group["unit"].astype(str).str.strip().eq(
-            str(expected_unit).strip()
-        ).all():
+        expected_unit = str(resource_units[resource_name]).strip()
+        actual_units = group["unit"].astype(str).str.strip()
+
+        if not actual_units.eq(expected_unit).all():
             problems.append(f"{resource_name}: unit mismatch")
             continue
 
-        total_allocated = group["allocated_quantity"].sum()
+        total_allocated = float(group["allocated_quantity"].sum())
         available = float(supply[resource_name])
 
         if total_allocated > available + 1e-6:
@@ -200,13 +211,13 @@ def main():
     if not BASELINE_FILE.exists():
         raise FileNotFoundError(
             "Baseline output not found. Run: "
-            "python src\\allocate_baseline.py"
+            "python backend\\allocate_baseline.py"
         )
 
     if not NSGA2_FILE.exists():
         raise FileNotFoundError(
             "NSGA-II output not found. Run: "
-            "python src\\optimize_allocation.py"
+            "python backend\\optimize_allocation.py"
         )
 
     baseline_raw = pd.read_csv(BASELINE_FILE)
@@ -223,7 +234,6 @@ def main():
         ["task_id", "resource_name", "required_quantity", "unit"]
     ].copy()
 
-    # Ensure both outputs cover exactly the same task/resource rows.
     expected_keys = set(
         zip(expected["task_id"], expected["resource_name"])
     )
@@ -242,7 +252,6 @@ def main():
                 "task/resource rows."
             )
 
-        # Ensure each method uses the same demand and units.
         checked = result.merge(
             expected,
             on=["task_id", "resource_name"],
@@ -251,16 +260,21 @@ def main():
         )
 
         if not np.allclose(
-            checked["required_quantity_output"],
-            checked["required_quantity_input"],
+            checked["required_quantity_output"].to_numpy(dtype=float),
+            checked["required_quantity_input"].to_numpy(dtype=float),
         ):
             raise ValueError(
                 f"{method} demand quantities do not match the inputs."
             )
 
-        if not checked["unit_output"].astype(str).str.strip().equals(
-            checked["unit_input"].astype(str).str.strip()
-        ):
+        output_units = (
+            checked["unit_output"].astype(str).str.strip().to_numpy()
+        )
+        input_units = (
+            checked["unit_input"].astype(str).str.strip().to_numpy()
+        )
+
+        if not np.array_equal(output_units, input_units):
             raise ValueError(
                 f"{method} units do not match the input requirements."
             )
