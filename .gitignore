@@ -221,4 +221,9 @@ __marimo__/
 venv/
 __pycache__/
 *.pyc
+node_modules/
 .env
+.env.*
+!.env.example
+dist/
+build/
