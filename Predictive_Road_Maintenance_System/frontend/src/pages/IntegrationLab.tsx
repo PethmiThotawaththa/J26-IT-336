@@ -85,33 +85,33 @@ export const IntegrationLab: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 font-mono text-xs">
         <div className="telemetry-card p-4 border-t-2 border-t-cyan-500">
           <div className="text-cyan-400 font-bold uppercase">Component 1</div>
-          <div className="font-semibold text-white mt-1">Damage Detection</div>
+          <div className="font-semibold text-white mt-1">Road Damage Detection & Severity</div>
           <p className="text-[11px] text-slate-400 mt-1 leading-relaxed">
-            Camera survey frames, YOLO bounding boxes, crack/pothole detections & GPS.
+            YOLO computer vision crack segmentation, pothole detection bounding boxes & GPS telemetry.
           </p>
         </div>
 
         <div className="telemetry-card p-4 border-t-2 border-t-blue-500">
           <div className="text-blue-400 font-bold uppercase">Component 2</div>
-          <div className="font-semibold text-white mt-1">Severity Assessment</div>
+          <div className="font-semibold text-white mt-1">Repair Priority & Decision Support</div>
           <p className="text-[11px] text-slate-400 mt-1 leading-relaxed">
-            Severity classification (Low/Med/High), distress density, and localized PCI rating.
+            P1/P2/P3 repair priority ranking, multi-criteria decision index, and urgent repair recommendations.
           </p>
         </div>
 
         <div className="telemetry-card p-4 border-t-2 border-t-purple-500">
           <div className="text-purple-400 font-bold uppercase">Component 3</div>
-          <div className="font-semibold text-white mt-1">Repair Prioritization</div>
+          <div className="font-semibold text-white mt-1">Multi-Resource Allocation & Planning</div>
           <p className="text-[11px] text-slate-400 mt-1 leading-relaxed">
-            Asset inventory register, urgency ranking, and budget allocation constraints.
+            Contractor crew assignment, paving fleet allocation, bitumen reserves, and dispatch planning.
           </p>
         </div>
 
-        <div className="telemetry-card p-4 border-t-2 border-t-emerald-500 bg-emerald-950/10">
-          <div className="text-emerald-400 font-bold uppercase">Component 4 (Our Scope)</div>
-          <div className="font-semibold text-white mt-1">Predictive Maintenance</div>
-          <p className="text-[11px] text-slate-300 mt-1 leading-relaxed">
-            Deterioration decay modeling, RRL calculation, HSR preventive budgeting & dispatch.
+        <div className="telemetry-card p-4 border-t-2 border-t-emerald-500 bg-emerald-950/20 shadow-[0_0_15px_rgba(16,185,129,0.15)]">
+          <div className="text-emerald-400 font-bold uppercase">Component 4 (My Exclusive Scope)</div>
+          <div className="font-semibold text-white mt-1">Predictive Road Management System</div>
+          <p className="text-[11px] text-slate-200 mt-1 leading-relaxed">
+            Multi-horizon PCI forecasting, 36-month non-linear decay curves, RRL survival estimation, stratigraphy & life-cycle cost optimization.
           </p>
         </div>
       </div>
