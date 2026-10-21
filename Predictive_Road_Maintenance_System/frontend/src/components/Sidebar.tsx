@@ -2,7 +2,6 @@ import React from 'react';
 import { 
   Activity, 
   TrendingDown, 
-  Wrench, 
   MapPin, 
   BarChart3, 
   Database, 
@@ -23,7 +22,6 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, syste
     { id: 'overview', label: 'Predictive Health', sublabel: 'PCI & Network Life', icon: Activity },
     { id: 'curves', label: 'Deterioration Curves', sublabel: 'AI Decay Simulation', icon: TrendingDown },
     { id: 'section', label: 'Section Telemetry', sublabel: 'Deep Stratigraphy & XAI', icon: Sliders },
-    { id: 'maintenance', label: 'Priority Dispatch', sublabel: 'Autonomous Work Orders', icon: Wrench },
     { id: 'gis', label: 'GIS & Road Stream', sublabel: 'GPS & Telemetry Feed', icon: MapPin },
     { id: 'models', label: 'Model Benchmarks', sublabel: 'Algorithm Evaluation', icon: BarChart3 },
     { id: 'datasets', label: 'Dataset Hub', sublabel: 'Data Quality & Hygiene', icon: Database },

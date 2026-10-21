@@ -305,10 +305,10 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
                 </span>
               </div>
               <button
-                onClick={() => onNavigateTab('maintenance')}
+                onClick={() => onNavigateTab('curves')}
                 className="px-3 py-1.5 rounded bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition"
               >
-                SCHEDULE WORK ORDER
+                SIMULATE DECAY CURVE
               </button>
             </div>
           </div>

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Search, Zap, Radio, Satellite, RefreshCw } from 'lucide-react';
+import { Search, TrendingDown, Radio, Satellite, RefreshCw } from 'lucide-react';
 
 interface HeaderProps {
-  onQuickDispatch?: () => void;
+  onRunPrognosis?: () => void;
   networkPci?: number;
   totalKm?: number;
   onRefresh?: () => void;
@@ -10,7 +10,7 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({
-  onQuickDispatch,
+  onRunPrognosis,
   networkPci = 78.4,
   totalKm = 67.2,
   onRefresh,
@@ -63,13 +63,13 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
         )}
 
-        {/* Quick Dispatch CTA button */}
+        {/* Run AI Prognosis CTA button */}
         <button
-          onClick={onQuickDispatch}
+          onClick={onRunPrognosis}
           className="flex items-center space-x-1.5 px-3 py-1.5 rounded bg-cyan-600 hover:bg-cyan-500 text-white font-medium text-xs font-mono shadow-[0_0_12px_rgba(6,182,212,0.35)] transition"
         >
-          <Zap className="w-3.5 h-3.5" />
-          <span>QUICK DISPATCH</span>
+          <TrendingDown className="w-3.5 h-3.5" />
+          <span>RUN AI PROGNOSIS</span>
         </button>
       </div>
     </header>

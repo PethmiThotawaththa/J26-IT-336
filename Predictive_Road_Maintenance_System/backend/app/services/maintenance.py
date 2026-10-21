@@ -136,16 +136,9 @@ def generate_priority_dispatch_queue(road_sections: List[Dict[str, Any]]) -> Lis
         
         rec = recommend_maintenance_action(pci, cracks, potholes, rut, esal)
         
-        # Crew allocation simulation
-        if rec["priority"] == "P1":
-            assigned_crew = "Alpha Paving Logistics (Crew A)"
-            eta = f"{rec['urgency_days']}d (Urgent)"
-        elif rec["priority"] == "P2":
-            assigned_crew = "Metro Roadworks Group #2"
-            eta = f"{rec['urgency_days']}d (Scheduled)"
-        else:
-            assigned_crew = "Routine Patrol Team C"
-            eta = f"{rec['urgency_days']}d (Monitoring)"
+        # Engineering intervention window based on structural urgency
+        intervention_window = f"Within {rec['urgency_days']} days"
+        operational_status = "Critical Intervention Required" if rec["priority"] == "P1" else ("Scheduled Maintenance" if rec["priority"] == "P2" else "Routine Monitoring")
             
         queue.append({
             "section_id": sec.get("section_id", "SEC-UNKNOWN"),
@@ -159,8 +152,10 @@ def generate_priority_dispatch_queue(road_sections: List[Dict[str, Any]]) -> Lis
             "hsr_item_code": rec["hsr_item_code"],
             "estimated_cost_lkr": rec["estimated_cost_lkr"],
             "preventive_savings_lkr": rec["preventive_savings_lkr"],
-            "assigned_crew": assigned_crew,
-            "eta": eta,
+            "roi_percent": rec["roi_percent"],
+            "life_extension_years": rec["life_extension_years"],
+            "intervention_window": intervention_window,
+            "operational_status": operational_status,
             "rationale": rec["rationale"]
         })
         

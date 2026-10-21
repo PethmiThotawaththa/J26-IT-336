@@ -83,15 +83,15 @@ def get_dashboard_summary():
         if pci < 45.0:
             badge = "CRIT-01" if idx == 0 else f"CRIT-{idx+1:02d}"
             distress = f"Base Course Slippage & Severe Fatigue ({cracks:.1f}% cracks, {potholes} potholes)"
-            action_type = "DISPATCH REPAIR"
+            action_type = "INSPECT PROGNOSIS"
         elif pci < 55.0:
             badge = f"WARN-{idx+1:02d}"
             distress = f"Dynamic Wheel Rutting ({rut:.1f}mm) & Longitudinal Joint Separation"
-            action_type = "QUEUE ORDER"
+            action_type = "INSPECT PROGNOSIS"
         else:
             badge = f"MON-{idx+1:02d}"
             distress = f"Sub-base Moisture Infiltration & Raveling ({cracks:.1f}% cracks)"
-            action_type = "QUEUE ORDER"
+            action_type = "MONITOR DECAY"
             
         anomaly_stream.append({
             "badge": badge,

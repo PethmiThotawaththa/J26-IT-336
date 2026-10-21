@@ -28,7 +28,7 @@ interface Props {
   sections: RoadSectionItem[];
   onSelectSection: (sectionId: string) => void;
   onNavigateTab: (tabId: string) => void;
-  onDispatchAnomaly?: (sectionId: string) => void;
+  onInspectAnomaly?: (sectionId: string) => void;
 }
 
 export const PredictiveOverview: React.FC<Props> = ({
@@ -36,7 +36,7 @@ export const PredictiveOverview: React.FC<Props> = ({
   sections,
   onSelectSection,
   onNavigateTab,
-  onDispatchAnomaly
+  onInspectAnomaly
 }) => {
   const [selectedScenario, setSelectedScenario] = useState<'heavy' | 'moderate'>('heavy');
 
@@ -324,13 +324,13 @@ export const PredictiveOverview: React.FC<Props> = ({
                       </span>
                       <button
                         onClick={() => {
-                          if (onDispatchAnomaly) onDispatchAnomaly(item.section_id);
+                          if (onInspectAnomaly) onInspectAnomaly(item.section_id);
                           onSelectSection(item.section_id);
                           onNavigateTab('section');
                         }}
                         className="px-2 py-0.5 rounded bg-cyan-900 hover:bg-cyan-800 text-cyan-200 border border-cyan-700 text-[10px] font-semibold transition"
                       >
-                        {item.action_type}
+                        {item.action_type || 'INSPECT PROGNOSIS'}
                       </button>
                     </div>
                   </div>
@@ -344,11 +344,11 @@ export const PredictiveOverview: React.FC<Props> = ({
           </div>
 
           <button
-            onClick={() => onNavigateTab('maintenance')}
-            className="w-full mt-3 py-2 rounded bg-gradient-to-r from-rose-900/60 to-cyan-900/60 hover:from-rose-800/70 hover:to-cyan-800/70 border border-[#1E293B] text-slate-100 font-mono text-xs font-semibold flex items-center justify-center gap-2 transition"
+            onClick={() => onNavigateTab('curves')}
+            className="w-full mt-3 py-2 rounded bg-gradient-to-r from-cyan-950 to-blue-900 hover:from-cyan-900 hover:to-blue-800 border border-cyan-800/60 text-slate-100 font-mono text-xs font-semibold flex items-center justify-center gap-2 transition"
           >
-            <Zap className="w-3.5 h-3.5 text-cyan-400" />
-            GENERATE PREVENTIVE WORK ORDER BATCH ({summary?.critical_decay_zones_count || 14} ASSETS)
+            <TrendingDown className="w-3.5 h-3.5 text-cyan-400" />
+            SIMULATE 36-MONTH DECAY TRAJECTORIES ({summary?.critical_decay_zones_count || 14} CRITICAL ASSETS)
           </button>
         </div>
       </div>

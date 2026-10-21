@@ -4,7 +4,6 @@ import { Header } from './components/Header';
 import { PredictiveOverview } from './pages/PredictiveOverview';
 import { DeteriorationCurves } from './pages/DeteriorationCurves';
 import { RoadSectionAnalysis } from './pages/RoadSectionAnalysis';
-import { MaintenancePlanning } from './pages/MaintenancePlanning';
 import { GisRoadOverview } from './pages/GisRoadOverview';
 import { ModelEvaluation } from './pages/ModelEvaluation';
 import { DatasetManagement } from './pages/DatasetManagement';
@@ -22,7 +21,7 @@ export function App() {
   const [sections, setSections] = useState<RoadSectionItem[]>([]);
   const [selectedSectionId, setSelectedSectionId] = useState<string>('B047-SEC-001');
   const [isRefreshing, setIsRefreshing] = useState<boolean>(false);
-  const [quickDispatchNotice, setQuickDispatchNotice] = useState<string | null>(null);
+  const [prognosisNotice, setPrognosisNotice] = useState<string | null>(null);
 
   useEffect(() => {
     loadAll();
@@ -45,11 +44,11 @@ export function App() {
     }
   };
 
-  const handleQuickDispatch = () => {
-    setQuickDispatchNotice('Autonomous Work Order Batch Dispatched for 14 Critical Sectors.');
-    setActiveTab('maintenance');
+  const handleRunPrognosis = () => {
+    setPrognosisNotice('AI 36-Month Prognosis & Decay Simulation Synchronized for Network.');
+    setActiveTab('curves');
     setTimeout(() => {
-      setQuickDispatchNotice(null);
+      setPrognosisNotice(null);
     }, 5000);
   };
 
@@ -65,17 +64,17 @@ export function App() {
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col min-w-0">
         <Header
-          onQuickDispatch={handleQuickDispatch}
+          onRunPrognosis={handleRunPrognosis}
           networkPci={summary?.structural_health_index || 71.6}
           totalKm={summary?.total_monitored_km || 67.2}
           onRefresh={loadAll}
           isRefreshing={isRefreshing}
         />
 
-        {quickDispatchNotice && (
-          <div className="mx-6 mt-4 p-3 rounded bg-emerald-950/80 border border-emerald-800 text-emerald-300 font-mono text-xs flex items-center justify-between shadow-lg">
-            <span>⚡ {quickDispatchNotice}</span>
-            <button onClick={() => setQuickDispatchNotice(null)} className="text-emerald-400 hover:text-white">✕</button>
+        {prognosisNotice && (
+          <div className="mx-6 mt-4 p-3 rounded bg-cyan-950/80 border border-cyan-800 text-cyan-300 font-mono text-xs flex items-center justify-between shadow-lg">
+            <span>⚡ {prognosisNotice}</span>
+            <button onClick={() => setPrognosisNotice(null)} className="text-cyan-400 hover:text-white">✕</button>
           </div>
         )}
 
@@ -86,9 +85,9 @@ export function App() {
               sections={sections}
               onSelectSection={setSelectedSectionId}
               onNavigateTab={setActiveTab}
-              onDispatchAnomaly={(secId) => {
+              onInspectAnomaly={(secId) => {
                 setSelectedSectionId(secId);
-                setActiveTab('maintenance');
+                setActiveTab('section');
               }}
             />
           )}
@@ -106,13 +105,6 @@ export function App() {
             <RoadSectionAnalysis
               sections={sections}
               selectedSectionId={selectedSectionId}
-              onSelectSection={setSelectedSectionId}
-              onNavigateTab={setActiveTab}
-            />
-          )}
-
-          {activeTab === 'maintenance' && (
-            <MaintenancePlanning
               onSelectSection={setSelectedSectionId}
               onNavigateTab={setActiveTab}
             />

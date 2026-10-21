@@ -93,7 +93,7 @@ def seed_database(force: bool = False):
                     rut_depth_mm=float(row["rut_depth_mm"]),
                     daily_esal=float(row["daily_esal"])
                 )
-                crew = "Alpha Paving Logistics (Crew A)" if rec["priority"] == "P1" else "Metro Roadworks Group #2"
+                crew = "RDA Western Province Pavement Division"
                 
                 cursor.execute("""
                 INSERT OR REPLACE INTO maintenance_work_orders (
