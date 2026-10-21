@@ -70,10 +70,72 @@ export const DeteriorationCurves: React.FC<Props> = ({
   const t90Pci = curveData.length > 3 ? curveData[3].status_quo_pci : currentPci - 4.5;
   const tMitigatedPci = curveData.length > 12 ? curveData[12].mitigated_pci : 88.0;
 
-  // Cost estimates based on HSR
-  const proactiveCost = currentSection ? Math.round(700 * 591.2) : 413840; // LKR ~ 1,335 USD
-  const rebuildCost = currentSection ? Math.round(700 * 18526.49) : 12968543; // LKR ~ 41,800 USD
-  const deferralLoss = rebuildCost - proactiveCost;
+  // Dynamic Cost & Intervention calculation based on RDA HSR 2025 Standard Rates
+  const cracks = currentSection?.crack_density_pct || 5.0;
+  const potholes = currentSection?.pothole_count || 0;
+  const rut = currentSection?.rut_depth_mm || 3.5;
+  const area = 700.0; // standard 100m length x 7.0m 2-lane carriageway width
+
+  let unitRate = 591.20; // HSR-53 Polymer-Modified Micro-Surfacing
+  let actionWindowDays = 45;
+  let failureProb = 58.4;
+  let riskCode = 'BASE MOD-02';
+  let indicatedIntervention = 'Polymer-Modified Micro-Surfacing';
+
+  if (currentPci >= 85.0) {
+    unitRate = 8.60; // HSR-40 Routine drainage clearing
+    actionWindowDays = 180;
+    failureProb = Math.min(Math.round(8.5 * trafficMult), 25);
+    riskCode = 'NOMINAL-01';
+    indicatedIntervention = 'Routine Drainage & Surface Clearance';
+  } else if (currentPci >= 70.0) {
+    if (cracks > 10.0) {
+      unitRate = Math.max(109.55 * (cracks / 100.0) * 1.5 * 10, 85.0);
+      actionWindowDays = 60;
+      failureProb = Math.min(Math.round(28.0 * trafficMult), 45);
+      riskCode = 'SURF WARN-02';
+      indicatedIntervention = 'Bituminous Crack Sealing & Mastic Fill';
+    } else {
+      unitRate = 640.15; // HSR-51 Slurry Seal
+      actionWindowDays = 90;
+      failureProb = Math.min(Math.round(22.0 * trafficMult), 40);
+      riskCode = 'SURF NOM-03';
+      indicatedIntervention = 'Continuous Polymer Slurry Seal';
+    }
+  } else if (currentPci >= 55.0) {
+    if (potholes > 2 || rut > 12.0) {
+      unitRate = 591.20 + (potholes * 18.0);
+      actionWindowDays = 21;
+      failureProb = Math.min(Math.round(72.0 * trafficMult), 88);
+      riskCode = 'BASE WARN-03';
+      indicatedIntervention = 'Fiber Micro-Surfacing & Patching';
+    } else {
+      unitRate = 591.20;
+      actionWindowDays = 45;
+      failureProb = Math.min(Math.round(58.0 * trafficMult), 75);
+      riskCode = 'BASE MOD-02';
+      indicatedIntervention = 'Polymer-Modified Micro-Surfacing';
+    }
+  } else if (currentPci >= 40.0) {
+    unitRate = 3356.56; // HSR-75 Cold Milling 50mm + Dense Asphalt Overlay
+    actionWindowDays = 14;
+    failureProb = Math.min(Math.round(88.4 * trafficMult), 96);
+    riskCode = 'BASE CRIT-04';
+    indicatedIntervention = 'Cold Milling 50mm + Dense Asphalt Overlay';
+  } else {
+    unitRate = 18526.49; // HSR-71 Full Reconstruction
+    actionWindowDays = 7;
+    failureProb = Math.min(Math.round(98.2 * trafficMult), 99);
+    riskCode = 'COLLAPSE CRIT-01';
+    indicatedIntervention = 'Full-Depth Base Stabilization & Reconstruction';
+  }
+
+  const potholePatchingCost = potholes * 4800;
+  const proactiveCost = Math.round((area * unitRate) + potholePatchingCost);
+  const rebuildCost = Math.round(area * 18526.49);
+  const deferralLoss = Math.max(rebuildCost - proactiveCost, 0);
+  const deferralPct = Math.round((deferralLoss / Math.max(proactiveCost, 1)) * 100);
+  const ravelingDepthMm = Math.max(parseFloat((rut * 1.15 + cracks * 0.35).toFixed(1)), 3.5);
 
   return (
     <div className="space-y-6">
@@ -216,8 +278,14 @@ export const DeteriorationCurves: React.FC<Props> = ({
             </div>
             <div className="text-right">
               <span className="text-slate-500 text-[10px] block">ACTION WINDOW</span>
-              <span className="px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800 text-[11px] font-bold">
-                ≤ 45 DAYS REMAINING
+              <span className={`px-2 py-0.5 rounded text-[11px] font-bold border ${
+                actionWindowDays <= 14 
+                  ? 'bg-rose-950 text-rose-400 border-rose-800' 
+                  : actionWindowDays <= 45 
+                  ? 'bg-amber-950 text-amber-400 border-amber-800' 
+                  : 'bg-emerald-950 text-emerald-400 border-emerald-800'
+              }`}>
+                ≤ {actionWindowDays} DAYS REMAINING
               </span>
             </div>
           </div>
@@ -231,22 +299,22 @@ export const DeteriorationCurves: React.FC<Props> = ({
               T+90D AI UNMITIGATED PROJECTION
             </span>
             <span className="px-2 py-0.5 rounded bg-rose-950/60 border border-rose-800 text-rose-300 font-bold">
-              PCI: {t90Pci.toFixed(1)} / CRITICAL RISK
+              PCI: {t90Pci.toFixed(1)} / {t90Pci < 55 ? 'CRITICAL RISK' : t90Pci < 70 ? 'MODERATE RISK' : 'STABLE'}
             </span>
           </div>
 
           <div className="grid grid-cols-3 gap-2 mt-4 text-center">
             <div className="p-2 rounded bg-[#131D2E] border border-[#1E293B]">
               <div className="text-slate-500 text-[10px]">FAILURE PROBABILITY</div>
-              <div className="text-base font-bold text-rose-400 mt-0.5">88.4%</div>
+              <div className="text-base font-bold text-rose-400 mt-0.5">{failureProb.toFixed(1)}%</div>
             </div>
             <div className="p-2 rounded bg-[#131D2E] border border-[#1E293B]">
               <div className="text-slate-500 text-[10px]">RAVELING DEPTH</div>
-              <div className="text-base font-bold text-rose-300 mt-0.5">18.5 mm</div>
+              <div className="text-base font-bold text-rose-300 mt-0.5">{ravelingDepthMm} mm</div>
             </div>
             <div className="p-2 rounded bg-[#131D2E] border border-[#1E293B]">
               <div className="text-slate-500 text-[10px]">STRUCTURAL RISK</div>
-              <div className="text-base font-bold text-rose-400 mt-0.5">BASE CRIT-04</div>
+              <div className="text-base font-bold text-rose-400 mt-0.5">{riskCode}</div>
             </div>
           </div>
 
@@ -259,7 +327,7 @@ export const DeteriorationCurves: React.FC<Props> = ({
             <div className="text-right">
               <span className="text-slate-500 text-[10px] block">NET DEFERRAL LOSS</span>
               <span className="text-rose-400 font-bold text-xs block">
-                +LKR {deferralLoss.toLocaleString()} (+{(deferralLoss / proactiveCost * 100).toFixed(0)}%)
+                +LKR {deferralLoss.toLocaleString()} (+{deferralPct}%)
               </span>
             </div>
           </div>
