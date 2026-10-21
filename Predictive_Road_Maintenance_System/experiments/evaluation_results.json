@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2026-10-17 23:22:41",
+    "timestamp": "2026-10-21 21:54:03",
     "dataset_version": "RDA_v1.0_Harmonized",
     "total_samples": 675,
     "train_samples": 540,
@@ -55,7 +55,7 @@
       "mae": 0.75,
       "rmse": 0.938,
       "r2_score": 0.9944,
-      "train_time_sec": 0.0159,
+      "train_time_sec": 0.0167,
       "parameters": {
         "alpha": 1.0,
         "copy_X": true,
@@ -74,7 +74,7 @@
       "mae": 1.411,
       "rmse": 1.911,
       "r2_score": 0.9767,
-      "train_time_sec": 0.0089,
+      "train_time_sec": 0.0081,
       "parameters": {
         "ccp_alpha": 0.0,
         "criterion": "squared_error",
@@ -97,7 +97,7 @@
       "mae": 1.19,
       "rmse": 1.773,
       "r2_score": 0.98,
-      "train_time_sec": 0.3351,
+      "train_time_sec": 0.1695,
       "parameters": {
         "bootstrap": true,
         "ccp_alpha": 0.0,
@@ -123,10 +123,10 @@
       "model_name": "XGBoost Regressor",
       "task": "regression",
       "target": "target_pci_12m",
-      "mae": 1.07,
-      "rmse": 1.673,
-      "r2_score": 0.9822,
-      "train_time_sec": 0.3955,
+      "mae": 1.013,
+      "rmse": 1.304,
+      "r2_score": 0.9892,
+      "train_time_sec": 2.4147,
       "parameters": {
         "objective": "reg:squarederror",
         "base_score": null,
@@ -137,7 +137,7 @@
         "colsample_bytree": null,
         "device": null,
         "early_stopping_rounds": null,
-        "enable_categorical": true,
+        "enable_categorical": false,
         "eval_metric": null,
         "feature_types": null,
         "feature_weights": null,
@@ -153,7 +153,7 @@
         "max_depth": 5,
         "max_leaves": null,
         "min_child_weight": null,
-        "missing": null,
+        "missing": NaN,
         "monotone_constraints": null,
         "multi_strategy": null,
         "n_estimators": 150,
@@ -177,7 +177,7 @@
       "mae": 1.359,
       "rmse": 2.4,
       "r2_score": 0.9633,
-      "train_time_sec": 0.1418,
+      "train_time_sec": 0.0624,
       "parameters": {
         "boosting_type": "gbdt",
         "class_weight": null,
@@ -204,24 +204,24 @@
   ],
   "multi_horizon_metrics": {
     "3m": {
-      "mae": 0.564,
-      "rmse": 1.458,
-      "r2": 0.9831
+      "mae": 0.476,
+      "rmse": 0.692,
+      "r2": 0.9962
     },
     "6m": {
-      "mae": 0.769,
-      "rmse": 1.49,
-      "r2": 0.9833
+      "mae": 0.69,
+      "rmse": 0.954,
+      "r2": 0.9931
     },
     "12m": {
-      "mae": 1.07,
-      "rmse": 1.673,
-      "r2": 0.9822
+      "mae": 1.013,
+      "rmse": 1.304,
+      "r2": 0.9892
     },
     "24m": {
-      "mae": 1.504,
-      "rmse": 1.99,
-      "r2": 0.9809
+      "mae": 1.517,
+      "rmse": 2.016,
+      "r2": 0.9804
     }
   },
   "classification_benchmarks": [
@@ -266,7 +266,7 @@
         "Satisfactory",
         "Good"
       ],
-      "train_time_sec": 0.0729
+      "train_time_sec": 0.0535
     },
     {
       "model_name": "Decision Tree Classifier (Baseline)",
@@ -309,7 +309,7 @@
         "Satisfactory",
         "Good"
       ],
-      "train_time_sec": 0.0051
+      "train_time_sec": 0.0116
     },
     {
       "model_name": "Random Forest Classifier",
@@ -352,16 +352,16 @@
         "Satisfactory",
         "Good"
       ],
-      "train_time_sec": 0.4573
+      "train_time_sec": 0.2583
     },
     {
       "model_name": "XGBoost Classifier",
       "task": "classification",
       "target": "target_risk_class_12m",
-      "accuracy": 0.9407,
-      "precision": 0.946,
-      "recall": 0.9407,
-      "f1_score": 0.9413,
+      "accuracy": 0.9481,
+      "precision": 0.952,
+      "recall": 0.9481,
+      "f1_score": 0.9486,
       "confusion_matrix": [
         [
           6,
@@ -384,8 +384,8 @@
         [
           0,
           0,
-          5,
-          57
+          4,
+          58
         ]
       ],
       "classes": [
@@ -395,7 +395,7 @@
         "Satisfactory",
         "Good"
       ],
-      "train_time_sec": 0.5699
+      "train_time_sec": 0.3658
     },
     {
       "model_name": "LightGBM Classifier",
@@ -438,81 +438,81 @@
         "Satisfactory",
         "Good"
       ],
-      "train_time_sec": 1.1857
+      "train_time_sec": 0.3292
     }
   ],
   "feature_importances": [
     {
       "feature": "current_pci",
       "rf_importance": 0.952,
-      "xgb_importance": 0.8854,
-      "ensemble_mean": 0.9187
-    },
-    {
-      "feature": "distress_composite_index",
-      "rf_importance": 0.014,
-      "xgb_importance": 0.0366,
-      "ensemble_mean": 0.0253
+      "xgb_importance": 0.9069,
+      "ensemble_mean": 0.9294
     },
     {
       "feature": "historical_decay_rate_annual",
       "rf_importance": 0.0214,
-      "xgb_importance": 0.0208,
-      "ensemble_mean": 0.0211
+      "xgb_importance": 0.0205,
+      "ensemble_mean": 0.021
     },
     {
-      "feature": "pothole_count",
-      "rf_importance": 0.0003,
-      "xgb_importance": 0.0295,
-      "ensemble_mean": 0.0149
-    },
-    {
-      "feature": "crack_density_pct",
-      "rf_importance": 0.002,
-      "xgb_importance": 0.0086,
-      "ensemble_mean": 0.0053
-    },
-    {
-      "feature": "iri_roughness",
-      "rf_importance": 0.0029,
-      "xgb_importance": 0.0059,
-      "ensemble_mean": 0.0044
+      "feature": "distress_composite_index",
+      "rf_importance": 0.014,
+      "xgb_importance": 0.0124,
+      "ensemble_mean": 0.0132
     },
     {
       "feature": "rut_depth_mm",
       "rf_importance": 0.0029,
-      "xgb_importance": 0.003,
-      "ensemble_mean": 0.003
+      "xgb_importance": 0.014,
+      "ensemble_mean": 0.0084
+    },
+    {
+      "feature": "iri_roughness",
+      "rf_importance": 0.0029,
+      "xgb_importance": 0.0124,
+      "ensemble_mean": 0.0076
+    },
+    {
+      "feature": "crack_density_pct",
+      "rf_importance": 0.002,
+      "xgb_importance": 0.0126,
+      "ensemble_mean": 0.0073
+    },
+    {
+      "feature": "pothole_count",
+      "rf_importance": 0.0003,
+      "xgb_importance": 0.0112,
+      "ensemble_mean": 0.0057
     },
     {
       "feature": "heavy_traffic_load_ratio",
       "rf_importance": 0.0018,
-      "xgb_importance": 0.0021,
-      "ensemble_mean": 0.002
+      "xgb_importance": 0.0028,
+      "ensemble_mean": 0.0023
     },
     {
       "feature": "daily_esal",
       "rf_importance": 0.0003,
-      "xgb_importance": 0.0028,
-      "ensemble_mean": 0.0015
+      "xgb_importance": 0.0029,
+      "ensemble_mean": 0.0016
     },
     {
       "feature": "structural_number",
       "rf_importance": 0.0012,
-      "xgb_importance": 0.0013,
-      "ensemble_mean": 0.0013
-    },
-    {
-      "feature": "aadt",
-      "rf_importance": 0.0003,
-      "xgb_importance": 0.0018,
-      "ensemble_mean": 0.001
+      "xgb_importance": 0.0011,
+      "ensemble_mean": 0.0012
     },
     {
       "feature": "pavement_age_years",
       "rf_importance": 0.0006,
-      "xgb_importance": 0.0013,
-      "ensemble_mean": 0.0009
+      "xgb_importance": 0.001,
+      "ensemble_mean": 0.0008
+    },
+    {
+      "feature": "aadt",
+      "rf_importance": 0.0003,
+      "xgb_importance": 0.0014,
+      "ensemble_mean": 0.0008
     },
     {
       "feature": "heavy_vehicle_pct",
