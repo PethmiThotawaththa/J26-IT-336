@@ -7,9 +7,12 @@ import {
   ArrowUpRight, 
   CheckCircle2, 
   ChevronRight,
+  ChevronLeft,
   Activity,
   Layers,
-  Zap
+  Zap,
+  Filter,
+  Search
 } from 'lucide-react';
 import { 
   LineChart, 
@@ -39,6 +42,59 @@ export const PredictiveOverview: React.FC<Props> = ({
   onInspectAnomaly
 }) => {
   const [selectedScenario, setSelectedScenario] = useState<'heavy' | 'moderate'>('heavy');
+  const [selectedCorridor, setSelectedCorridor] = useState<string>('ALL');
+  const [statusFilter, setStatusFilter] = useState<'ALL' | 'CRIT' | 'WARN' | 'NOM'>('ALL');
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const pageSize = 8;
+
+  const corridorList = [
+    { id: 'ALL', name: 'All 6 Western Province Corridors (Network Matrix)' },
+    { id: 'B047', name: 'B047: Battaramulla - Pannipitiya' },
+    { id: 'B174', name: 'B174: Kottawa - Malabe' },
+    { id: 'B214', name: 'B214: Kirindiwela - Radawana' },
+    { id: 'B240', name: 'B240: Meegoda - Athurugiriya' },
+    { id: 'B263', name: 'B263: Madinnagoda - Rajagiriya' },
+    { id: 'B435', name: 'B435: Sri Jayawardenepura - Kotte' },
+  ];
+
+  // Filtering
+  const filteredSections = sections.filter((sec) => {
+    if (selectedCorridor !== 'ALL' && sec.corridor_id !== selectedCorridor) return false;
+    if (statusFilter === 'CRIT' && sec.current_pci >= 55.0) return false;
+    if (statusFilter === 'WARN' && (sec.current_pci < 55.0 || sec.current_pci >= 70.0)) return false;
+    if (statusFilter === 'NOM' && sec.current_pci < 70.0) return false;
+
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase();
+      const matchId = sec.id.toLowerCase().includes(q);
+      const matchName = sec.corridor_name.toLowerCase().includes(q);
+      const matchCorridor = sec.corridor_id.toLowerCase().includes(q);
+      if (!matchId && !matchName && !matchCorridor) return false;
+    }
+    return true;
+  });
+
+  // When 'ALL' corridors is selected without search, provide a balanced cross-network sample of all 6 corridors
+  let displayedList = filteredSections;
+  if (selectedCorridor === 'ALL' && statusFilter === 'ALL' && !searchQuery.trim()) {
+    const corridorIds = ['B047', 'B174', 'B214', 'B240', 'B263', 'B435'];
+    const balanced: RoadSectionItem[] = [];
+    corridorIds.forEach((cid) => {
+      const items = sections.filter(s => s.corridor_id === cid);
+      if (items.length > 0) {
+        balanced.push(items[0]);
+        if (items.length > 10) balanced.push(items[Math.floor(items.length / 2)]);
+        if (items.length > 25) balanced.push(items[items.length - 1]);
+      }
+    });
+    if (balanced.length > 0) {
+      displayedList = balanced;
+    }
+  }
+
+  const totalPages = Math.max(1, Math.ceil(displayedList.length / pageSize));
+  const paginatedSections = displayedList.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
   // Mini preview decay curve data
   const previewCurveData = [
@@ -362,7 +418,7 @@ export const PredictiveOverview: React.FC<Props> = ({
               Target Sector Structural Diagnostics & Telemetry Ledger
             </h2>
             <p className="text-xs text-slate-400 mt-0.5">
-              Live telemetry monitoring across {sections.length} road corridor segments (RDA Western Province Network)
+              Live telemetry monitoring across {sections.length} segments across all 6 RDA Western Province Corridors
             </p>
           </div>
           <button
@@ -371,6 +427,72 @@ export const PredictiveOverview: React.FC<Props> = ({
           >
             Inspect on GIS Map <ChevronRight className="w-3.5 h-3.5" />
           </button>
+        </div>
+
+        {/* Filter Controls Bar */}
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3 mt-4 pt-1 font-mono text-xs">
+          {/* Corridor Dropdown */}
+          <div className="flex items-center space-x-2">
+            <span className="text-slate-400 flex items-center gap-1">
+              <Filter className="w-3.5 h-3.5 text-cyan-400" />
+              CORRIDOR:
+            </span>
+            <select
+              value={selectedCorridor}
+              onChange={(e) => {
+                setSelectedCorridor(e.target.value);
+                setCurrentPage(1);
+              }}
+              className="bg-[#131D2E] border border-[#1E293B] text-cyan-300 rounded px-2.5 py-1 focus:outline-none focus:border-cyan-600 font-semibold"
+            >
+              {corridorList.map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.name}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Condition Pills */}
+          <div className="flex items-center space-x-1.5">
+            {(['ALL', 'CRIT', 'WARN', 'NOM'] as const).map((status) => (
+              <button
+                key={status}
+                onClick={() => {
+                  setStatusFilter(status);
+                  setCurrentPage(1);
+                }}
+                className={`px-2.5 py-1 rounded transition font-semibold text-[11px] ${
+                  statusFilter === status
+                    ? status === 'CRIT'
+                      ? 'bg-rose-900 text-rose-200 border border-rose-700'
+                      : status === 'WARN'
+                      ? 'bg-amber-900 text-amber-200 border border-amber-700'
+                      : status === 'NOM'
+                      ? 'bg-emerald-900 text-emerald-200 border border-emerald-700'
+                      : 'bg-cyan-600 text-white'
+                    : 'bg-[#162032] text-slate-400 hover:text-white border border-[#233044]'
+                }`}
+              >
+                {status === 'ALL' ? 'All Conditions' : status === 'CRIT' ? 'Critical (<55)' : status === 'WARN' ? 'Warning (55-70)' : 'Nominal (≥70)'}
+              </button>
+            ))}
+          </div>
+
+          {/* Search Box */}
+          <div className="relative">
+            <Search className="w-3.5 h-3.5 text-slate-500 absolute left-2.5 top-2" />
+            <input
+              type="text"
+              placeholder="Search section / road..."
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setCurrentPage(1);
+              }}
+              className="bg-[#131D2E] border border-[#1E293B] pl-8 pr-3 py-1 rounded text-slate-200 text-xs placeholder-slate-500 focus:outline-none focus:border-cyan-600 w-48"
+            />
+          </div>
         </div>
 
         {/* Ledger Table */}
@@ -385,53 +507,90 @@ export const PredictiveOverview: React.FC<Props> = ({
                 <th className="pb-2.5">IRI Roughness</th>
                 <th className="pb-2.5">Crack Density</th>
                 <th className="pb-2.5">Predicted Decay</th>
-                <th className="pb-2.5">Action</th>
+                <th className="pb-2.5 text-right">Action</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[#1E293B] text-slate-300">
-              {sections.slice(0, 7).map((sec) => {
-                const pci = sec.current_pci;
-                const statusBadge =
-                  pci < 55
-                    ? { label: 'CRIT', color: 'text-rose-400 bg-rose-950/60 border-rose-800' }
-                    : pci < 70
-                    ? { label: 'WARN', color: 'text-amber-400 bg-amber-950/60 border-amber-800' }
-                    : { label: 'NOM', color: 'text-emerald-400 bg-emerald-950/60 border-emerald-800' };
+              {paginatedSections.length > 0 ? (
+                paginatedSections.map((sec) => {
+                  const pci = sec.current_pci;
+                  const statusBadge =
+                    pci < 55
+                      ? { label: 'CRIT', color: 'text-rose-400 bg-rose-950/60 border-rose-800' }
+                      : pci < 70
+                      ? { label: 'WARN', color: 'text-amber-400 bg-amber-950/60 border-amber-800' }
+                      : { label: 'NOM', color: 'text-emerald-400 bg-emerald-950/60 border-emerald-800' };
 
-                return (
-                  <tr key={sec.id} className="hover:bg-[#131D2E]/60 transition">
-                    <td className="py-2.5 font-semibold text-white">{sec.id}</td>
-                    <td className="py-2.5 text-slate-300 truncate max-w-[200px]">{sec.corridor_name}</td>
-                    <td className="py-2.5 text-slate-400">
-                      KM {sec.start_chainage_km.toFixed(1)} - {sec.end_chainage_km.toFixed(1)}
-                    </td>
-                    <td className="py-2.5">
-                      <span className="font-bold text-white mr-1.5">{pci.toFixed(1)}</span>
-                      <span className={`text-[10px] px-1 py-0.2 rounded border font-semibold ${statusBadge.color}`}>
-                        [{statusBadge.label}]
-                      </span>
-                    </td>
-                    <td className="py-2.5 text-slate-400">{sec.iri_roughness.toFixed(2)} m/km</td>
-                    <td className="py-2.5 text-slate-400">{sec.crack_density_pct.toFixed(1)}%</td>
-                    <td className="py-2.5 text-rose-400 font-semibold">
-                      -{sec.historical_decay_rate_annual.toFixed(1)} PCI/yr
-                    </td>
-                    <td className="py-2.5">
-                      <button
-                        onClick={() => {
-                          onSelectSection(sec.id);
-                          onNavigateTab('section');
-                        }}
-                        className="px-2.5 py-1 rounded bg-[#162032] hover:bg-cyan-900 text-cyan-400 hover:text-white border border-[#233044] hover:border-cyan-700 text-[11px] font-semibold transition"
-                      >
-                        INSPECT
-                      </button>
-                    </td>
-                  </tr>
-                );
-              })}
+                  return (
+                    <tr key={sec.id} className="hover:bg-[#131D2E]/60 transition">
+                      <td className="py-2.5 font-semibold text-white">
+                        <span className="text-cyan-400 mr-1.5 font-bold">[{sec.corridor_id}]</span>
+                        {sec.id}
+                      </td>
+                      <td className="py-2.5 text-slate-200 font-medium truncate max-w-[220px]">{sec.corridor_name}</td>
+                      <td className="py-2.5 text-slate-400">
+                        KM {sec.start_chainage_km.toFixed(1)} - {sec.end_chainage_km.toFixed(1)}
+                      </td>
+                      <td className="py-2.5">
+                        <span className="font-bold text-white mr-1.5">{pci.toFixed(1)}</span>
+                        <span className={`text-[10px] px-1 py-0.2 rounded border font-semibold ${statusBadge.color}`}>
+                          [{statusBadge.label}]
+                        </span>
+                      </td>
+                      <td className="py-2.5 text-slate-400">{sec.iri_roughness.toFixed(2)} m/km</td>
+                      <td className="py-2.5 text-slate-400">{sec.crack_density_pct.toFixed(1)}%</td>
+                      <td className="py-2.5 text-rose-400 font-semibold">
+                        -{sec.historical_decay_rate_annual.toFixed(1)} PCI/yr
+                      </td>
+                      <td className="py-2.5 text-right">
+                        <button
+                          onClick={() => {
+                            onSelectSection(sec.id);
+                            onNavigateTab('section');
+                          }}
+                          className="px-2.5 py-1 rounded bg-[#162032] hover:bg-cyan-900 text-cyan-400 hover:text-white border border-[#233044] hover:border-cyan-700 text-[11px] font-semibold transition"
+                        >
+                          INSPECT
+                        </button>
+                      </td>
+                    </tr>
+                  );
+                })
+              ) : (
+                <tr>
+                  <td colSpan={8} className="py-6 text-center text-slate-500 font-mono">
+                    No road sections match the selected filter criteria.
+                  </td>
+                </tr>
+              )}
             </tbody>
           </table>
+        </div>
+
+        {/* Pagination Footer */}
+        <div className="mt-4 pt-3 border-t border-[#1E293B] flex flex-col sm:flex-row items-center justify-between gap-2 font-mono text-xs text-slate-400">
+          <div>
+            Showing <strong className="text-white">{Math.min((currentPage - 1) * pageSize + 1, displayedList.length)}</strong> - <strong className="text-white">{Math.min(currentPage * pageSize, displayedList.length)}</strong> of <strong className="text-white">{displayedList.length}</strong> sections ({selectedCorridor === 'ALL' ? 'Cross-Network Sample' : selectedCorridor})
+          </div>
+          <div className="flex items-center space-x-2">
+            <button
+              onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+              disabled={currentPage === 1}
+              className="px-2 py-1 rounded bg-[#131D2E] border border-[#1E293B] text-slate-300 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-cyan-950 hover:text-cyan-400 transition flex items-center gap-1"
+            >
+              <ChevronLeft className="w-3.5 h-3.5" /> Prev
+            </button>
+            <span className="text-slate-400">
+              Page <strong className="text-white">{currentPage}</strong> of <strong className="text-white">{totalPages}</strong>
+            </span>
+            <button
+              onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+              disabled={currentPage === totalPages}
+              className="px-2 py-1 rounded bg-[#131D2E] border border-[#1E293B] text-slate-300 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-cyan-950 hover:text-cyan-400 transition flex items-center gap-1"
+            >
+              Next <ChevronRight className="w-3.5 h-3.5" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
