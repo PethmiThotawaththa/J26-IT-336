@@ -15,7 +15,7 @@ router = APIRouter(prefix="/roads", tags=["Roads"])
 @router.get("")
 def list_roads(
     corridor_id: Optional[str] = Query(None, description="Filter by corridor ID, e.g. B047"),
-    limit: int = Query(100, ge=1, le=1000),
+    limit: int = Query(1000, ge=1, le=2000),
     offset: int = Query(0, ge=0)
 ):
     """Lists road sections with their current condition, GPS coordinates, and distress scores."""

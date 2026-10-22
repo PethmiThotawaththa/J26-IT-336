@@ -134,7 +134,7 @@ export async function fetchDashboardSummary(): Promise<DashboardSummary> {
 }
 
 export async function fetchRoads(corridorId?: string): Promise<{ sections: RoadSectionItem[] }> {
-  const url = corridorId ? `${API_BASE}/roads?corridor_id=${corridorId}&limit=500` : `${API_BASE}/roads?limit=500`;
+  const url = corridorId ? `${API_BASE}/roads?corridor_id=${corridorId}&limit=1000` : `${API_BASE}/roads?limit=1000`;
   const res = await fetch(url);
   if (!res.ok) throw new Error('Failed to load road sections');
   return res.json();

@@ -28,8 +28,24 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
 }) => {
   const [prognosis, setPrognosis] = useState<FullPrognosis | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [detailSection, setDetailSection] = useState<RoadSectionItem | null>(null);
 
-  const activeSection = sections.find((s) => s.id === selectedSectionId) || sections[0];
+  // Match in loaded sections or fallback to detailSection
+  const matchedSection = sections.find((s) => s.id === selectedSectionId);
+  const activeSection = matchedSection || detailSection || (sections.length > 0 ? sections[0] : null);
+
+  useEffect(() => {
+    // If selectedSectionId is not in the loaded sections array, fetch it directly
+    if (selectedSectionId && !matchedSection) {
+      fetchRoadDetail(selectedSectionId)
+        .then((sec) => {
+          if (sec && sec.id) {
+            setDetailSection(sec);
+          }
+        })
+        .catch((err) => console.error(`Failed to fetch detail for ${selectedSectionId}:`, err));
+    }
+  }, [selectedSectionId, matchedSection]);
 
   useEffect(() => {
     if (activeSection) {
@@ -84,10 +100,15 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
         <div className="flex items-center space-x-2 font-mono text-xs">
           <label className="text-slate-400">INSPECT SECTION:</label>
           <select
-            value={activeSection?.id}
+            value={activeSection?.id || selectedSectionId}
             onChange={(e) => onSelectSection(e.target.value)}
             className="bg-[#131D2E] border border-[#1E293B] text-cyan-400 rounded px-2.5 py-1 focus:outline-none focus:border-cyan-600 font-semibold"
           >
+            {activeSection && !sections.some((s) => s.id === activeSection.id) && (
+              <option key={activeSection.id} value={activeSection.id}>
+                {activeSection.id} ({activeSection.corridor_id} Ch {activeSection.start_chainage_km.toFixed(1)}km - PCI {activeSection.current_pci.toFixed(1)})
+              </option>
+            )}
             {sections.map((s) => (
               <option key={s.id} value={s.id}>
                 {s.id} ({s.corridor_id} Ch {s.start_chainage_km.toFixed(1)}km - PCI {s.current_pci.toFixed(1)})
@@ -159,9 +180,9 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
                 <span className="text-cyan-400">Thickness: 50mm</span>
               </div>
               <div className="grid grid-cols-3 gap-2 mt-2 text-[11px] text-slate-400">
-                <div>Shear Stress: <span className="text-slate-200">480 kPa</span></div>
-                <div>Saturation: <span className="text-slate-200">94.2%</span></div>
-                <div>Condition: <span className={pci >= 70 ? 'text-emerald-400' : 'text-amber-400'}>{pci >= 70 ? 'Intact' : 'Micro-Fissured'}</span></div>
+                <div>Shear Stress: <span className="text-slate-200">{pci < 40 ? '620 kPa (Exceeded)' : pci < 55 ? '510 kPa' : '480 kPa'}</span></div>
+                <div>Saturation: <span className="text-slate-200">{activeSection ? `${Math.min(99.0, activeSection.monsoon_risk_factor * 52).toFixed(1)}%` : '94.2%'}</span></div>
+                <div>Condition: <span className={pci >= 70 ? 'text-emerald-400 font-semibold' : pci >= 55 ? 'text-amber-400 font-semibold' : 'text-rose-400 font-bold'}>{pci >= 70 ? 'Intact' : pci >= 55 ? 'Micro-Fissured' : pci >= 40 ? 'Severe Cracking' : 'Pavement Rupture'}</span></div>
               </div>
             </div>
 
@@ -172,9 +193,9 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
                 <span className="text-blue-400">Thickness: 90mm</span>
               </div>
               <div className="grid grid-cols-3 gap-2 mt-2 text-[11px] text-slate-400">
-                <div>Shear Stress: <span className="text-slate-200">310 kPa</span></div>
-                <div>Saturation: <span className="text-slate-200">78.5%</span></div>
-                <div>Void Ratio: <span className="text-slate-200">4.8%</span></div>
+                <div>Shear Stress: <span className="text-slate-200">{pci < 40 ? '410 kPa' : '310 kPa'}</span></div>
+                <div>Saturation: <span className="text-slate-200">{activeSection ? `${Math.min(95.0, activeSection.monsoon_risk_factor * 44).toFixed(1)}%` : '78.5%'}</span></div>
+                <div>Void Ratio: <span className="text-slate-200">{pci < 40 ? '9.4% (Dilated)' : '4.8%'}</span></div>
               </div>
             </div>
 
@@ -185,9 +206,9 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
                 <span className="text-amber-400">Thickness: 160mm</span>
               </div>
               <div className="grid grid-cols-3 gap-2 mt-2 text-[11px] text-slate-400">
-                <div>Resilient Modulus (Mr): <span className="text-amber-300">112 MPa</span></div>
-                <div>Saturation: <span className="text-slate-200">61.3%</span></div>
-                <div>Hydraulic Risk: <span className="text-amber-400">Moderate</span></div>
+                <div>Resilient Modulus (Mr): <span className={pci < 40 ? 'text-rose-400 font-bold' : pci < 55 ? 'text-amber-300' : 'text-slate-200'}>{pci < 40 ? '45 MPa (Loss of Interlock)' : pci < 55 ? '78 MPa' : '112 MPa'}</span></div>
+                <div>Saturation: <span className="text-slate-200">{activeSection ? `${Math.min(90.0, activeSection.monsoon_risk_factor * 35).toFixed(1)}%` : '61.3%'}</span></div>
+                <div>Hydraulic Risk: <span className={pci < 55 ? 'text-rose-400 font-bold' : 'text-amber-400 font-semibold'}>{pci < 55 ? 'High (Monsoon Infiltration)' : 'Moderate'}</span></div>
               </div>
             </div>
 
@@ -198,9 +219,9 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
                 <span className="text-slate-400">Depth: Continuous</span>
               </div>
               <div className="grid grid-cols-3 gap-2 mt-2 text-[11px] text-slate-400">
-                <div>California Bearing Ratio (CBR): <span className="text-slate-200">4.8%</span></div>
-                <div>Pore Pressure: <span className="text-slate-200">+42 kPa</span></div>
-                <div>Bearing Status: <span className="text-emerald-400">Stable</span></div>
+                <div>California Bearing Ratio (CBR): <span className={pci < 40 ? 'text-rose-400 font-bold' : 'text-slate-200'}>{pci < 40 ? '2.1% (Inadequate)' : '4.8%'}</span></div>
+                <div>Pore Pressure: <span className="text-slate-200">{pci < 40 ? '+78 kPa (Pumping)' : '+42 kPa'}</span></div>
+                <div>Bearing Status: <span className={pci >= 55 ? 'text-emerald-400 font-semibold' : 'text-rose-400 font-bold'}>{pci >= 55 ? 'Stable' : 'Subgrade Softening'}</span></div>
               </div>
             </div>
           </div>
@@ -209,19 +230,27 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
           <div className="mt-4 pt-3 border-t border-[#1E293B] grid grid-cols-4 gap-2 text-center font-mono">
             <div className="p-2 rounded bg-[#131D2E]">
               <div className="text-[10px] text-slate-500">L1 SURFACE STRAIN</div>
-              <div className="text-sm font-bold text-white mt-0.5">1,840 με</div>
+              <div className="text-sm font-bold text-white mt-0.5">
+                {activeSection ? `${Math.round(1200 + (100 - pci) * 25).toLocaleString()} με` : '1,840 με'}
+              </div>
             </div>
             <div className="p-2 rounded bg-[#131D2E]">
               <div className="text-[10px] text-slate-500">SUBSURFACE MOISTURE</div>
-              <div className="text-sm font-bold text-cyan-400 mt-0.5">82.1%</div>
+              <div className="text-sm font-bold text-cyan-400 mt-0.5">
+                {activeSection ? `${(activeSection.monsoon_risk_factor * 45).toFixed(1)}%` : '82.1%'}
+              </div>
             </div>
             <div className="p-2 rounded bg-[#131D2E]">
               <div className="text-[10px] text-slate-500">CRACK VELOCITY</div>
-              <div className="text-sm font-bold text-amber-400 mt-0.5">+0.8 mm/wk</div>
+              <div className={`text-sm font-bold mt-0.5 ${pci < 55 ? 'text-rose-400' : 'text-amber-400'}`}>
+                {activeSection ? `+${(activeSection.crack_density_pct * 0.08).toFixed(1)} mm/wk` : '+0.8 mm/wk'}
+              </div>
             </div>
             <div className="p-2 rounded bg-[#131D2E]">
               <div className="text-[10px] text-slate-500">SUBGRADE CBR</div>
-              <div className="text-sm font-bold text-white mt-0.5">4.8%</div>
+              <div className={`text-sm font-bold mt-0.5 ${pci < 40 ? 'text-rose-400' : 'text-white'}`}>
+                {pci < 40 ? '2.1%' : '4.8%'}
+              </div>
             </div>
           </div>
         </div>
@@ -246,7 +275,9 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
                 <div className="text-2xl font-extrabold text-white mt-1">
                   {prognosis?.predicted_condition_horizons?.['3m']?.toFixed(1) || (pci - 0.8).toFixed(1)} <span className="text-xs text-slate-500">PCI</span>
                 </div>
-                <div className="text-[10px] text-slate-400 mt-0.5">Δ -{(pci - (prognosis?.predicted_condition_horizons?.['3m'] || pci - 0.8)).toFixed(1)} PCI</div>
+                <div className="text-[10px] text-slate-400 mt-0.5">
+                  Δ {((prognosis?.predicted_condition_horizons?.['3m'] ?? (pci - 0.8)) - pci).toFixed(1)} PCI
+                </div>
               </div>
 
               <div className="p-3 rounded bg-[#131D2E] border border-[#1E293B]">
@@ -254,36 +285,66 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
                 <div className="text-2xl font-extrabold text-white mt-1">
                   {prognosis?.predicted_condition_horizons?.['6m']?.toFixed(1) || (pci - 1.8).toFixed(1)} <span className="text-xs text-slate-500">PCI</span>
                 </div>
-                <div className="text-[10px] text-slate-400 mt-0.5">Δ -{(pci - (prognosis?.predicted_condition_horizons?.['6m'] || pci - 1.8)).toFixed(1)} PCI</div>
+                <div className="text-[10px] text-slate-400 mt-0.5">
+                  Δ {((prognosis?.predicted_condition_horizons?.['6m'] ?? (pci - 1.8)) - pci).toFixed(1)} PCI
+                </div>
               </div>
 
               <div className="p-3 rounded bg-[#131D2E] border border-[#1E293B]">
                 <div className="text-xs text-slate-400">T + 12 MONTHS</div>
-                <div className="text-2xl font-extrabold text-cyan-400 mt-1">
+                <div className={`text-2xl font-extrabold mt-1 ${
+                  (prognosis?.predicted_condition_horizons?.['12m'] ?? pci) < 40 ? 'text-rose-400' :
+                  (prognosis?.predicted_condition_horizons?.['12m'] ?? pci) < 55 ? 'text-amber-400' : 'text-cyan-400'
+                }`}>
                   {prognosis?.predicted_condition_horizons?.['12m']?.toFixed(1) || (pci - 3.5).toFixed(1)} <span className="text-xs text-slate-500">PCI</span>
                 </div>
-                <div className="text-[10px] text-cyan-300 mt-0.5">Risk: {prognosis?.predicted_risk_category_12m || 'Fair'}</div>
+                <div className={`text-[10px] mt-0.5 font-semibold ${
+                  prognosis?.predicted_risk_category_12m === 'Critical' ? 'text-rose-400' :
+                  prognosis?.predicted_risk_category_12m === 'Poor' ? 'text-amber-400' : 'text-cyan-300'
+                }`}>
+                  Risk: {prognosis?.predicted_risk_category_12m || (pci < 55 ? 'Critical' : 'Fair')}
+                </div>
               </div>
 
               <div className="p-3 rounded bg-[#131D2E] border border-[#1E293B]">
                 <div className="text-xs text-slate-400">T + 24 MONTHS</div>
-                <div className="text-2xl font-extrabold text-amber-400 mt-1">
+                <div className={`text-2xl font-extrabold mt-1 ${
+                  (prognosis?.predicted_condition_horizons?.['24m'] ?? pci) < 40 ? 'text-rose-400' :
+                  (prognosis?.predicted_condition_horizons?.['24m'] ?? pci) < 55 ? 'text-amber-400' : 'text-white'
+                }`}>
                   {prognosis?.predicted_condition_horizons?.['24m']?.toFixed(1) || (pci - 7.5).toFixed(1)} <span className="text-xs text-slate-500">PCI</span>
                 </div>
-                <div className="text-[10px] text-amber-300 mt-0.5">Δ -{(pci - (prognosis?.predicted_condition_horizons?.['24m'] || pci - 7.5)).toFixed(1)} PCI</div>
+                <div className="text-[10px] text-amber-300 mt-0.5">
+                  Δ {((prognosis?.predicted_condition_horizons?.['24m'] ?? (pci - 7.5)) - pci).toFixed(1)} PCI
+                </div>
               </div>
             </div>
 
             {/* RRL Summary */}
-            <div className="mt-4 p-3 rounded bg-[#162032] border border-[#24334C]">
+            <div className={`mt-4 p-3 rounded border ${
+              pci < 55.0 ? 'bg-rose-950/40 border-rose-800/80 shadow-[0_0_15px_rgba(244,63,94,0.15)]' : 'bg-[#162032] border-[#24334C]'
+            }`}>
               <div className="flex justify-between items-center text-xs">
                 <span className="text-slate-400">REMAINING ROAD LIFE (RRL):</span>
-                <span className="text-cyan-400 font-extrabold text-base">
-                  {prognosis?.remaining_road_life?.rrl_rehabilitation_months || 28} Months
+                <span className={`font-extrabold text-base ${
+                  pci < 55.0 ? 'text-rose-400 animate-pulse' : 'text-cyan-400'
+                }`}>
+                  {pci < 55.0 
+                    ? '< 1 Month (Immediate Emergency Action Required)' 
+                    : `${prognosis?.remaining_road_life?.rrl_rehabilitation_months ?? 26} Months`}
                 </span>
               </div>
-              <div className="text-[11px] text-slate-400 mt-1">
-                Estimated {prognosis?.remaining_road_life?.rrl_rehabilitation_days || 840} days until condition intercepts rehabilitation threshold (PCI 55).
+              <div className="text-[11px] mt-1.5 leading-relaxed">
+                {pci < 55.0 ? (
+                  <span className="text-rose-300 flex items-center gap-1 font-semibold">
+                    <AlertCircle className="w-3.5 h-3.5 shrink-0 text-rose-400" />
+                    CRITICAL COLLAPSE: Pavement condition (PCI {pci.toFixed(1)}) is already below rehabilitation threshold (PCI 55.0). 0 days remaining until complete structural failure.
+                  </span>
+                ) : (
+                  <span className="text-slate-400">
+                    Estimated {prognosis?.remaining_road_life?.rrl_rehabilitation_days ?? 780} days until condition intercepts rehabilitation threshold (PCI 55).
+                  </span>
+                )}
               </div>
             </div>
           </div>
@@ -291,17 +352,17 @@ export const RoadSectionAnalysis: React.FC<Props> = ({
           {/* Maintenance Action Summary Card */}
           <div className="telemetry-card p-5 font-mono text-xs">
             <span className="text-slate-500 text-[10px] block">INDICATED ENGINEERING INTERVENTION</span>
-            <div className="text-sm font-bold text-white mt-1">
-              {prognosis?.maintenance_recommendation?.action || 'Polymer-Modified Micro-Surfacing'}
+            <div className={`text-sm font-bold mt-1 ${pci < 55 ? 'text-rose-400' : 'text-white'}`}>
+              {prognosis?.maintenance_recommendation?.action || (pci < 40 ? 'Full-Depth Base Stabilization & Reconstruction' : 'Continuous Polymer Slurry Seal')}
             </div>
-            <div className="mt-2 text-slate-300 text-[11px]">
-              {prognosis?.maintenance_recommendation?.rationale}
+            <div className="mt-2 text-slate-300 text-[11px] leading-relaxed">
+              {prognosis?.maintenance_recommendation?.rationale || 'Intervention determined via AASHTO multi-criteria optimization.'}
             </div>
             <div className="mt-3 pt-2.5 border-t border-[#1E293B] flex items-center justify-between">
               <div>
                 <span className="text-slate-500 text-[10px] block">HSR ESTIMATED COST</span>
-                <span className="text-emerald-400 font-bold">
-                  LKR {prognosis?.maintenance_recommendation?.estimated_cost_lkr?.toLocaleString() || '413,840'}
+                <span className="text-emerald-400 font-bold text-sm">
+                  LKR {prognosis?.maintenance_recommendation?.estimated_cost_lkr?.toLocaleString() || (pci < 40 ? '12,968,543' : '448,105')}
                 </span>
               </div>
               <button
