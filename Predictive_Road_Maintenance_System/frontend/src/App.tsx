@@ -35,7 +35,9 @@ export function App() {
       const rList = await fetchRoads();
       setSections(rList.sections || []);
       if (rList.sections && rList.sections.length > 0) {
-        setSelectedSectionId(rList.sections[0].id);
+        // Prioritize the most critical section needing intervention as default
+        const criticalSorted = [...rList.sections].sort((a, b) => a.current_pci - b.current_pci);
+        setSelectedSectionId(criticalSorted[0].id);
       }
     } catch (e) {
       console.error('Failed to load initial application state', e);
