@@ -1,0 +1,676 @@
+section_id,corridor_id,corridor_name,road_class,lanes,start_chainage_km,end_chainage_km,start_lat,start_lon,end_lat,end_lon,altitude_m,surface_type,structural_number,pavement_age_years,aadt,daily_esal,heavy_vehicle_pct,annual_precipitation_mm,mean_temp_c,mean_diurnal_range_c,monsoon_risk_factor
+B047-SEC-001,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.0,0.1,6.902179,79.919559,6.901377,79.919938,15.0,Dense Graded Asphalt Concrete,4.26,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-002,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.1,0.2,6.901362,79.919945,6.900763,79.920562,16.0,Dense Graded Asphalt Concrete,3.94,6,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-003,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.2,0.3,6.900754,79.920578,6.900283,79.92133,15.3,Dense Graded Asphalt Concrete,3.54,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-004,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.3,0.4,6.900272,79.921344,6.899665,79.921994,14.7,Dense Graded Asphalt Concrete,4.18,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-005,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.4,0.5,6.899651,79.922005,6.898836,79.922313,15.4,Dense Graded Asphalt Concrete,4.04,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-006,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.5,0.6,6.898816,79.922313,6.897937,79.92232,15.4,Dense Graded Asphalt Concrete,4.27,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-007,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.6,0.7,6.897921,79.922322,6.89706,79.922505,13.4,Dense Graded Asphalt Concrete,3.59,8,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-008,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.7,0.8,6.89704,79.922512,6.896222,79.922841,14.5,Dense Graded Asphalt Concrete,3.57,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-009,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.8,0.9,6.896206,79.922848,6.895554,79.92339,16.5,Dense Graded Asphalt Concrete,3.87,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-010,B047,Battaramulla - Pannipitiya,Class B Highway,2,0.9,1.0,6.895548,79.923403,6.895145,79.924192,14.8,Dense Graded Asphalt Concrete,3.66,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-011,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.0,1.1,6.895135,79.924209,6.894533,79.924855,12.4,Dense Graded Asphalt Concrete,3.53,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-012,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.1,1.2,6.894516,79.924867,6.893843,79.925423,12.7,Dense Graded Asphalt Concrete,3.73,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-013,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.2,1.3,6.893833,79.925438,6.893533,79.926248,13.8,Dense Graded Asphalt Concrete,4.11,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-014,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.3,1.4,6.893531,79.926266,6.893429,79.927144,14.4,Dense Graded Asphalt Concrete,3.86,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-015,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.4,1.5,6.893426,79.927164,6.893136,79.928002,15.1,Dense Graded Asphalt Concrete,3.44,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-016,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.5,1.6,6.893127,79.928019,6.892508,79.928652,16.3,Dense Graded Asphalt Concrete,3.55,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-017,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.6,1.7,6.892492,79.928663,6.891666,79.928944,17.2,Dense Graded Asphalt Concrete,4.25,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-018,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.7,1.8,6.891646,79.928946,6.890763,79.928969,16.8,Dense Graded Asphalt Concrete,4.13,12,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-019,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.8,1.9,6.890746,79.928972,6.88995,79.929334,16.8,Dense Graded Asphalt Concrete,3.49,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-020,B047,Battaramulla - Pannipitiya,Class B Highway,2,1.9,2.0,6.889938,79.929341,6.889179,79.929801,16.9,Dense Graded Asphalt Concrete,3.8,6,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-021,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.0,2.1,6.889164,79.92981,6.888615,79.930457,15.6,Dense Graded Asphalt Concrete,3.85,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-022,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.1,2.2,6.88861,79.930471,6.888369,79.93132,15.4,Dense Graded Asphalt Concrete,4.22,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-023,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.2,2.3,6.888364,79.931338,6.887895,79.932052,16.5,Dense Graded Asphalt Concrete,4.0,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-024,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.3,2.4,6.88788,79.932059,6.887017,79.932248,19.0,Dense Graded Asphalt Concrete,3.87,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-025,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.4,2.5,6.886998,79.932248,6.88615,79.932003,18.1,Dense Graded Asphalt Concrete,3.57,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-026,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.5,2.6,6.886134,79.931997,6.885292,79.931976,15.2,Dense Graded Asphalt Concrete,4.1,12,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-027,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.6,2.7,6.885275,79.931982,6.88454,79.932466,13.1,Dense Graded Asphalt Concrete,4.21,10,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-028,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.7,2.8,6.884528,79.932476,6.883839,79.933032,13.0,Dense Graded Asphalt Concrete,4.23,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-029,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.8,2.9,6.883821,79.933043,6.88303,79.933434,13.4,Dense Graded Asphalt Concrete,3.58,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-030,B047,Battaramulla - Pannipitiya,Class B Highway,2,2.9,3.0,6.883016,79.933441,6.882247,79.933881,13.5,Dense Graded Asphalt Concrete,3.69,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-031,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.0,3.1,6.882229,79.93389,6.881395,79.934188,12.8,Dense Graded Asphalt Concrete,3.64,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-032,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.1,3.2,6.881375,79.934194,6.88053,79.934437,13.1,Dense Graded Asphalt Concrete,3.72,8,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-033,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.2,3.3,6.880511,79.934442,6.879653,79.934666,14.3,Dense Graded Asphalt Concrete,3.89,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-034,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.3,3.4,6.879641,79.934669,6.878796,79.934928,14.1,Dense Graded Asphalt Concrete,4.12,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-035,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.4,3.5,6.878778,79.934934,6.87791,79.935144,13.6,Dense Graded Asphalt Concrete,4.29,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-036,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.5,3.6,6.877895,79.935146,6.877019,79.935252,12.8,Dense Graded Asphalt Concrete,3.58,6,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-037,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.6,3.7,6.877001,79.935254,6.876165,79.935507,12.9,Dense Graded Asphalt Concrete,4.13,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-038,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.7,3.8,6.87615,79.935517,6.875446,79.936044,12.8,Dense Graded Asphalt Concrete,4.06,6,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-039,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.8,3.9,6.875432,79.936055,6.87476,79.93662,13.9,Dense Graded Asphalt Concrete,3.47,6,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-040,B047,Battaramulla - Pannipitiya,Class B Highway,2,3.9,4.0,6.874748,79.936632,6.874089,79.937234,14.9,Dense Graded Asphalt Concrete,3.5,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-041,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.0,4.1,6.874075,79.937246,6.873398,79.937815,15.1,Dense Graded Asphalt Concrete,3.96,8,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-042,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.1,4.2,6.873386,79.937825,6.872623,79.938261,16.1,Dense Graded Asphalt Concrete,3.46,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-043,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.2,4.3,6.872606,79.938267,6.871806,79.938632,18.7,Dense Graded Asphalt Concrete,3.69,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-044,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.3,4.4,6.871791,79.938642,6.871087,79.939183,18.4,Dense Graded Asphalt Concrete,3.97,6,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-045,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.4,4.5,6.871076,79.939192,6.870571,79.939898,17.8,Dense Graded Asphalt Concrete,3.82,8,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-046,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.5,4.6,6.870564,79.939915,6.870135,79.940686,18.9,Dense Graded Asphalt Concrete,4.04,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-047,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.6,4.7,6.870122,79.940697,6.869365,79.94114,20.7,Dense Graded Asphalt Concrete,3.91,6,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-048,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.7,4.8,6.869348,79.94115,6.868609,79.941637,25.8,Dense Graded Asphalt Concrete,3.84,6,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-049,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.8,4.9,6.868594,79.941646,6.867779,79.941992,24.8,Dense Graded Asphalt Concrete,3.78,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-050,B047,Battaramulla - Pannipitiya,Class B Highway,2,4.9,5.0,6.867762,79.941995,6.866878,79.941994,18.1,Dense Graded Asphalt Concrete,3.5,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-051,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.0,5.1,6.866863,79.941993,6.865978,79.94204,14.9,Dense Graded Asphalt Concrete,3.97,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-052,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.1,5.2,6.865963,79.942042,6.865083,79.942169,14.3,Dense Graded Asphalt Concrete,3.86,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-053,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.2,5.3,6.865065,79.942171,6.864191,79.942281,14.3,Dense Graded Asphalt Concrete,3.62,10,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-054,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.3,5.4,6.864171,79.942284,6.863296,79.942407,14.3,Dense Graded Asphalt Concrete,4.08,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-055,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.4,5.5,6.863277,79.94241,6.862416,79.942566,15.6,Dense Graded Asphalt Concrete,3.47,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-056,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.5,5.6,6.862397,79.942572,6.861569,79.942887,20.1,Dense Graded Asphalt Concrete,3.55,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-057,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.6,5.7,6.861549,79.94289,6.860696,79.943052,21.7,Dense Graded Asphalt Concrete,4.13,10,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-058,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.7,5.8,6.860679,79.943061,6.860053,79.943678,22.3,Dense Graded Asphalt Concrete,4.18,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-059,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.8,5.9,6.860044,79.943688,6.859327,79.944202,22.0,Dense Graded Asphalt Concrete,3.57,8,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-060,B047,Battaramulla - Pannipitiya,Class B Highway,2,5.9,6.0,6.859311,79.944209,6.858507,79.944563,24.5,Dense Graded Asphalt Concrete,3.89,8,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-061,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.0,6.1,6.858486,79.944572,6.857696,79.944954,27.2,Dense Graded Asphalt Concrete,4.21,8,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-062,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.1,6.2,6.857678,79.944962,6.856867,79.945316,31.6,Dense Graded Asphalt Concrete,3.5,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-063,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.2,6.3,6.856851,79.945321,6.85598,79.945511,36.4,Dense Graded Asphalt Concrete,3.78,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-064,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.3,6.4,6.855961,79.945516,6.855125,79.94583,34.8,Dense Graded Asphalt Concrete,4.17,8,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-065,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.4,6.5,6.855106,79.945839,6.854313,79.946182,35.0,Dense Graded Asphalt Concrete,3.86,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-066,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.5,6.6,6.854296,79.946188,6.853417,79.946404,34.2,Dense Graded Asphalt Concrete,3.6,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-067,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.6,6.7,6.853399,79.946407,6.852549,79.946578,32.3,Dense Graded Asphalt Concrete,3.7,3,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-068,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.7,6.8,6.852532,79.946584,6.85174,79.946961,32.2,Dense Graded Asphalt Concrete,3.69,10,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-069,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.8,6.9,6.851723,79.946971,6.850993,79.947474,33.7,Dense Graded Asphalt Concrete,4.03,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-070,B047,Battaramulla - Pannipitiya,Class B Highway,2,6.9,7.0,6.850979,79.947484,6.85026,79.948004,33.3,Dense Graded Asphalt Concrete,4.27,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-071,B047,Battaramulla - Pannipitiya,Class B Highway,2,7.0,7.1,6.850249,79.948012,6.849449,79.948388,32.8,Dense Graded Asphalt Concrete,3.63,12,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-072,B047,Battaramulla - Pannipitiya,Class B Highway,2,7.1,7.2,6.849433,79.948391,6.848562,79.948523,34.8,Dense Graded Asphalt Concrete,3.67,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-073,B047,Battaramulla - Pannipitiya,Class B Highway,2,7.2,7.3,6.848542,79.948526,6.847658,79.948589,39.0,Dense Graded Asphalt Concrete,3.43,4,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-074,B047,Battaramulla - Pannipitiya,Class B Highway,2,7.3,7.4,6.84764,79.948588,6.84676,79.948504,38.6,Dense Graded Asphalt Concrete,3.85,5,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B047-SEC-075,B047,Battaramulla - Pannipitiya,Class B Highway,2,7.4,7.5,6.84674,79.9485,6.846561,79.948475,35.5,Dense Graded Asphalt Concrete,3.65,2,41858,1499.5,2.36,2674.9,27.93,4.51,1.783
+B174-SEC-001,B174,Kottawa - Malabe,Class B Highway,2,0.0,0.1,6.933316,79.990023,6.932606,79.990547,13.5,Dense Graded Asphalt Concrete,3.62,10,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-002,B174,Kottawa - Malabe,Class B Highway,2,0.1,0.2,6.932592,79.990558,6.931865,79.991069,13.9,Dense Graded Asphalt Concrete,3.84,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-003,B174,Kottawa - Malabe,Class B Highway,2,0.2,0.3,6.931849,79.991078,6.931197,79.991655,13.4,Dense Graded Asphalt Concrete,3.62,12,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-004,B174,Kottawa - Malabe,Class B Highway,2,0.3,0.4,6.931186,79.991671,6.930785,79.99245,13.3,Dense Graded Asphalt Concrete,4.09,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-005,B174,Kottawa - Malabe,Class B Highway,2,0.4,0.5,6.930778,79.992466,6.930435,79.993287,14.8,Dense Graded Asphalt Concrete,4.06,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-006,B174,Kottawa - Malabe,Class B Highway,2,0.5,0.6,6.930429,79.993304,6.930107,79.99413,14.2,Dense Graded Asphalt Concrete,3.97,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-007,B174,Kottawa - Malabe,Class B Highway,2,0.6,0.7,6.9301,79.994147,6.929561,79.994835,14.2,Dense Graded Asphalt Concrete,3.88,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-008,B174,Kottawa - Malabe,Class B Highway,2,0.7,0.8,6.929547,79.994844,6.928972,79.995468,15.4,Dense Graded Asphalt Concrete,4.15,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-009,B174,Kottawa - Malabe,Class B Highway,2,0.8,0.9,6.928968,79.995486,6.92868,79.996318,16.8,Dense Graded Asphalt Concrete,3.57,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-010,B174,Kottawa - Malabe,Class B Highway,2,0.9,1.0,6.928668,79.996333,6.928041,79.996947,18.7,Dense Graded Asphalt Concrete,3.93,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-011,B174,Kottawa - Malabe,Class B Highway,2,1.0,1.1,6.928031,79.996962,6.927572,79.997715,17.4,Dense Graded Asphalt Concrete,3.41,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-012,B174,Kottawa - Malabe,Class B Highway,2,1.1,1.2,6.927558,79.997728,6.926792,79.99815,16.9,Dense Graded Asphalt Concrete,3.6,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-013,B174,Kottawa - Malabe,Class B Highway,2,1.2,1.3,6.926778,79.998163,6.925975,79.998497,16.9,Dense Graded Asphalt Concrete,3.56,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-014,B174,Kottawa - Malabe,Class B Highway,2,1.3,1.4,6.925959,79.998502,6.925238,79.99899,17.8,Dense Graded Asphalt Concrete,3.75,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-015,B174,Kottawa - Malabe,Class B Highway,2,1.4,1.5,6.925223,79.999,6.924399,79.999324,20.5,Dense Graded Asphalt Concrete,3.52,10,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-016,B174,Kottawa - Malabe,Class B Highway,2,1.5,1.6,6.924384,79.99933,6.923582,79.999691,23.8,Dense Graded Asphalt Concrete,3.5,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-017,B174,Kottawa - Malabe,Class B Highway,2,1.6,1.7,6.923564,79.999699,6.92278,80.000114,26.3,Dense Graded Asphalt Concrete,4.19,10,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-018,B174,Kottawa - Malabe,Class B Highway,2,1.7,1.8,6.922764,80.000122,6.922077,80.000674,27.7,Dense Graded Asphalt Concrete,3.99,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-019,B174,Kottawa - Malabe,Class B Highway,2,1.8,1.9,6.922063,80.000687,6.921451,80.001318,21.5,Dense Graded Asphalt Concrete,3.9,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-020,B174,Kottawa - Malabe,Class B Highway,2,1.9,2.0,6.921439,80.001331,6.920685,80.001768,16.8,Dense Graded Asphalt Concrete,3.62,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-021,B174,Kottawa - Malabe,Class B Highway,2,2.0,2.1,6.920662,80.001768,6.919784,80.001691,16.8,Dense Graded Asphalt Concrete,4.21,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-022,B174,Kottawa - Malabe,Class B Highway,2,2.1,2.2,6.919766,80.00169,6.918894,80.0018,18.5,Dense Graded Asphalt Concrete,3.97,10,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-023,B174,Kottawa - Malabe,Class B Highway,2,2.2,2.3,6.918878,80.001796,6.918111,80.001348,20.4,Dense Graded Asphalt Concrete,3.71,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-024,B174,Kottawa - Malabe,Class B Highway,2,2.3,2.4,6.918097,80.00134,6.917293,80.000971,21.7,Dense Graded Asphalt Concrete,4.21,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-025,B174,Kottawa - Malabe,Class B Highway,2,2.4,2.5,6.917276,80.000964,6.916409,80.000853,21.4,Dense Graded Asphalt Concrete,4.1,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-026,B174,Kottawa - Malabe,Class B Highway,2,2.5,2.6,6.91639,80.000853,6.915511,80.000904,21.4,Dense Graded Asphalt Concrete,3.48,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-027,B174,Kottawa - Malabe,Class B Highway,2,2.6,2.7,6.915493,80.000908,6.914624,80.001053,16.5,Dense Graded Asphalt Concrete,4.21,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-028,B174,Kottawa - Malabe,Class B Highway,2,2.7,2.8,6.914602,80.001057,6.913751,80.00128,14.5,Dense Graded Asphalt Concrete,3.41,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-029,B174,Kottawa - Malabe,Class B Highway,2,2.8,2.9,6.913736,80.001284,6.91287,80.001461,14.8,Dense Graded Asphalt Concrete,4.0,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-030,B174,Kottawa - Malabe,Class B Highway,2,2.9,3.0,6.912851,80.001467,6.912043,80.001807,16.2,Dense Graded Asphalt Concrete,3.54,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-031,B174,Kottawa - Malabe,Class B Highway,2,3.0,3.1,6.912027,80.001815,6.91124,80.002213,16.0,Dense Graded Asphalt Concrete,4.02,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-032,B174,Kottawa - Malabe,Class B Highway,2,3.1,3.2,6.911223,80.002225,6.910544,80.002785,16.1,Dense Graded Asphalt Concrete,3.6,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-033,B174,Kottawa - Malabe,Class B Highway,2,3.2,3.3,6.910531,80.002797,6.909809,80.003326,17.5,Dense Graded Asphalt Concrete,3.61,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-034,B174,Kottawa - Malabe,Class B Highway,2,3.3,3.4,6.909797,80.003331,6.909066,80.0038,17.8,Dense Graded Asphalt Concrete,4.07,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-035,B174,Kottawa - Malabe,Class B Highway,2,3.4,3.5,6.909054,80.003813,6.908283,80.004241,18.5,Dense Graded Asphalt Concrete,4.16,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-036,B174,Kottawa - Malabe,Class B Highway,2,3.5,3.6,6.908261,80.00425,6.907447,80.004582,22.2,Dense Graded Asphalt Concrete,3.91,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-037,B174,Kottawa - Malabe,Class B Highway,2,3.6,3.7,6.907431,80.004588,6.906622,80.004938,22.2,Dense Graded Asphalt Concrete,3.73,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-038,B174,Kottawa - Malabe,Class B Highway,2,3.7,3.8,6.906606,80.004946,6.905768,80.005251,23.3,Dense Graded Asphalt Concrete,3.62,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-039,B174,Kottawa - Malabe,Class B Highway,2,3.8,3.9,6.905751,80.005256,6.904896,80.005463,26.6,Dense Graded Asphalt Concrete,3.75,12,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-040,B174,Kottawa - Malabe,Class B Highway,2,3.9,4.0,6.904877,80.005466,6.904012,80.005651,30.1,Dense Graded Asphalt Concrete,3.97,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-041,B174,Kottawa - Malabe,Class B Highway,2,4.0,4.1,6.903997,80.005655,6.90317,80.005956,28.4,Dense Graded Asphalt Concrete,3.85,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-042,B174,Kottawa - Malabe,Class B Highway,2,4.1,4.2,6.903149,80.005963,6.902287,80.00617,27.6,Dense Graded Asphalt Concrete,3.84,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-043,B174,Kottawa - Malabe,Class B Highway,2,4.2,4.3,6.902265,80.006174,6.901414,80.006392,24.1,Dense Graded Asphalt Concrete,4.05,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-044,B174,Kottawa - Malabe,Class B Highway,2,4.3,4.4,6.901402,80.006397,6.900575,80.006725,23.1,Dense Graded Asphalt Concrete,3.42,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-045,B174,Kottawa - Malabe,Class B Highway,2,4.4,4.5,6.900559,80.00673,6.899687,80.006919,23.5,Dense Graded Asphalt Concrete,3.56,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-046,B174,Kottawa - Malabe,Class B Highway,2,4.5,4.6,6.899673,80.006922,6.898817,80.007137,22.2,Dense Graded Asphalt Concrete,4.26,10,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-047,B174,Kottawa - Malabe,Class B Highway,2,4.6,4.7,6.898802,80.007141,6.897954,80.007403,21.7,Dense Graded Asphalt Concrete,3.73,10,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-048,B174,Kottawa - Malabe,Class B Highway,2,4.7,4.8,6.897939,80.007409,6.897136,80.007789,18.9,Dense Graded Asphalt Concrete,4.24,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-049,B174,Kottawa - Malabe,Class B Highway,2,4.8,4.9,6.89712,80.007796,6.896298,80.008115,17.2,Dense Graded Asphalt Concrete,4.27,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-050,B174,Kottawa - Malabe,Class B Highway,2,4.9,5.0,6.896275,80.008124,6.895427,80.008367,17.0,Dense Graded Asphalt Concrete,4.17,12,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-051,B174,Kottawa - Malabe,Class B Highway,2,5.0,5.1,6.895409,80.008369,6.894537,80.008488,16.8,Dense Graded Asphalt Concrete,3.75,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-052,B174,Kottawa - Malabe,Class B Highway,2,5.1,5.2,6.89452,80.008493,6.893665,80.008738,16.0,Dense Graded Asphalt Concrete,3.69,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-053,B174,Kottawa - Malabe,Class B Highway,2,5.2,5.3,6.893647,80.008742,6.892856,80.008519,14.9,Dense Graded Asphalt Concrete,3.9,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-054,B174,Kottawa - Malabe,Class B Highway,2,5.3,5.4,6.892846,80.008504,6.892228,80.007914,14.3,Dense Graded Asphalt Concrete,4.03,10,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-055,B174,Kottawa - Malabe,Class B Highway,2,5.4,5.5,6.892212,80.00791,6.891343,80.008019,17.8,Dense Graded Asphalt Concrete,3.49,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-056,B174,Kottawa - Malabe,Class B Highway,2,5.5,5.6,6.891325,80.008021,6.89044,80.008031,20.1,Dense Graded Asphalt Concrete,4.29,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-057,B174,Kottawa - Malabe,Class B Highway,2,5.6,5.7,6.890419,80.008028,6.889563,80.008056,16.6,Dense Graded Asphalt Concrete,3.87,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-058,B174,Kottawa - Malabe,Class B Highway,2,5.7,5.8,6.889546,80.008063,6.88875,80.008447,14.5,Dense Graded Asphalt Concrete,4.07,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-059,B174,Kottawa - Malabe,Class B Highway,2,5.8,5.9,6.888734,80.008455,6.887893,80.008737,14.7,Dense Graded Asphalt Concrete,4.03,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-060,B174,Kottawa - Malabe,Class B Highway,2,5.9,6.0,6.887876,80.008739,6.886991,80.008768,17.3,Dense Graded Asphalt Concrete,3.66,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-061,B174,Kottawa - Malabe,Class B Highway,2,6.0,6.1,6.886969,80.008765,6.886153,80.008426,18.9,Dense Graded Asphalt Concrete,4.13,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-062,B174,Kottawa - Malabe,Class B Highway,2,6.1,6.2,6.886134,80.008418,6.885332,80.008041,17.0,Dense Graded Asphalt Concrete,4.22,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-063,B174,Kottawa - Malabe,Class B Highway,2,6.2,6.3,6.885316,80.008029,6.884917,80.007288,15.6,Dense Graded Asphalt Concrete,3.85,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-064,B174,Kottawa - Malabe,Class B Highway,2,6.3,6.4,6.884918,80.007265,6.884808,80.006403,16.5,Dense Graded Asphalt Concrete,3.98,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-065,B174,Kottawa - Malabe,Class B Highway,2,6.4,6.5,6.884803,80.006385,6.884687,80.005512,18.2,Dense Graded Asphalt Concrete,4.12,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-066,B174,Kottawa - Malabe,Class B Highway,2,6.5,6.6,6.884691,80.005494,6.885006,80.004659,18.3,Dense Graded Asphalt Concrete,3.7,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-067,B174,Kottawa - Malabe,Class B Highway,2,6.6,6.7,6.885014,80.004639,6.885255,80.003801,18.4,Dense Graded Asphalt Concrete,3.48,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-068,B174,Kottawa - Malabe,Class B Highway,2,6.7,6.8,6.885257,80.003783,6.88519,80.002902,20.3,Dense Graded Asphalt Concrete,3.43,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-069,B174,Kottawa - Malabe,Class B Highway,2,6.8,6.9,6.885188,80.002888,6.885217,80.002026,21.5,Dense Graded Asphalt Concrete,3.89,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-070,B174,Kottawa - Malabe,Class B Highway,2,6.9,7.0,6.885225,80.00201,6.885346,80.001167,20.3,Dense Graded Asphalt Concrete,3.93,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-071,B174,Kottawa - Malabe,Class B Highway,2,7.0,7.1,6.885344,80.001151,6.885143,80.000291,22.6,Dense Graded Asphalt Concrete,3.43,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-072,B174,Kottawa - Malabe,Class B Highway,2,7.1,7.2,6.885139,80.000272,6.884836,79.99945,24.0,Dense Graded Asphalt Concrete,3.72,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-073,B174,Kottawa - Malabe,Class B Highway,2,7.2,7.3,6.884828,79.999435,6.884919,79.998616,24.6,Dense Graded Asphalt Concrete,3.87,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-074,B174,Kottawa - Malabe,Class B Highway,2,7.3,7.4,6.884928,79.998602,6.885486,79.997914,24.1,Dense Graded Asphalt Concrete,3.59,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-075,B174,Kottawa - Malabe,Class B Highway,2,7.4,7.5,6.885502,79.997902,6.886261,79.997446,23.2,Dense Graded Asphalt Concrete,3.48,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-076,B174,Kottawa - Malabe,Class B Highway,2,7.5,7.6,6.886276,79.997437,6.887036,79.996981,22.9,Dense Graded Asphalt Concrete,3.88,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-077,B174,Kottawa - Malabe,Class B Highway,2,7.6,7.7,6.88705,79.996973,6.887883,79.996672,22.6,Dense Graded Asphalt Concrete,3.97,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-078,B174,Kottawa - Malabe,Class B Highway,2,7.7,7.8,6.887897,79.996672,6.888765,79.99685,23.9,Dense Graded Asphalt Concrete,4.28,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-079,B174,Kottawa - Malabe,Class B Highway,2,7.8,7.9,6.888787,79.996855,6.88919,79.996521,27.0,Dense Graded Asphalt Concrete,3.69,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-080,B174,Kottawa - Malabe,Class B Highway,2,7.9,8.0,6.889181,79.996505,6.88869,79.99577,27.9,Dense Graded Asphalt Concrete,3.64,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-081,B174,Kottawa - Malabe,Class B Highway,2,8.0,8.1,6.88868,79.995755,6.888172,79.995029,29.1,Dense Graded Asphalt Concrete,3.47,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-082,B174,Kottawa - Malabe,Class B Highway,2,8.1,8.2,6.888162,79.995016,6.887628,79.994313,30.1,Dense Graded Asphalt Concrete,4.27,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-083,B174,Kottawa - Malabe,Class B Highway,2,8.2,8.3,6.887614,79.994301,6.886843,79.993896,31.0,Dense Graded Asphalt Concrete,4.03,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-084,B174,Kottawa - Malabe,Class B Highway,2,8.3,8.4,6.886826,79.993891,6.885957,79.993761,32.3,Dense Graded Asphalt Concrete,3.56,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-085,B174,Kottawa - Malabe,Class B Highway,2,8.4,8.5,6.885937,79.993758,6.885117,79.993436,33.1,Dense Graded Asphalt Concrete,3.63,3,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-086,B174,Kottawa - Malabe,Class B Highway,2,8.5,8.6,6.8851,79.993429,6.884276,79.993108,31.9,Dense Graded Asphalt Concrete,4.04,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-087,B174,Kottawa - Malabe,Class B Highway,2,8.6,8.7,6.884256,79.993102,6.883457,79.992718,31.0,Dense Graded Asphalt Concrete,3.65,6,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-088,B174,Kottawa - Malabe,Class B Highway,2,8.7,8.8,6.883442,79.992712,6.882605,79.992483,31.4,Dense Graded Asphalt Concrete,4.06,12,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-089,B174,Kottawa - Malabe,Class B Highway,2,8.8,8.9,6.882584,79.992484,6.881715,79.992525,34.8,Dense Graded Asphalt Concrete,3.95,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-090,B174,Kottawa - Malabe,Class B Highway,2,8.9,9.0,6.8817,79.992518,6.880957,79.992033,36.5,Dense Graded Asphalt Concrete,3.62,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-091,B174,Kottawa - Malabe,Class B Highway,2,9.0,9.1,6.880942,79.992023,6.880199,79.991536,38.8,Dense Graded Asphalt Concrete,4.08,4,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-092,B174,Kottawa - Malabe,Class B Highway,2,9.1,9.2,6.880183,79.991527,6.879375,79.99118,35.9,Dense Graded Asphalt Concrete,3.5,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-093,B174,Kottawa - Malabe,Class B Highway,2,9.2,9.3,6.879357,79.991174,6.878539,79.990828,34.9,Dense Graded Asphalt Concrete,3.44,2,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-094,B174,Kottawa - Malabe,Class B Highway,2,9.3,9.4,6.878521,79.990819,6.877785,79.990321,33.5,Dense Graded Asphalt Concrete,4.03,8,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B174-SEC-095,B174,Kottawa - Malabe,Class B Highway,2,9.4,9.5,6.877772,79.990308,6.877241,79.990011,30.6,Dense Graded Asphalt Concrete,3.49,5,21585,947.0,2.54,2674.9,27.93,4.51,1.783
+B214-SEC-001,B214,Kirindiwela - Radawana,Class B Highway,2,19.4,19.5,6.994384,80.01523,6.994988,80.015351,20.3,Dense Graded Asphalt Concrete,3.83,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-002,B214,Kirindiwela - Radawana,Class B Highway,2,19.5,19.6,6.995005,80.015358,6.995827,80.015679,20.2,Dense Graded Asphalt Concrete,3.79,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-003,B214,Kirindiwela - Radawana,Class B Highway,2,19.6,19.7,6.995843,80.015684,6.996686,80.015941,20.2,Dense Graded Asphalt Concrete,3.95,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-004,B214,Kirindiwela - Radawana,Class B Highway,2,19.7,19.8,6.996702,80.015946,6.997556,80.016195,20.2,Dense Graded Asphalt Concrete,3.44,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-005,B214,Kirindiwela - Radawana,Class B Highway,2,19.8,19.9,6.997572,80.016204,6.998235,80.016787,20.3,Dense Graded Asphalt Concrete,3.96,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-006,B214,Kirindiwela - Radawana,Class B Highway,2,19.9,20.0,6.99825,80.016797,6.999057,80.017153,21.3,Dense Graded Asphalt Concrete,4.17,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-007,B214,Kirindiwela - Radawana,Class B Highway,2,20.0,20.1,6.999073,80.01716,6.999828,80.017615,22.8,Dense Graded Asphalt Concrete,3.55,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-008,B214,Kirindiwela - Radawana,Class B Highway,2,20.1,20.2,6.999844,80.017626,7.000612,80.018065,22.5,Dense Graded Asphalt Concrete,3.98,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-009,B214,Kirindiwela - Radawana,Class B Highway,2,20.2,20.3,7.000629,80.018074,7.001371,80.018544,23.6,Dense Graded Asphalt Concrete,3.93,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-010,B214,Kirindiwela - Radawana,Class B Highway,2,20.3,20.4,7.001386,80.018555,7.002093,80.019095,27.1,Dense Graded Asphalt Concrete,3.92,10,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-011,B214,Kirindiwela - Radawana,Class B Highway,2,20.4,20.5,7.002107,80.019107,7.002806,80.019639,28.3,Dense Graded Asphalt Concrete,3.98,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-012,B214,Kirindiwela - Radawana,Class B Highway,2,20.5,20.6,7.002823,80.019648,7.003546,80.020153,29.1,Dense Graded Asphalt Concrete,3.89,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-013,B214,Kirindiwela - Radawana,Class B Highway,2,20.6,20.7,7.003559,80.020165,7.004196,80.020778,29.3,Dense Graded Asphalt Concrete,3.75,10,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-014,B214,Kirindiwela - Radawana,Class B Highway,2,20.7,20.8,7.004209,80.020791,7.004898,80.021331,30.6,Dense Graded Asphalt Concrete,4.21,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-015,B214,Kirindiwela - Radawana,Class B Highway,2,20.8,20.9,7.004912,80.02134,7.005643,80.021847,30.8,Dense Graded Asphalt Concrete,3.46,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-016,B214,Kirindiwela - Radawana,Class B Highway,2,20.9,21.0,7.005658,80.021857,7.006421,80.022305,31.2,Dense Graded Asphalt Concrete,3.42,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-017,B214,Kirindiwela - Radawana,Class B Highway,2,21.0,21.1,7.006437,80.022312,7.007243,80.022683,33.6,Dense Graded Asphalt Concrete,4.01,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-018,B214,Kirindiwela - Radawana,Class B Highway,2,21.1,21.2,7.00726,80.022692,7.00792,80.02328,33.3,Dense Graded Asphalt Concrete,3.69,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-019,B214,Kirindiwela - Radawana,Class B Highway,2,21.2,21.3,7.007934,80.023293,7.008658,80.023796,32.8,Dense Graded Asphalt Concrete,3.42,8,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-020,B214,Kirindiwela - Radawana,Class B Highway,2,21.3,21.4,7.008673,80.023806,7.009446,80.02423,34.0,Dense Graded Asphalt Concrete,3.65,8,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-021,B214,Kirindiwela - Radawana,Class B Highway,2,21.4,21.5,7.009462,80.024236,7.010329,80.024363,34.7,Dense Graded Asphalt Concrete,4.03,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-022,B214,Kirindiwela - Radawana,Class B Highway,2,21.5,21.6,7.010347,80.024363,7.011233,80.024361,33.5,Dense Graded Asphalt Concrete,4.19,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-023,B214,Kirindiwela - Radawana,Class B Highway,2,21.6,21.7,7.011249,80.02436,7.012127,80.024332,33.9,Dense Graded Asphalt Concrete,4.12,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-024,B214,Kirindiwela - Radawana,Class B Highway,2,21.7,21.8,7.012145,80.024335,7.012994,80.024575,34.0,Dense Graded Asphalt Concrete,3.56,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-025,B214,Kirindiwela - Radawana,Class B Highway,2,21.8,21.9,7.013013,80.024576,7.0139,80.024579,34.7,Dense Graded Asphalt Concrete,4.13,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-026,B214,Kirindiwela - Radawana,Class B Highway,2,21.9,22.0,7.013918,80.024581,7.014738,80.024908,33.3,Dense Graded Asphalt Concrete,3.77,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-027,B214,Kirindiwela - Radawana,Class B Highway,2,22.0,22.1,7.014752,80.024917,7.015548,80.025282,28.5,Dense Graded Asphalt Concrete,4.1,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-028,B214,Kirindiwela - Radawana,Class B Highway,2,22.1,22.2,7.015565,80.025286,7.016426,80.0255,29.1,Dense Graded Asphalt Concrete,4.24,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-029,B214,Kirindiwela - Radawana,Class B Highway,2,22.2,22.3,7.016443,80.025505,7.017298,80.02573,32.5,Dense Graded Asphalt Concrete,3.79,8,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-030,B214,Kirindiwela - Radawana,Class B Highway,2,22.3,22.4,7.017315,80.025734,7.018183,80.025872,33.7,Dense Graded Asphalt Concrete,4.08,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-031,B214,Kirindiwela - Radawana,Class B Highway,2,22.4,22.5,7.0182,80.025872,7.019088,80.025833,30.1,Dense Graded Asphalt Concrete,4.21,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-032,B214,Kirindiwela - Radawana,Class B Highway,2,22.5,22.6,7.019106,80.025834,7.01992,80.026166,28.9,Dense Graded Asphalt Concrete,4.14,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-033,B214,Kirindiwela - Radawana,Class B Highway,2,22.6,22.7,7.019936,80.026171,7.020798,80.026362,30.3,Dense Graded Asphalt Concrete,4.21,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-034,B214,Kirindiwela - Radawana,Class B Highway,2,22.7,22.8,7.020816,80.026367,7.021674,80.026562,34.0,Dense Graded Asphalt Concrete,3.41,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-035,B214,Kirindiwela - Radawana,Class B Highway,2,22.8,22.9,7.021691,80.026566,7.022561,80.026735,37.3,Dense Graded Asphalt Concrete,3.48,10,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-036,B214,Kirindiwela - Radawana,Class B Highway,2,22.9,23.0,7.022578,80.026737,7.023447,80.026694,36.3,Dense Graded Asphalt Concrete,4.26,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-037,B214,Kirindiwela - Radawana,Class B Highway,2,23.0,23.1,7.023464,80.026689,7.02433,80.026526,38.9,Dense Graded Asphalt Concrete,3.92,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-038,B214,Kirindiwela - Radawana,Class B Highway,2,23.1,23.2,7.02435,80.026526,7.025233,80.026536,38.1,Dense Graded Asphalt Concrete,3.8,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-039,B214,Kirindiwela - Radawana,Class B Highway,2,23.2,23.3,7.025251,80.026537,7.026132,80.026613,36.5,Dense Graded Asphalt Concrete,3.7,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-040,B214,Kirindiwela - Radawana,Class B Highway,2,23.3,23.4,7.02615,80.026616,7.027012,80.026822,37.6,Dense Graded Asphalt Concrete,4.08,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-041,B214,Kirindiwela - Radawana,Class B Highway,2,23.4,23.5,7.02703,80.026829,7.027749,80.027339,38.9,Dense Graded Asphalt Concrete,4.11,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-042,B214,Kirindiwela - Radawana,Class B Highway,2,23.5,23.6,7.027759,80.027354,7.028267,80.028077,35.4,Dense Graded Asphalt Concrete,3.84,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-043,B214,Kirindiwela - Radawana,Class B Highway,2,23.6,23.7,7.028279,80.02809,7.02903,80.028535,31.2,Dense Graded Asphalt Concrete,3.89,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-044,B214,Kirindiwela - Radawana,Class B Highway,2,23.7,23.8,7.029048,80.028542,7.02989,80.028814,30.1,Dense Graded Asphalt Concrete,4.2,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-045,B214,Kirindiwela - Radawana,Class B Highway,2,23.8,23.9,7.029908,80.028818,7.030768,80.028819,30.9,Dense Graded Asphalt Concrete,3.51,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-046,B214,Kirindiwela - Radawana,Class B Highway,2,23.9,24.0,7.030785,80.028814,7.031614,80.028519,33.2,Dense Graded Asphalt Concrete,4.09,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-047,B214,Kirindiwela - Radawana,Class B Highway,2,24.0,24.1,7.03163,80.028513,7.032419,80.028122,37.4,Dense Graded Asphalt Concrete,3.49,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-048,B214,Kirindiwela - Radawana,Class B Highway,2,24.1,24.2,7.032435,80.028112,7.033114,80.027555,38.2,Dense Graded Asphalt Concrete,4.03,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-049,B214,Kirindiwela - Radawana,Class B Highway,2,24.2,24.3,7.033128,80.027543,7.033811,80.026977,36.2,Dense Graded Asphalt Concrete,4.14,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-050,B214,Kirindiwela - Radawana,Class B Highway,2,24.3,24.4,7.033825,80.026966,7.034524,80.026419,32.7,Dense Graded Asphalt Concrete,3.47,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-051,B214,Kirindiwela - Radawana,Class B Highway,2,24.4,24.5,7.034538,80.026409,7.035339,80.026016,31.3,Dense Graded Asphalt Concrete,4.29,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-052,B214,Kirindiwela - Radawana,Class B Highway,2,24.5,24.6,7.035356,80.026009,7.036127,80.025591,33.3,Dense Graded Asphalt Concrete,3.73,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-053,B214,Kirindiwela - Radawana,Class B Highway,2,24.6,24.7,7.036141,80.02558,7.036767,80.024965,36.9,Dense Graded Asphalt Concrete,4.25,8,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-054,B214,Kirindiwela - Radawana,Class B Highway,2,24.7,24.8,7.036778,80.024951,7.037254,80.024206,37.6,Dense Graded Asphalt Concrete,4.08,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-055,B214,Kirindiwela - Radawana,Class B Highway,2,24.8,24.9,7.037262,80.024191,7.037769,80.023467,36.2,Dense Graded Asphalt Concrete,3.48,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-056,B214,Kirindiwela - Radawana,Class B Highway,2,24.9,25.0,7.037785,80.023454,7.038494,80.022928,34.1,Dense Graded Asphalt Concrete,3.9,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-057,B214,Kirindiwela - Radawana,Class B Highway,2,25.0,25.1,7.038509,80.022918,7.039235,80.022404,32.5,Dense Graded Asphalt Concrete,4.22,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-058,B214,Kirindiwela - Radawana,Class B Highway,2,25.1,25.2,7.039247,80.022392,7.039646,80.021613,31.3,Dense Graded Asphalt Concrete,3.84,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-059,B214,Kirindiwela - Radawana,Class B Highway,2,25.2,25.3,7.039654,80.021597,7.040115,80.02083,29.2,Dense Graded Asphalt Concrete,3.82,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-060,B214,Kirindiwela - Radawana,Class B Highway,2,25.3,25.4,7.040124,80.020816,7.040675,80.020118,28.5,Dense Graded Asphalt Concrete,3.51,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-061,B214,Kirindiwela - Radawana,Class B Highway,2,25.4,25.5,7.040688,80.020104,7.04132,80.019488,28.0,Dense Graded Asphalt Concrete,3.98,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-062,B214,Kirindiwela - Radawana,Class B Highway,2,25.5,25.6,7.041332,80.019477,7.042042,80.018936,28.8,Dense Graded Asphalt Concrete,3.93,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-063,B214,Kirindiwela - Radawana,Class B Highway,2,25.6,25.7,7.042056,80.018926,7.042799,80.018445,29.3,Dense Graded Asphalt Concrete,3.74,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-064,B214,Kirindiwela - Radawana,Class B Highway,2,25.7,25.8,7.042815,80.018435,7.043575,80.017985,30.7,Dense Graded Asphalt Concrete,4.18,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-065,B214,Kirindiwela - Radawana,Class B Highway,2,25.8,25.9,7.043589,80.017977,7.044381,80.017578,30.9,Dense Graded Asphalt Concrete,4.27,3,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-066,B214,Kirindiwela - Radawana,Class B Highway,2,25.9,26.0,7.044397,80.017569,7.045183,80.017173,31.0,Dense Graded Asphalt Concrete,4.27,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-067,B214,Kirindiwela - Radawana,Class B Highway,2,26.0,26.1,7.045199,80.017165,7.045961,80.016714,27.7,Dense Graded Asphalt Concrete,4.2,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-068,B214,Kirindiwela - Radawana,Class B Highway,2,26.1,26.2,7.045975,80.016706,7.046763,80.016296,24.7,Dense Graded Asphalt Concrete,4.29,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-069,B214,Kirindiwela - Radawana,Class B Highway,2,26.2,26.3,7.046781,80.016288,7.047613,80.015971,23.5,Dense Graded Asphalt Concrete,3.9,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-070,B214,Kirindiwela - Radawana,Class B Highway,2,26.3,26.4,7.047627,80.015966,7.048509,80.01587,21.8,Dense Graded Asphalt Concrete,3.87,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-071,B214,Kirindiwela - Radawana,Class B Highway,2,26.4,26.5,7.048525,80.01587,7.049415,80.015879,21.0,Dense Graded Asphalt Concrete,4.03,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-072,B214,Kirindiwela - Radawana,Class B Highway,2,26.5,26.6,7.049433,80.015879,7.050319,80.015895,20.7,Dense Graded Asphalt Concrete,3.96,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-073,B214,Kirindiwela - Radawana,Class B Highway,2,26.6,26.7,7.050336,80.015902,7.05101,80.016464,22.9,Dense Graded Asphalt Concrete,4.21,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-074,B214,Kirindiwela - Radawana,Class B Highway,2,26.7,26.8,7.051025,80.016475,7.05183,80.016785,25.1,Dense Graded Asphalt Concrete,3.65,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-075,B214,Kirindiwela - Radawana,Class B Highway,2,26.8,26.9,7.051846,80.016785,7.052721,80.01669,26.0,Dense Graded Asphalt Concrete,4.2,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-076,B214,Kirindiwela - Radawana,Class B Highway,2,26.9,27.0,7.052739,80.016687,7.05361,80.016543,29.5,Dense Graded Asphalt Concrete,3.96,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-077,B214,Kirindiwela - Radawana,Class B Highway,2,27.0,27.1,7.053628,80.01654,7.054484,80.016335,27.4,Dense Graded Asphalt Concrete,3.57,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-078,B214,Kirindiwela - Radawana,Class B Highway,2,27.1,27.2,7.054502,80.01633,7.055361,80.016105,23.6,Dense Graded Asphalt Concrete,3.72,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-079,B214,Kirindiwela - Radawana,Class B Highway,2,27.2,27.3,7.05538,80.0161,7.056234,80.015863,21.7,Dense Graded Asphalt Concrete,3.47,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-080,B214,Kirindiwela - Radawana,Class B Highway,2,27.3,27.4,7.056253,80.015858,7.057112,80.015632,21.6,Dense Graded Asphalt Concrete,4.29,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-081,B214,Kirindiwela - Radawana,Class B Highway,2,27.4,27.5,7.05713,80.015628,7.057979,80.015378,20.7,Dense Graded Asphalt Concrete,3.88,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-082,B214,Kirindiwela - Radawana,Class B Highway,2,27.5,27.6,7.057994,80.015373,7.058834,80.015092,20.5,Dense Graded Asphalt Concrete,4.13,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-083,B214,Kirindiwela - Radawana,Class B Highway,2,27.6,27.7,7.058853,80.015086,7.059686,80.01479,22.5,Dense Graded Asphalt Concrete,3.55,6,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-084,B214,Kirindiwela - Radawana,Class B Highway,2,27.7,27.8,7.059704,80.014784,7.060555,80.014528,22.3,Dense Graded Asphalt Concrete,4.14,10,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-085,B214,Kirindiwela - Radawana,Class B Highway,2,27.8,27.9,7.060572,80.014523,7.061439,80.014343,21.3,Dense Graded Asphalt Concrete,4.05,10,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-086,B214,Kirindiwela - Radawana,Class B Highway,2,27.9,28.0,7.061457,80.01434,7.062327,80.014178,19.9,Dense Graded Asphalt Concrete,3.78,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-087,B214,Kirindiwela - Radawana,Class B Highway,2,28.0,28.1,7.062345,80.014173,7.063192,80.01392,19.4,Dense Graded Asphalt Concrete,4.18,10,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-088,B214,Kirindiwela - Radawana,Class B Highway,2,28.1,28.2,7.063208,80.013914,7.064055,80.013659,20.5,Dense Graded Asphalt Concrete,3.42,2,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-089,B214,Kirindiwela - Radawana,Class B Highway,2,28.2,28.3,7.064071,80.013656,7.064945,80.013493,19.3,Dense Graded Asphalt Concrete,4.13,4,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-090,B214,Kirindiwela - Radawana,Class B Highway,2,28.3,28.4,7.064964,80.013489,7.065838,80.013325,18.4,Dense Graded Asphalt Concrete,3.54,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-091,B214,Kirindiwela - Radawana,Class B Highway,2,28.4,28.5,7.065852,80.01332,7.06638,80.012672,17.4,Dense Graded Asphalt Concrete,3.74,5,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B214-SEC-092,B214,Kirindiwela - Radawana,Class B Highway,2,28.5,28.6,7.066387,80.012656,7.066517,80.012372,18.1,Dense Graded Asphalt Concrete,4.16,12,19160,2390.2,8.04,2674.9,27.93,4.51,1.783
+B240-SEC-001,B240,Meegoda - Athurugiriya,Class B Highway,2,0.0,0.1,6.903445,79.910713,6.903223,79.911539,-94.3,Dense Graded Asphalt Concrete,3.82,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-002,B240,Meegoda - Athurugiriya,Class B Highway,2,0.1,0.2,6.90321,79.911562,6.902881,79.912349,-94.0,Dense Graded Asphalt Concrete,3.65,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-003,B240,Meegoda - Athurugiriya,Class B Highway,2,0.2,0.3,6.902875,79.912376,6.902716,79.91321,-93.8,Dense Graded Asphalt Concrete,4.18,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-004,B240,Meegoda - Athurugiriya,Class B Highway,2,0.3,0.4,6.90271,79.913238,6.902535,79.914122,-94.1,Dense Graded Asphalt Concrete,4.3,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-005,B240,Meegoda - Athurugiriya,Class B Highway,2,0.4,0.5,6.90253,79.914151,6.902364,79.915006,-93.5,Dense Graded Asphalt Concrete,3.9,12,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-006,B240,Meegoda - Athurugiriya,Class B Highway,2,0.5,0.6,6.902359,79.915033,6.9022,79.915921,-93.4,Dense Graded Asphalt Concrete,4.25,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-007,B240,Meegoda - Athurugiriya,Class B Highway,2,0.6,0.7,6.902196,79.915954,6.90215,79.916817,-94.2,Dense Graded Asphalt Concrete,3.62,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-008,B240,Meegoda - Athurugiriya,Class B Highway,2,0.7,0.8,6.90215,79.916845,6.902156,79.917747,-93.5,Dense Graded Asphalt Concrete,3.52,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-009,B240,Meegoda - Athurugiriya,Class B Highway,2,0.8,0.9,6.902157,79.917775,6.902152,79.918612,-93.1,Dense Graded Asphalt Concrete,3.95,12,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-010,B240,Meegoda - Athurugiriya,Class B Highway,2,0.9,1.0,6.902152,79.91864,6.902217,79.91948,-93.6,Dense Graded Asphalt Concrete,4.0,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-011,B240,Meegoda - Athurugiriya,Class B Highway,2,1.0,1.1,6.902226,79.919503,6.902728,79.920286,-93.4,Dense Graded Asphalt Concrete,3.72,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-012,B240,Meegoda - Athurugiriya,Class B Highway,2,1.1,1.2,6.902742,79.920307,6.903256,79.921021,-93.7,Dense Graded Asphalt Concrete,4.0,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-013,B240,Meegoda - Athurugiriya,Class B Highway,2,1.2,1.3,6.903274,79.921049,6.903573,79.921827,-93.1,Dense Graded Asphalt Concrete,4.1,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-014,B240,Meegoda - Athurugiriya,Class B Highway,2,1.3,1.4,6.903579,79.921855,6.903763,79.922687,-93.2,Dense Graded Asphalt Concrete,4.17,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-015,B240,Meegoda - Athurugiriya,Class B Highway,2,1.4,1.5,6.903769,79.922715,6.904011,79.923573,-90.0,Dense Graded Asphalt Concrete,3.9,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-016,B240,Meegoda - Athurugiriya,Class B Highway,2,1.5,1.6,6.904023,79.923597,6.904515,79.924268,-86.5,Dense Graded Asphalt Concrete,3.76,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-017,B240,Meegoda - Athurugiriya,Class B Highway,2,1.6,1.7,6.904532,79.924289,6.905103,79.924979,-89.3,Dense Graded Asphalt Concrete,3.43,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-018,B240,Meegoda - Athurugiriya,Class B Highway,2,1.7,1.8,6.905121,79.925,6.905809,79.925562,-92.1,Dense Graded Asphalt Concrete,3.96,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-019,B240,Meegoda - Athurugiriya,Class B Highway,2,1.8,1.9,6.905832,79.925583,6.905954,79.926424,-93.1,Dense Graded Asphalt Concrete,3.59,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-020,B240,Meegoda - Athurugiriya,Class B Highway,2,1.9,2.0,6.905945,79.92645,6.905688,79.927265,-93.9,Dense Graded Asphalt Concrete,3.41,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-021,B240,Meegoda - Athurugiriya,Class B Highway,2,2.0,2.1,6.905679,79.927292,6.90556,79.928129,-93.9,Dense Graded Asphalt Concrete,3.93,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-022,B240,Meegoda - Athurugiriya,Class B Highway,2,2.1,2.2,6.905569,79.928155,6.906234,79.928719,-94.0,Dense Graded Asphalt Concrete,3.79,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-023,B240,Meegoda - Athurugiriya,Class B Highway,2,2.2,2.3,6.906258,79.92873,6.907097,79.928898,-93.4,Dense Graded Asphalt Concrete,3.71,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-024,B240,Meegoda - Athurugiriya,Class B Highway,2,2.3,2.4,6.907122,79.928901,6.907931,79.929258,-93.1,Dense Graded Asphalt Concrete,4.11,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-025,B240,Meegoda - Athurugiriya,Class B Highway,2,2.4,2.5,6.907943,79.929279,6.907869,79.930091,-93.4,Dense Graded Asphalt Concrete,3.96,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-026,B240,Meegoda - Athurugiriya,Class B Highway,2,2.5,2.6,6.907861,79.930116,6.907591,79.930984,-93.2,Dense Graded Asphalt Concrete,4.25,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-027,B240,Meegoda - Athurugiriya,Class B Highway,2,2.6,2.7,6.907581,79.931015,6.907418,79.931871,-92.3,Dense Graded Asphalt Concrete,4.23,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-028,B240,Meegoda - Athurugiriya,Class B Highway,2,2.7,2.8,6.907416,79.931898,6.907376,79.932729,-93.5,Dense Graded Asphalt Concrete,3.63,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-029,B240,Meegoda - Athurugiriya,Class B Highway,2,2.8,2.9,6.907375,79.932756,6.907353,79.933649,-93.6,Dense Graded Asphalt Concrete,4.28,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-030,B240,Meegoda - Athurugiriya,Class B Highway,2,2.9,3.0,6.907354,79.933675,6.907468,79.934528,-93.3,Dense Graded Asphalt Concrete,3.7,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-031,B240,Meegoda - Athurugiriya,Class B Highway,2,3.0,3.1,6.907476,79.934555,6.907784,79.935424,-93.5,Dense Graded Asphalt Concrete,3.62,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-032,B240,Meegoda - Athurugiriya,Class B Highway,2,3.1,3.2,6.907795,79.935448,6.908164,79.936208,-93.5,Dense Graded Asphalt Concrete,3.52,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-033,B240,Meegoda - Athurugiriya,Class B Highway,2,3.2,3.3,6.908177,79.936235,6.908453,79.93705,-92.9,Dense Graded Asphalt Concrete,3.54,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-034,B240,Meegoda - Athurugiriya,Class B Highway,2,3.3,3.4,6.908455,79.937078,6.908448,79.937944,-93.2,Dense Graded Asphalt Concrete,3.98,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-035,B240,Meegoda - Athurugiriya,Class B Highway,2,3.4,3.5,6.908446,79.937974,6.908389,79.938854,-93.2,Dense Graded Asphalt Concrete,3.71,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-036,B240,Meegoda - Athurugiriya,Class B Highway,2,3.5,3.6,6.908387,79.938881,6.908366,79.939777,-92.7,Dense Graded Asphalt Concrete,3.83,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-037,B240,Meegoda - Athurugiriya,Class B Highway,2,3.6,3.7,6.908365,79.939805,6.908378,79.940701,-92.0,Dense Graded Asphalt Concrete,3.56,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-038,B240,Meegoda - Athurugiriya,Class B Highway,2,3.7,3.8,6.90838,79.940731,6.90847,79.941599,-91.8,Dense Graded Asphalt Concrete,3.44,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-039,B240,Meegoda - Athurugiriya,Class B Highway,2,3.8,3.9,6.908473,79.941627,6.908642,79.942429,-91.0,Dense Graded Asphalt Concrete,3.65,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-040,B240,Meegoda - Athurugiriya,Class B Highway,2,3.9,4.0,6.908651,79.942453,6.908865,79.943296,-90.0,Dense Graded Asphalt Concrete,3.48,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-041,B240,Meegoda - Athurugiriya,Class B Highway,2,4.0,4.1,6.908861,79.943324,6.908625,79.944158,-88.9,Dense Graded Asphalt Concrete,3.81,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-042,B240,Meegoda - Athurugiriya,Class B Highway,2,4.1,4.2,6.908616,79.944185,6.908129,79.944932,-87.8,Dense Graded Asphalt Concrete,3.73,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-043,B240,Meegoda - Athurugiriya,Class B Highway,2,4.2,4.3,6.908109,79.944951,6.907408,79.945464,-86.7,Dense Graded Asphalt Concrete,4.02,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-044,B240,Meegoda - Athurugiriya,Class B Highway,2,4.3,4.4,6.907386,79.945478,6.906788,79.946091,-86.1,Dense Graded Asphalt Concrete,4.12,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-045,B240,Meegoda - Athurugiriya,Class B Highway,2,4.4,4.5,6.906777,79.946117,6.906438,79.946959,-85.3,Dense Graded Asphalt Concrete,3.47,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-046,B240,Meegoda - Athurugiriya,Class B Highway,2,4.5,4.6,6.906427,79.946985,6.906114,79.947781,-85.6,Dense Graded Asphalt Concrete,4.23,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-047,B240,Meegoda - Athurugiriya,Class B Highway,2,4.6,4.7,6.906104,79.947806,6.905783,79.948633,-85.7,Dense Graded Asphalt Concrete,3.65,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-048,B240,Meegoda - Athurugiriya,Class B Highway,2,4.7,4.8,6.905772,79.948659,6.905334,79.949402,-84.1,Dense Graded Asphalt Concrete,4.07,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-049,B240,Meegoda - Athurugiriya,Class B Highway,2,4.8,4.9,6.905319,79.949425,6.904856,79.950166,-84.0,Dense Graded Asphalt Concrete,3.59,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-050,B240,Meegoda - Athurugiriya,Class B Highway,2,4.9,5.0,6.904842,79.950189,6.904493,79.950973,-85.1,Dense Graded Asphalt Concrete,3.84,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-051,B240,Meegoda - Athurugiriya,Class B Highway,2,5.0,5.1,6.904491,79.950999,6.904652,79.951897,-85.5,Dense Graded Asphalt Concrete,3.73,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-052,B240,Meegoda - Athurugiriya,Class B Highway,2,5.1,5.2,6.904656,79.951925,6.904721,79.952743,-83.1,Dense Graded Asphalt Concrete,4.07,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-053,B240,Meegoda - Athurugiriya,Class B Highway,2,5.2,5.3,6.904717,79.95277,6.904432,79.953626,-84.6,Dense Graded Asphalt Concrete,3.63,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-054,B240,Meegoda - Athurugiriya,Class B Highway,2,5.3,5.4,6.90442,79.953654,6.904109,79.954456,-86.6,Dense Graded Asphalt Concrete,4.21,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-055,B240,Meegoda - Athurugiriya,Class B Highway,2,5.4,5.5,6.904104,79.954483,6.903722,79.955199,-86.6,Dense Graded Asphalt Concrete,3.88,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-056,B240,Meegoda - Athurugiriya,Class B Highway,2,5.5,5.6,6.903696,79.955212,6.902956,79.955711,-85.2,Dense Graded Asphalt Concrete,3.8,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-057,B240,Meegoda - Athurugiriya,Class B Highway,2,5.6,5.7,6.902934,79.955725,6.9022,79.956175,-86.4,Dense Graded Asphalt Concrete,3.62,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-058,B240,Meegoda - Athurugiriya,Class B Highway,2,5.7,5.8,6.902177,79.95619,6.901452,79.956643,-87.9,Dense Graded Asphalt Concrete,3.74,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-059,B240,Meegoda - Athurugiriya,Class B Highway,2,5.8,5.9,6.901428,79.956658,6.900692,79.957152,-89.1,Dense Graded Asphalt Concrete,3.69,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-060,B240,Meegoda - Athurugiriya,Class B Highway,2,5.9,6.0,6.900663,79.957172,6.899941,79.957609,-89.1,Dense Graded Asphalt Concrete,3.69,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-061,B240,Meegoda - Athurugiriya,Class B Highway,2,6.0,6.1,6.899918,79.957623,6.899154,79.95802,-87.9,Dense Graded Asphalt Concrete,4.2,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-062,B240,Meegoda - Athurugiriya,Class B Highway,2,6.1,6.2,6.899128,79.958032,6.898323,79.958384,-86.2,Dense Graded Asphalt Concrete,4.01,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-063,B240,Meegoda - Athurugiriya,Class B Highway,2,6.2,6.3,6.898298,79.958395,6.897534,79.95879,-83.4,Dense Graded Asphalt Concrete,3.85,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-064,B240,Meegoda - Athurugiriya,Class B Highway,2,6.3,6.4,6.89751,79.958804,6.896739,79.959336,-79.6,Dense Graded Asphalt Concrete,3.88,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-065,B240,Meegoda - Athurugiriya,Class B Highway,2,6.4,6.5,6.896718,79.959354,6.896049,79.959883,-76.8,Dense Graded Asphalt Concrete,4.07,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-066,B240,Meegoda - Athurugiriya,Class B Highway,2,6.5,6.6,6.896028,79.959901,6.895375,79.960459,-76.8,Dense Graded Asphalt Concrete,3.51,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-067,B240,Meegoda - Athurugiriya,Class B Highway,2,6.6,6.7,6.895354,79.960477,6.894705,79.961099,-77.2,Dense Graded Asphalt Concrete,3.73,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-068,B240,Meegoda - Athurugiriya,Class B Highway,2,6.7,6.8,6.894689,79.961117,6.894129,79.961727,-80.3,Dense Graded Asphalt Concrete,3.91,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-069,B240,Meegoda - Athurugiriya,Class B Highway,2,6.8,6.9,6.89411,79.961748,6.89347,79.962376,-84.5,Dense Graded Asphalt Concrete,4.29,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-070,B240,Meegoda - Athurugiriya,Class B Highway,2,6.9,7.0,6.893449,79.962395,6.892774,79.962999,-87.2,Dense Graded Asphalt Concrete,3.61,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-071,B240,Meegoda - Athurugiriya,Class B Highway,2,7.0,7.1,6.892755,79.963015,6.89208,79.963574,-87.7,Dense Graded Asphalt Concrete,3.54,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-072,B240,Meegoda - Athurugiriya,Class B Highway,2,7.1,7.2,6.892059,79.963592,6.891394,79.964152,-86.8,Dense Graded Asphalt Concrete,3.54,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-073,B240,Meegoda - Athurugiriya,Class B Highway,2,7.2,7.3,6.891374,79.964169,6.890708,79.96475,-85.9,Dense Graded Asphalt Concrete,3.66,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-074,B240,Meegoda - Athurugiriya,Class B Highway,2,7.3,7.4,6.890689,79.964765,6.89005,79.965311,-85.1,Dense Graded Asphalt Concrete,4.21,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-075,B240,Meegoda - Athurugiriya,Class B Highway,2,7.4,7.5,6.890029,79.965329,6.889372,79.965879,-83.5,Dense Graded Asphalt Concrete,3.87,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-076,B240,Meegoda - Athurugiriya,Class B Highway,2,7.5,7.6,6.88935,79.965896,6.888635,79.966424,-80.9,Dense Graded Asphalt Concrete,4.28,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-077,B240,Meegoda - Athurugiriya,Class B Highway,2,7.6,7.7,6.888612,79.96644,6.887903,79.966939,-78.0,Dense Graded Asphalt Concrete,3.76,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-078,B240,Meegoda - Athurugiriya,Class B Highway,2,7.7,7.8,6.887881,79.966956,6.88721,79.967516,-77.8,Dense Graded Asphalt Concrete,4.18,12,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-079,B240,Meegoda - Athurugiriya,Class B Highway,2,7.8,7.9,6.887189,79.967535,6.886585,79.968151,-80.4,Dense Graded Asphalt Concrete,3.63,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-080,B240,Meegoda - Athurugiriya,Class B Highway,2,7.9,8.0,6.886565,79.968171,6.885842,79.968712,-83.2,Dense Graded Asphalt Concrete,4.0,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-081,B240,Meegoda - Athurugiriya,Class B Highway,2,8.0,8.1,6.885817,79.968726,6.885058,79.969112,-84.6,Dense Graded Asphalt Concrete,3.9,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-082,B240,Meegoda - Athurugiriya,Class B Highway,2,8.1,8.2,6.885033,79.969125,6.884259,79.969563,-85.0,Dense Graded Asphalt Concrete,3.65,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-083,B240,Meegoda - Athurugiriya,Class B Highway,2,8.2,8.3,6.884239,79.969581,6.88378,79.970293,-86.1,Dense Graded Asphalt Concrete,3.57,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-084,B240,Meegoda - Athurugiriya,Class B Highway,2,8.3,8.4,6.88377,79.970319,6.883661,79.971251,-87.5,Dense Graded Asphalt Concrete,3.78,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-085,B240,Meegoda - Athurugiriya,Class B Highway,2,8.4,8.5,6.883664,79.971275,6.883778,79.972137,-88.5,Dense Graded Asphalt Concrete,3.62,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-086,B240,Meegoda - Athurugiriya,Class B Highway,2,8.5,8.6,6.883782,79.97217,6.883893,79.973005,-89.0,Dense Graded Asphalt Concrete,3.95,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-087,B240,Meegoda - Athurugiriya,Class B Highway,2,8.6,8.7,6.883896,79.973033,6.884029,79.973929,-89.4,Dense Graded Asphalt Concrete,3.92,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-088,B240,Meegoda - Athurugiriya,Class B Highway,2,8.7,8.8,6.884033,79.973957,6.884125,79.974773,-89.9,Dense Graded Asphalt Concrete,3.83,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-089,B240,Meegoda - Athurugiriya,Class B Highway,2,8.8,8.9,6.884128,79.974799,6.88417,79.975674,-89.7,Dense Graded Asphalt Concrete,3.45,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-090,B240,Meegoda - Athurugiriya,Class B Highway,2,8.9,9.0,6.884169,79.975702,6.884045,79.976582,-84.0,Dense Graded Asphalt Concrete,3.52,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-091,B240,Meegoda - Athurugiriya,Class B Highway,2,9.0,9.1,6.884038,79.976612,6.883838,79.977475,-81.6,Dense Graded Asphalt Concrete,4.29,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-092,B240,Meegoda - Athurugiriya,Class B Highway,2,9.1,9.2,6.883832,79.977501,6.883628,79.978322,-87.5,Dense Graded Asphalt Concrete,4.13,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-093,B240,Meegoda - Athurugiriya,Class B Highway,2,9.2,9.3,6.883618,79.978351,6.883172,79.979171,-90.5,Dense Graded Asphalt Concrete,4.01,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-094,B240,Meegoda - Athurugiriya,Class B Highway,2,9.3,9.4,6.883156,79.97919,6.88259,79.979851,-89.6,Dense Graded Asphalt Concrete,3.94,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-095,B240,Meegoda - Athurugiriya,Class B Highway,2,9.4,9.5,6.882575,79.979872,6.882182,79.980606,-89.1,Dense Graded Asphalt Concrete,3.77,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-096,B240,Meegoda - Athurugiriya,Class B Highway,2,9.5,9.6,6.882173,79.980631,6.881937,79.981503,-88.9,Dense Graded Asphalt Concrete,4.24,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-097,B240,Meegoda - Athurugiriya,Class B Highway,2,9.6,9.7,6.88193,79.981529,6.881713,79.982356,-89.0,Dense Graded Asphalt Concrete,4.27,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-098,B240,Meegoda - Athurugiriya,Class B Highway,2,9.7,9.8,6.881707,79.982384,6.881425,79.98328,-88.2,Dense Graded Asphalt Concrete,4.06,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-099,B240,Meegoda - Athurugiriya,Class B Highway,2,9.8,9.9,6.881412,79.983305,6.880896,79.983964,-87.8,Dense Graded Asphalt Concrete,3.56,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-100,B240,Meegoda - Athurugiriya,Class B Highway,2,9.9,10.0,6.880875,79.983983,6.880162,79.984508,-87.9,Dense Graded Asphalt Concrete,4.07,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-101,B240,Meegoda - Athurugiriya,Class B Highway,2,10.0,10.1,6.880139,79.984522,6.879455,79.985094,-87.4,Dense Graded Asphalt Concrete,4.16,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-102,B240,Meegoda - Athurugiriya,Class B Highway,2,10.1,10.2,6.879442,79.985111,6.87911,79.985872,-86.5,Dense Graded Asphalt Concrete,4.12,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-103,B240,Meegoda - Athurugiriya,Class B Highway,2,10.2,10.3,6.879105,79.985899,6.87899,79.986833,-85.9,Dense Graded Asphalt Concrete,3.55,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-104,B240,Meegoda - Athurugiriya,Class B Highway,2,10.3,10.4,6.878986,79.986857,6.878749,79.987665,-84.7,Dense Graded Asphalt Concrete,4.13,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-105,B240,Meegoda - Athurugiriya,Class B Highway,2,10.4,10.5,6.878739,79.98769,6.87829,79.988493,-83.0,Dense Graded Asphalt Concrete,3.87,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-106,B240,Meegoda - Athurugiriya,Class B Highway,2,10.5,10.6,6.878277,79.988512,6.877759,79.989206,-79.8,Dense Graded Asphalt Concrete,4.19,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-107,B240,Meegoda - Athurugiriya,Class B Highway,2,10.6,10.7,6.877744,79.989225,6.877232,79.989921,-74.3,Dense Graded Asphalt Concrete,4.13,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-108,B240,Meegoda - Athurugiriya,Class B Highway,2,10.7,10.8,6.877216,79.989941,6.876695,79.99064,-71.3,Dense Graded Asphalt Concrete,3.74,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-109,B240,Meegoda - Athurugiriya,Class B Highway,2,10.8,10.9,6.876682,79.990659,6.876181,79.991348,-71.2,Dense Graded Asphalt Concrete,3.67,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-110,B240,Meegoda - Athurugiriya,Class B Highway,2,10.9,11.0,6.876164,79.991371,6.875671,79.992043,-73.3,Dense Graded Asphalt Concrete,3.85,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-111,B240,Meegoda - Athurugiriya,Class B Highway,2,11.0,11.1,6.875656,79.992065,6.875125,79.992784,-76.2,Dense Graded Asphalt Concrete,4.21,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-112,B240,Meegoda - Athurugiriya,Class B Highway,2,11.1,11.2,6.875107,79.992809,6.874579,79.993526,-79.1,Dense Graded Asphalt Concrete,3.89,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-113,B240,Meegoda - Athurugiriya,Class B Highway,2,11.2,11.3,6.874564,79.993546,6.874055,79.994229,-81.1,Dense Graded Asphalt Concrete,3.96,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-114,B240,Meegoda - Athurugiriya,Class B Highway,2,11.3,11.4,6.874039,79.994253,6.873473,79.994967,-81.4,Dense Graded Asphalt Concrete,4.25,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-115,B240,Meegoda - Athurugiriya,Class B Highway,2,11.4,11.5,6.873455,79.994986,6.872945,79.995638,-79.4,Dense Graded Asphalt Concrete,3.7,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-116,B240,Meegoda - Athurugiriya,Class B Highway,2,11.5,11.6,6.872929,79.99566,6.872436,79.996411,-74.8,Dense Graded Asphalt Concrete,4.11,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-117,B240,Meegoda - Athurugiriya,Class B Highway,2,11.6,11.7,6.872421,79.996435,6.871903,79.997123,-72.9,Dense Graded Asphalt Concrete,3.88,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-118,B240,Meegoda - Athurugiriya,Class B Highway,2,11.7,11.8,6.871886,79.997144,6.871354,79.997852,-75.0,Dense Graded Asphalt Concrete,4.11,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-119,B240,Meegoda - Athurugiriya,Class B Highway,2,11.8,11.9,6.871338,79.997874,6.870814,79.998563,-76.2,Dense Graded Asphalt Concrete,3.68,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-120,B240,Meegoda - Athurugiriya,Class B Highway,2,11.9,12.0,6.870797,79.998585,6.870271,79.999294,-76.0,Dense Graded Asphalt Concrete,4.07,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-121,B240,Meegoda - Athurugiriya,Class B Highway,2,12.0,12.1,6.870254,79.999316,6.86972,80.000001,-78.9,Dense Graded Asphalt Concrete,3.91,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-122,B240,Meegoda - Athurugiriya,Class B Highway,2,12.1,12.2,6.869703,80.000023,6.869145,80.000731,-82.8,Dense Graded Asphalt Concrete,4.19,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-123,B240,Meegoda - Athurugiriya,Class B Highway,2,12.2,12.3,6.869127,80.000754,6.868555,80.001473,-83.6,Dense Graded Asphalt Concrete,4.14,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-124,B240,Meegoda - Athurugiriya,Class B Highway,2,12.3,12.4,6.868538,80.001494,6.868026,80.002138,-82.0,Dense Graded Asphalt Concrete,4.16,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-125,B240,Meegoda - Athurugiriya,Class B Highway,2,12.4,12.5,6.868009,80.00216,6.867476,80.002834,-82.6,Dense Graded Asphalt Concrete,3.76,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-126,B240,Meegoda - Athurugiriya,Class B Highway,2,12.5,12.6,6.867459,80.002855,6.866908,80.003522,-86.1,Dense Graded Asphalt Concrete,3.53,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-127,B240,Meegoda - Athurugiriya,Class B Highway,2,12.6,12.7,6.866891,80.003544,6.866327,80.004241,-87.2,Dense Graded Asphalt Concrete,4.05,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-128,B240,Meegoda - Athurugiriya,Class B Highway,2,12.7,12.8,6.866308,80.004263,6.865735,80.004955,-87.3,Dense Graded Asphalt Concrete,3.98,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-129,B240,Meegoda - Athurugiriya,Class B Highway,2,12.8,12.9,6.865716,80.004977,6.865129,80.005689,-87.5,Dense Graded Asphalt Concrete,3.89,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-130,B240,Meegoda - Athurugiriya,Class B Highway,2,12.9,13.0,6.865112,80.005712,6.864687,80.006415,-87.1,Dense Graded Asphalt Concrete,3.71,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-131,B240,Meegoda - Athurugiriya,Class B Highway,2,13.0,13.1,6.864678,80.006438,6.864497,80.007297,-84.8,Dense Graded Asphalt Concrete,4.22,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-132,B240,Meegoda - Athurugiriya,Class B Highway,2,13.1,13.2,6.864494,80.007324,6.86445,80.008215,-82.0,Dense Graded Asphalt Concrete,3.76,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-133,B240,Meegoda - Athurugiriya,Class B Highway,2,13.2,13.3,6.86445,80.008243,6.864509,80.009112,-80.9,Dense Graded Asphalt Concrete,4.25,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-134,B240,Meegoda - Athurugiriya,Class B Highway,2,13.3,13.4,6.864513,80.009139,6.864695,80.009997,-78.8,Dense Graded Asphalt Concrete,3.93,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-135,B240,Meegoda - Athurugiriya,Class B Highway,2,13.4,13.5,6.8647,80.010024,6.864961,80.010839,-75.8,Dense Graded Asphalt Concrete,3.95,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-136,B240,Meegoda - Athurugiriya,Class B Highway,2,13.5,13.6,6.864973,80.010864,6.865366,80.011663,-73.5,Dense Graded Asphalt Concrete,4.18,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-137,B240,Meegoda - Athurugiriya,Class B Highway,2,13.6,13.7,6.865375,80.011689,6.86553,80.012537,-75.0,Dense Graded Asphalt Concrete,3.91,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-138,B240,Meegoda - Athurugiriya,Class B Highway,2,13.7,13.8,6.865533,80.012564,6.865667,80.013483,-76.9,Dense Graded Asphalt Concrete,4.23,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-139,B240,Meegoda - Athurugiriya,Class B Highway,2,13.8,13.9,6.865671,80.013509,6.865802,80.014351,-78.0,Dense Graded Asphalt Concrete,3.54,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-140,B240,Meegoda - Athurugiriya,Class B Highway,2,13.9,14.0,6.865803,80.014374,6.865709,80.015232,-81.9,Dense Graded Asphalt Concrete,3.95,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-141,B240,Meegoda - Athurugiriya,Class B Highway,2,14.0,14.1,6.865703,80.015259,6.865674,80.01612,-84.6,Dense Graded Asphalt Concrete,4.06,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-142,B240,Meegoda - Athurugiriya,Class B Highway,2,14.1,14.2,6.865679,80.016147,6.865829,80.017032,-86.8,Dense Graded Asphalt Concrete,4.23,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-143,B240,Meegoda - Athurugiriya,Class B Highway,2,14.2,14.3,6.865832,80.017059,6.865902,80.017919,-86.7,Dense Graded Asphalt Concrete,3.5,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-144,B240,Meegoda - Athurugiriya,Class B Highway,2,14.3,14.4,6.865903,80.017947,6.865908,80.018805,-84.5,Dense Graded Asphalt Concrete,4.16,12,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-145,B240,Meegoda - Athurugiriya,Class B Highway,2,14.4,14.5,6.865908,80.018831,6.86588,80.019719,-84.2,Dense Graded Asphalt Concrete,4.23,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-146,B240,Meegoda - Athurugiriya,Class B Highway,2,14.5,14.6,6.865877,80.019745,6.865736,80.020584,-85.5,Dense Graded Asphalt Concrete,3.87,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-147,B240,Meegoda - Athurugiriya,Class B Highway,2,14.6,14.7,6.865732,80.020611,6.865567,80.0215,-85.6,Dense Graded Asphalt Concrete,3.76,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-148,B240,Meegoda - Athurugiriya,Class B Highway,2,14.7,14.8,6.865561,80.02153,6.865377,80.022389,-87.0,Dense Graded Asphalt Concrete,3.7,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-149,B240,Meegoda - Athurugiriya,Class B Highway,2,14.8,14.9,6.865371,80.022417,6.865081,80.023256,-87.0,Dense Graded Asphalt Concrete,3.4,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-150,B240,Meegoda - Athurugiriya,Class B Highway,2,14.9,15.0,6.865066,80.02328,6.864548,80.023958,-84.7,Dense Graded Asphalt Concrete,3.76,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-151,B240,Meegoda - Athurugiriya,Class B Highway,2,15.0,15.1,6.864533,80.023981,6.864062,80.024753,-81.4,Dense Graded Asphalt Concrete,4.23,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-152,B240,Meegoda - Athurugiriya,Class B Highway,2,15.1,15.2,6.864046,80.024776,6.863467,80.025461,-79.3,Dense Graded Asphalt Concrete,3.71,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-153,B240,Meegoda - Athurugiriya,Class B Highway,2,15.2,15.3,6.863449,80.02548,6.862912,80.026138,-76.9,Dense Graded Asphalt Concrete,3.81,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-154,B240,Meegoda - Athurugiriya,Class B Highway,2,15.3,15.4,6.862896,80.02616,6.86234,80.026845,-76.7,Dense Graded Asphalt Concrete,3.81,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-155,B240,Meegoda - Athurugiriya,Class B Highway,2,15.4,15.5,6.862319,80.026864,6.861621,80.027358,-80.1,Dense Graded Asphalt Concrete,3.56,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-156,B240,Meegoda - Athurugiriya,Class B Highway,2,15.5,15.6,6.861596,80.027371,6.860773,80.027711,-79.6,Dense Graded Asphalt Concrete,3.78,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-157,B240,Meegoda - Athurugiriya,Class B Highway,2,15.6,15.7,6.860748,80.027722,6.859988,80.028071,-76.1,Dense Graded Asphalt Concrete,3.73,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-158,B240,Meegoda - Athurugiriya,Class B Highway,2,15.7,15.8,6.859962,80.028082,6.859128,80.028438,-75.7,Dense Graded Asphalt Concrete,3.97,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-159,B240,Meegoda - Athurugiriya,Class B Highway,2,15.8,15.9,6.859104,80.028452,6.858388,80.02894,-75.4,Dense Graded Asphalt Concrete,4.0,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-160,B240,Meegoda - Athurugiriya,Class B Highway,2,15.9,16.0,6.858363,80.028954,6.857558,80.02933,-73.7,Dense Graded Asphalt Concrete,4.26,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-161,B240,Meegoda - Athurugiriya,Class B Highway,2,16.0,16.1,6.857533,80.029343,6.856807,80.029829,-74.4,Dense Graded Asphalt Concrete,3.77,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-162,B240,Meegoda - Athurugiriya,Class B Highway,2,16.1,16.2,6.856785,80.029845,6.856209,80.030444,-76.9,Dense Graded Asphalt Concrete,4.3,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-163,B240,Meegoda - Athurugiriya,Class B Highway,2,16.2,16.3,6.856191,80.030465,6.855537,80.031117,-78.2,Dense Graded Asphalt Concrete,3.94,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-164,B240,Meegoda - Athurugiriya,Class B Highway,2,16.3,16.4,6.855513,80.031132,6.854708,80.031476,-76.6,Dense Graded Asphalt Concrete,4.07,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-165,B240,Meegoda - Athurugiriya,Class B Highway,2,16.4,16.5,6.854679,80.031486,6.853865,80.031813,-74.8,Dense Graded Asphalt Concrete,4.21,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-166,B240,Meegoda - Athurugiriya,Class B Highway,2,16.5,16.6,6.853837,80.031825,6.85301,80.032155,-76.9,Dense Graded Asphalt Concrete,3.57,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-167,B240,Meegoda - Athurugiriya,Class B Highway,2,16.6,16.7,6.852982,80.032166,6.852206,80.032535,-79.1,Dense Graded Asphalt Concrete,3.82,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-168,B240,Meegoda - Athurugiriya,Class B Highway,2,16.7,16.8,6.852179,80.032546,6.851422,80.032932,-81.2,Dense Graded Asphalt Concrete,3.46,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-169,B240,Meegoda - Athurugiriya,Class B Highway,2,16.8,16.9,6.851403,80.032952,6.850975,80.033695,-82.5,Dense Graded Asphalt Concrete,3.81,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-170,B240,Meegoda - Athurugiriya,Class B Highway,2,16.9,17.0,6.850964,80.033719,6.850577,80.034494,-81.9,Dense Graded Asphalt Concrete,3.8,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-171,B240,Meegoda - Athurugiriya,Class B Highway,2,17.0,17.1,6.850564,80.034518,6.850176,80.035272,-79.7,Dense Graded Asphalt Concrete,3.9,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-172,B240,Meegoda - Athurugiriya,Class B Highway,2,17.1,17.2,6.850161,80.035296,6.84962,80.035996,-76.4,Dense Graded Asphalt Concrete,3.56,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-173,B240,Meegoda - Athurugiriya,Class B Highway,2,17.2,17.3,6.849603,80.036018,6.849047,80.036691,-73.2,Dense Graded Asphalt Concrete,4.25,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-174,B240,Meegoda - Athurugiriya,Class B Highway,2,17.3,17.4,6.84903,80.036712,6.848457,80.037374,-73.6,Dense Graded Asphalt Concrete,3.64,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-175,B240,Meegoda - Athurugiriya,Class B Highway,2,17.4,17.5,6.84844,80.037394,6.84791,80.038067,-75.5,Dense Graded Asphalt Concrete,3.77,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-176,B240,Meegoda - Athurugiriya,Class B Highway,2,17.5,17.6,6.847893,80.038089,6.84735,80.038779,-76.0,Dense Graded Asphalt Concrete,3.54,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-177,B240,Meegoda - Athurugiriya,Class B Highway,2,17.6,17.7,6.847333,80.038801,6.846802,80.039496,-73.3,Dense Graded Asphalt Concrete,3.99,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-178,B240,Meegoda - Athurugiriya,Class B Highway,2,17.7,17.8,6.846787,80.039518,6.846364,80.040304,-70.9,Dense Graded Asphalt Concrete,3.6,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-179,B240,Meegoda - Athurugiriya,Class B Highway,2,17.8,17.9,6.846354,80.040331,6.84611,80.041187,-69.4,Dense Graded Asphalt Concrete,4.0,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-180,B240,Meegoda - Athurugiriya,Class B Highway,2,17.9,18.0,6.846103,80.041215,6.845865,80.042056,-69.3,Dense Graded Asphalt Concrete,3.49,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-181,B240,Meegoda - Athurugiriya,Class B Highway,2,18.0,18.1,6.845856,80.042082,6.845487,80.042931,-70.9,Dense Graded Asphalt Concrete,3.56,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-182,B240,Meegoda - Athurugiriya,Class B Highway,2,18.1,18.2,6.845474,80.042955,6.845109,80.043695,-74.2,Dense Graded Asphalt Concrete,3.61,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-183,B240,Meegoda - Athurugiriya,Class B Highway,2,18.2,18.3,6.845095,80.04372,6.844668,80.044501,-74.8,Dense Graded Asphalt Concrete,3.62,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-184,B240,Meegoda - Athurugiriya,Class B Highway,2,18.3,18.4,6.844655,80.044526,6.844336,80.04535,-72.8,Dense Graded Asphalt Concrete,4.17,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-185,B240,Meegoda - Athurugiriya,Class B Highway,2,18.4,18.5,6.84433,80.045375,6.844231,80.04623,-73.0,Dense Graded Asphalt Concrete,3.76,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-186,B240,Meegoda - Athurugiriya,Class B Highway,2,18.5,18.6,6.844231,80.046258,6.844241,80.047174,-75.6,Dense Graded Asphalt Concrete,3.58,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-187,B240,Meegoda - Athurugiriya,Class B Highway,2,18.6,18.7,6.844241,80.047197,6.844224,80.048068,-77.2,Dense Graded Asphalt Concrete,4.21,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-188,B240,Meegoda - Athurugiriya,Class B Highway,2,18.7,18.8,6.844223,80.048093,6.844128,80.048902,-80.3,Dense Graded Asphalt Concrete,3.48,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-189,B240,Meegoda - Athurugiriya,Class B Highway,2,18.8,18.9,6.844125,80.048929,6.843955,80.049808,-82.2,Dense Graded Asphalt Concrete,3.42,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-190,B240,Meegoda - Athurugiriya,Class B Highway,2,18.9,19.0,6.84395,80.049836,6.843806,80.050709,-82.7,Dense Graded Asphalt Concrete,3.92,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-191,B240,Meegoda - Athurugiriya,Class B Highway,2,19.0,19.1,6.843801,80.050736,6.843623,80.051571,-82.9,Dense Graded Asphalt Concrete,4.2,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-192,B240,Meegoda - Athurugiriya,Class B Highway,2,19.1,19.2,6.843615,80.051597,6.843284,80.052437,-81.6,Dense Graded Asphalt Concrete,3.71,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-193,B240,Meegoda - Athurugiriya,Class B Highway,2,19.2,19.3,6.84327,80.052461,6.842822,80.053184,-78.9,Dense Graded Asphalt Concrete,3.74,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-194,B240,Meegoda - Athurugiriya,Class B Highway,2,19.3,19.4,6.842814,80.05321,6.842849,80.05406,-80.0,Dense Graded Asphalt Concrete,3.64,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-195,B240,Meegoda - Athurugiriya,Class B Highway,2,19.4,19.5,6.842855,80.054087,6.843033,80.054939,-78.5,Dense Graded Asphalt Concrete,3.77,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-196,B240,Meegoda - Athurugiriya,Class B Highway,2,19.5,19.6,6.843039,80.054968,6.843225,80.055828,-74.8,Dense Graded Asphalt Concrete,3.79,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-197,B240,Meegoda - Athurugiriya,Class B Highway,2,19.6,19.7,6.84323,80.055855,6.843429,80.056699,-75.9,Dense Graded Asphalt Concrete,4.25,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-198,B240,Meegoda - Athurugiriya,Class B Highway,2,19.7,19.8,6.843436,80.056727,6.843423,80.057608,-77.0,Dense Graded Asphalt Concrete,3.53,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-199,B240,Meegoda - Athurugiriya,Class B Highway,2,19.8,19.9,6.843422,80.057635,6.843377,80.05852,-76.6,Dense Graded Asphalt Concrete,3.84,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-200,B240,Meegoda - Athurugiriya,Class B Highway,2,19.9,20.0,6.843376,80.058548,6.843375,80.059429,-78.0,Dense Graded Asphalt Concrete,4.12,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-201,B240,Meegoda - Athurugiriya,Class B Highway,2,20.0,20.1,6.843375,80.059458,6.843394,80.060355,-76.3,Dense Graded Asphalt Concrete,3.42,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-202,B240,Meegoda - Athurugiriya,Class B Highway,2,20.1,20.2,6.843395,80.060383,6.843426,80.061225,-75.1,Dense Graded Asphalt Concrete,3.89,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-203,B240,Meegoda - Athurugiriya,Class B Highway,2,20.2,20.3,6.843426,80.061253,6.843394,80.062145,-75.8,Dense Graded Asphalt Concrete,3.63,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-204,B240,Meegoda - Athurugiriya,Class B Highway,2,20.3,20.4,6.843391,80.062173,6.843256,80.063026,-78.5,Dense Graded Asphalt Concrete,4.15,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-205,B240,Meegoda - Athurugiriya,Class B Highway,2,20.4,20.5,6.843251,80.063054,6.84311,80.063927,-80.2,Dense Graded Asphalt Concrete,3.87,12,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-206,B240,Meegoda - Athurugiriya,Class B Highway,2,20.5,20.6,6.84311,80.063954,6.843248,80.064801,-79.8,Dense Graded Asphalt Concrete,3.65,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-207,B240,Meegoda - Athurugiriya,Class B Highway,2,20.6,20.7,6.843253,80.064828,6.843428,80.065712,-80.8,Dense Graded Asphalt Concrete,4.22,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-208,B240,Meegoda - Athurugiriya,Class B Highway,2,20.7,20.8,6.843434,80.065739,6.843594,80.066589,-81.5,Dense Graded Asphalt Concrete,3.92,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-209,B240,Meegoda - Athurugiriya,Class B Highway,2,20.8,20.9,6.843599,80.066617,6.843749,80.067507,-81.5,Dense Graded Asphalt Concrete,3.9,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-210,B240,Meegoda - Athurugiriya,Class B Highway,2,20.9,21.0,6.843754,80.067535,6.843909,80.06843,-81.3,Dense Graded Asphalt Concrete,4.15,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-211,B240,Meegoda - Athurugiriya,Class B Highway,2,21.0,21.1,6.843915,80.068459,6.84409,80.069319,-81.3,Dense Graded Asphalt Concrete,3.41,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-212,B240,Meegoda - Athurugiriya,Class B Highway,2,21.1,21.2,6.844096,80.069345,6.844282,80.070169,-82.9,Dense Graded Asphalt Concrete,4.21,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-213,B240,Meegoda - Athurugiriya,Class B Highway,2,21.2,21.3,6.844288,80.070196,6.844447,80.071043,-84.1,Dense Graded Asphalt Concrete,3.94,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-214,B240,Meegoda - Athurugiriya,Class B Highway,2,21.3,21.4,6.844451,80.071071,6.84452,80.07197,-84.5,Dense Graded Asphalt Concrete,4.0,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-215,B240,Meegoda - Athurugiriya,Class B Highway,2,21.4,21.5,6.844521,80.071998,6.844402,80.072849,-84.5,Dense Graded Asphalt Concrete,4.22,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-216,B240,Meegoda - Athurugiriya,Class B Highway,2,21.5,21.6,6.844389,80.072874,6.843923,80.073613,-84.5,Dense Graded Asphalt Concrete,3.74,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-217,B240,Meegoda - Athurugiriya,Class B Highway,2,21.6,21.7,6.843908,80.073636,6.84348,80.074346,-82.3,Dense Graded Asphalt Concrete,3.44,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-218,B240,Meegoda - Athurugiriya,Class B Highway,2,21.7,21.8,6.843467,80.07437,6.843078,80.075173,-79.9,Dense Graded Asphalt Concrete,4.06,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-219,B240,Meegoda - Athurugiriya,Class B Highway,2,21.8,21.9,6.843065,80.075197,6.842631,80.075958,-80.4,Dense Graded Asphalt Concrete,3.94,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-220,B240,Meegoda - Athurugiriya,Class B Highway,2,21.9,22.0,6.842616,80.075981,6.842188,80.076713,-83.8,Dense Graded Asphalt Concrete,3.75,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-221,B240,Meegoda - Athurugiriya,Class B Highway,2,22.0,22.1,6.842174,80.076737,6.84172,80.077508,-85.2,Dense Graded Asphalt Concrete,3.72,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-222,B240,Meegoda - Athurugiriya,Class B Highway,2,22.1,22.2,6.841705,80.077532,6.841242,80.07827,-84.7,Dense Graded Asphalt Concrete,3.67,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-223,B240,Meegoda - Athurugiriya,Class B Highway,2,22.2,22.3,6.841226,80.078293,6.840687,80.079049,-84.8,Dense Graded Asphalt Concrete,3.83,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-224,B240,Meegoda - Athurugiriya,Class B Highway,2,22.3,22.4,6.840671,80.079072,6.840148,80.079859,-84.1,Dense Graded Asphalt Concrete,4.24,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-225,B240,Meegoda - Athurugiriya,Class B Highway,2,22.4,22.5,6.840133,80.079877,6.839637,80.080506,-83.8,Dense Graded Asphalt Concrete,3.59,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-226,B240,Meegoda - Athurugiriya,Class B Highway,2,22.5,22.6,6.83962,80.080527,6.839091,80.081181,-85.8,Dense Graded Asphalt Concrete,3.64,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-227,B240,Meegoda - Athurugiriya,Class B Highway,2,22.6,22.7,6.839074,80.081202,6.8387,80.081985,-87.6,Dense Graded Asphalt Concrete,3.45,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-228,B240,Meegoda - Athurugiriya,Class B Highway,2,22.7,22.8,6.838694,80.082012,6.838726,80.08289,-87.7,Dense Graded Asphalt Concrete,3.94,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-229,B240,Meegoda - Athurugiriya,Class B Highway,2,22.8,22.9,6.838732,80.082918,6.838917,80.083774,-87.6,Dense Graded Asphalt Concrete,4.09,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-230,B240,Meegoda - Athurugiriya,Class B Highway,2,22.9,23.0,6.838922,80.083802,6.839063,80.084693,-86.3,Dense Graded Asphalt Concrete,3.47,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-231,B240,Meegoda - Athurugiriya,Class B Highway,2,23.0,23.1,6.839067,80.08472,6.839201,80.085559,-83.5,Dense Graded Asphalt Concrete,3.85,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-232,B240,Meegoda - Athurugiriya,Class B Highway,2,23.1,23.2,6.839205,80.085587,6.839398,80.086504,-80.1,Dense Graded Asphalt Concrete,3.79,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-233,B240,Meegoda - Athurugiriya,Class B Highway,2,23.2,23.3,6.839407,80.086532,6.839728,80.087347,-79.0,Dense Graded Asphalt Concrete,4.14,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-234,B240,Meegoda - Athurugiriya,Class B Highway,2,23.3,23.4,6.83974,80.087374,6.840081,80.08817,-80.4,Dense Graded Asphalt Concrete,4.03,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-235,B240,Meegoda - Athurugiriya,Class B Highway,2,23.4,23.5,6.840092,80.088195,6.840382,80.089046,-80.6,Dense Graded Asphalt Concrete,3.93,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-236,B240,Meegoda - Athurugiriya,Class B Highway,2,23.5,23.6,6.840391,80.089078,6.840622,80.089902,-82.6,Dense Graded Asphalt Concrete,3.48,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-237,B240,Meegoda - Athurugiriya,Class B Highway,2,23.6,23.7,6.84063,80.089925,6.841004,80.090762,-84.8,Dense Graded Asphalt Concrete,3.52,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-238,B240,Meegoda - Athurugiriya,Class B Highway,2,23.7,23.8,6.841022,80.090784,6.841711,80.09131,-83.1,Dense Graded Asphalt Concrete,3.8,12,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-239,B240,Meegoda - Athurugiriya,Class B Highway,2,23.8,23.9,6.841733,80.091326,6.842288,80.091955,-79.4,Dense Graded Asphalt Concrete,3.89,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-240,B240,Meegoda - Athurugiriya,Class B Highway,2,23.9,24.0,6.842299,80.091983,6.842616,80.092755,-81.6,Dense Graded Asphalt Concrete,4.06,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-241,B240,Meegoda - Athurugiriya,Class B Highway,2,24.0,24.1,6.842628,80.092782,6.842971,80.093625,-84.3,Dense Graded Asphalt Concrete,3.99,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-242,B240,Meegoda - Athurugiriya,Class B Highway,2,24.1,24.2,6.842977,80.093651,6.84293,80.094449,-85.5,Dense Graded Asphalt Concrete,4.16,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-243,B240,Meegoda - Athurugiriya,Class B Highway,2,24.2,24.3,6.842925,80.094475,6.84279,80.095357,-83.3,Dense Graded Asphalt Concrete,3.84,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-244,B240,Meegoda - Athurugiriya,Class B Highway,2,24.3,24.4,6.842786,80.095385,6.842633,80.096228,-81.1,Dense Graded Asphalt Concrete,4.29,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-245,B240,Meegoda - Athurugiriya,Class B Highway,2,24.4,24.5,6.842629,80.096255,6.842513,80.097149,-82.0,Dense Graded Asphalt Concrete,3.44,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-246,B240,Meegoda - Athurugiriya,Class B Highway,2,24.5,24.6,6.84251,80.097177,6.842459,80.098008,-84.3,Dense Graded Asphalt Concrete,4.23,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-247,B240,Meegoda - Athurugiriya,Class B Highway,2,24.6,24.7,6.842459,80.098035,6.842431,80.098953,-84.6,Dense Graded Asphalt Concrete,3.91,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-248,B240,Meegoda - Athurugiriya,Class B Highway,2,24.7,24.8,6.84243,80.098983,6.842345,80.099877,-84.5,Dense Graded Asphalt Concrete,3.43,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-249,B240,Meegoda - Athurugiriya,Class B Highway,2,24.8,24.9,6.842343,80.099903,6.842245,80.10074,-84.5,Dense Graded Asphalt Concrete,3.67,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-250,B240,Meegoda - Athurugiriya,Class B Highway,2,24.9,25.0,6.842241,80.100768,6.842129,80.101646,-84.2,Dense Graded Asphalt Concrete,4.27,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-251,B240,Meegoda - Athurugiriya,Class B Highway,2,25.0,25.1,6.842126,80.101673,6.841987,80.102557,-82.2,Dense Graded Asphalt Concrete,3.83,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-252,B240,Meegoda - Athurugiriya,Class B Highway,2,25.1,25.2,6.841982,80.102586,6.841842,80.103454,-80.1,Dense Graded Asphalt Concrete,4.16,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-253,B240,Meegoda - Athurugiriya,Class B Highway,2,25.2,25.3,6.841839,80.103481,6.841723,80.104321,-82.3,Dense Graded Asphalt Concrete,4.15,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-254,B240,Meegoda - Athurugiriya,Class B Highway,2,25.3,25.4,6.841717,80.104349,6.841523,80.105221,-83.3,Dense Graded Asphalt Concrete,3.94,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-255,B240,Meegoda - Athurugiriya,Class B Highway,2,25.4,25.5,6.841516,80.105249,6.841273,80.106056,-83.4,Dense Graded Asphalt Concrete,3.51,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-256,B240,Meegoda - Athurugiriya,Class B Highway,2,25.5,25.6,6.841263,80.106082,6.840945,80.106928,-83.1,Dense Graded Asphalt Concrete,4.03,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-257,B240,Meegoda - Athurugiriya,Class B Highway,2,25.6,25.7,6.840934,80.106954,6.840586,80.107772,-83.0,Dense Graded Asphalt Concrete,4.05,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-258,B240,Meegoda - Athurugiriya,Class B Highway,2,25.7,25.8,6.840576,80.107797,6.840291,80.108594,-83.1,Dense Graded Asphalt Concrete,3.68,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-259,B240,Meegoda - Athurugiriya,Class B Highway,2,25.8,25.9,6.840285,80.108621,6.840142,80.109502,-83.2,Dense Graded Asphalt Concrete,4.11,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-260,B240,Meegoda - Athurugiriya,Class B Highway,2,25.9,26.0,6.840138,80.109529,6.839999,80.110395,-83.5,Dense Graded Asphalt Concrete,3.96,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-261,B240,Meegoda - Athurugiriya,Class B Highway,2,26.0,26.1,6.839994,80.110423,6.839806,80.111298,-83.0,Dense Graded Asphalt Concrete,3.95,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-262,B240,Meegoda - Athurugiriya,Class B Highway,2,26.1,26.2,6.839799,80.111326,6.839558,80.112161,-82.7,Dense Graded Asphalt Concrete,3.42,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-263,B240,Meegoda - Athurugiriya,Class B Highway,2,26.2,26.3,6.839549,80.11219,6.839273,80.113037,-82.6,Dense Graded Asphalt Concrete,3.42,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-264,B240,Meegoda - Athurugiriya,Class B Highway,2,26.3,26.4,6.839263,80.113064,6.838819,80.113777,-82.5,Dense Graded Asphalt Concrete,3.88,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-265,B240,Meegoda - Athurugiriya,Class B Highway,2,26.4,26.5,6.838803,80.113799,6.8383,80.114538,-81.8,Dense Graded Asphalt Concrete,4.12,10,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-266,B240,Meegoda - Athurugiriya,Class B Highway,2,26.5,26.6,6.838286,80.114562,6.838009,80.115387,-80.2,Dense Graded Asphalt Concrete,3.72,12,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-267,B240,Meegoda - Athurugiriya,Class B Highway,2,26.6,26.7,6.838006,80.115414,6.837886,80.116267,-80.9,Dense Graded Asphalt Concrete,3.76,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-268,B240,Meegoda - Athurugiriya,Class B Highway,2,26.7,26.8,6.837878,80.116295,6.83752,80.117119,-81.0,Dense Graded Asphalt Concrete,3.96,5,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-269,B240,Meegoda - Athurugiriya,Class B Highway,2,26.8,26.9,6.837506,80.117143,6.836991,80.117869,-81.2,Dense Graded Asphalt Concrete,4.29,8,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-270,B240,Meegoda - Athurugiriya,Class B Highway,2,26.9,27.0,6.836975,80.117887,6.836489,80.11858,-81.9,Dense Graded Asphalt Concrete,3.78,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-271,B240,Meegoda - Athurugiriya,Class B Highway,2,27.0,27.1,6.836477,80.118604,6.83634,80.119461,-81.5,Dense Graded Asphalt Concrete,4.06,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-272,B240,Meegoda - Athurugiriya,Class B Highway,2,27.1,27.2,6.836341,80.119492,6.836305,80.12043,-77.9,Dense Graded Asphalt Concrete,3.5,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-273,B240,Meegoda - Athurugiriya,Class B Highway,2,27.2,27.3,6.836303,80.120454,6.836302,80.121234,-76.4,Dense Graded Asphalt Concrete,3.66,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-274,B240,Meegoda - Athurugiriya,Class B Highway,2,27.3,27.4,6.836307,80.121259,6.836439,80.122129,-76.8,Dense Graded Asphalt Concrete,3.61,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-275,B240,Meegoda - Athurugiriya,Class B Highway,2,27.4,27.5,6.836438,80.122157,6.836392,80.123028,-77.5,Dense Graded Asphalt Concrete,3.42,2,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-276,B240,Meegoda - Athurugiriya,Class B Highway,2,27.5,27.6,6.836391,80.123056,6.836366,80.123948,-78.5,Dense Graded Asphalt Concrete,3.78,12,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-277,B240,Meegoda - Athurugiriya,Class B Highway,2,27.6,27.7,6.836366,80.123975,6.836293,80.124888,-76.9,Dense Graded Asphalt Concrete,4.01,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-278,B240,Meegoda - Athurugiriya,Class B Highway,2,27.7,27.8,6.836284,80.124915,6.836009,80.125718,-75.0,Dense Graded Asphalt Concrete,4.25,3,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-279,B240,Meegoda - Athurugiriya,Class B Highway,2,27.8,27.9,6.836003,80.125745,6.835854,80.126613,-77.3,Dense Graded Asphalt Concrete,3.48,6,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B240-SEC-280,B240,Meegoda - Athurugiriya,Class B Highway,2,27.9,28.0,6.835849,80.126641,6.835758,80.127571,-78.0,Dense Graded Asphalt Concrete,4.19,4,2241,331.7,10.16,2674.9,27.93,4.51,1.783
+B263-SEC-001,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.0,0.1,6.903992,79.955191,6.903857,79.956066,20.6,Dense Graded Asphalt Concrete,3.82,10,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-002,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.1,0.2,6.903853,79.956082,6.903615,79.956932,22.9,Dense Graded Asphalt Concrete,3.55,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-003,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.2,0.3,6.903607,79.956952,6.903364,79.9578,20.4,Dense Graded Asphalt Concrete,3.61,12,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-004,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.3,0.4,6.903363,79.95782,6.903517,79.958678,16.8,Dense Graded Asphalt Concrete,3.98,10,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-005,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.4,0.5,6.903522,79.958695,6.90379,79.959542,15.6,Dense Graded Asphalt Concrete,3.86,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-006,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.5,0.6,6.903796,79.95956,6.90412,79.960383,14.8,Dense Graded Asphalt Concrete,3.56,3,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-007,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.6,0.7,6.904128,79.960402,6.904504,79.961203,14.0,Dense Graded Asphalt Concrete,3.57,3,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-008,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.7,0.8,6.904512,79.961218,6.904969,79.961976,13.7,Dense Graded Asphalt Concrete,3.72,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-009,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.8,0.9,6.904979,79.961989,6.905461,79.962735,13.5,Dense Graded Asphalt Concrete,4.27,2,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-010,B263,Madinnagoda - Rajagiriya,Class B Highway,2,0.9,1.0,6.905469,79.962751,6.90585,79.963552,13.3,Dense Graded Asphalt Concrete,4.23,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-011,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.0,1.1,6.905858,79.963569,6.906247,79.964357,13.1,Dense Graded Asphalt Concrete,3.56,12,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-012,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.1,1.2,6.906257,79.964374,6.906861,79.965008,14.5,Dense Graded Asphalt Concrete,4.08,4,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-013,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.2,1.3,6.906875,79.965019,6.907616,79.965492,18.9,Dense Graded Asphalt Concrete,3.54,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-014,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.3,1.4,6.907629,79.9655,6.908399,79.965947,19.2,Dense Graded Asphalt Concrete,3.6,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-015,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.4,1.5,6.908412,79.965956,6.908948,79.966644,17.0,Dense Graded Asphalt Concrete,3.88,3,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-016,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.5,1.6,6.908953,79.96666,6.909054,79.967537,17.7,Dense Graded Asphalt Concrete,3.92,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-017,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.6,1.7,6.909051,79.967555,6.908712,79.968372,19.6,Dense Graded Asphalt Concrete,4.19,2,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-018,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.7,1.8,6.908707,79.968388,6.908712,79.969245,24.7,Dense Graded Asphalt Concrete,3.52,4,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-019,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.8,1.9,6.908718,79.969261,6.909075,79.970071,28.3,Dense Graded Asphalt Concrete,4.26,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-020,B263,Madinnagoda - Rajagiriya,Class B Highway,2,1.9,2.0,6.909084,79.970089,6.90949,79.970871,26.6,Dense Graded Asphalt Concrete,4.13,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-021,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.0,2.1,6.909502,79.970883,6.910167,79.971443,27.7,Dense Graded Asphalt Concrete,3.9,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-022,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.1,2.2,6.910183,79.971451,6.911012,79.97175,31.4,Dense Graded Asphalt Concrete,3.77,2,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-023,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.2,2.3,6.911032,79.971757,6.911863,79.972066,32.8,Dense Graded Asphalt Concrete,3.63,4,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-024,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.3,2.4,6.911881,79.972073,6.91275,79.972159,34.3,Dense Graded Asphalt Concrete,3.85,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-025,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.4,2.5,6.912769,79.972159,6.913657,79.97213,35.9,Dense Graded Asphalt Concrete,3.6,2,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-026,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.5,2.6,6.913673,79.972129,6.91456,79.972164,36.0,Dense Graded Asphalt Concrete,3.47,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-027,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.6,2.7,6.914578,79.972166,6.915456,79.972275,33.7,Dense Graded Asphalt Concrete,3.85,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-028,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.7,2.8,6.915474,79.972279,6.916336,79.972492,32.4,Dense Graded Asphalt Concrete,3.93,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-029,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.8,2.9,6.916353,79.9725,6.916969,79.973131,34.0,Dense Graded Asphalt Concrete,3.71,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-030,B263,Madinnagoda - Rajagiriya,Class B Highway,2,2.9,3.0,6.916979,79.973146,6.917544,79.973816,34.9,Dense Graded Asphalt Concrete,3.91,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-031,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.0,3.1,6.917559,79.973827,6.918352,79.974186,31.7,Dense Graded Asphalt Concrete,4.19,4,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-032,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.1,3.2,6.918368,79.974188,6.919252,79.974209,28.7,Dense Graded Asphalt Concrete,3.99,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-033,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.2,3.3,6.91927,79.974209,6.920144,79.974331,29.8,Dense Graded Asphalt Concrete,4.18,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-034,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.3,3.4,6.920163,79.974336,6.920975,79.974686,30.1,Dense Graded Asphalt Concrete,4.15,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-035,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.4,3.5,6.920989,79.974697,6.921522,79.975395,31.9,Dense Graded Asphalt Concrete,4.01,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-036,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.5,3.6,6.921531,79.975413,6.921727,79.976271,33.5,Dense Graded Asphalt Concrete,4.08,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-037,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.6,3.7,6.921732,79.976289,6.922254,79.976972,33.0,Dense Graded Asphalt Concrete,4.19,3,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-038,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.7,3.8,6.922268,79.976983,6.922981,79.977514,28.5,Dense Graded Asphalt Concrete,3.43,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-039,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.8,3.9,6.922997,79.977524,6.923789,79.977911,24.6,Dense Graded Asphalt Concrete,3.52,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-040,B263,Madinnagoda - Rajagiriya,Class B Highway,2,3.9,4.0,6.923806,79.97792,6.924565,79.978381,24.3,Dense Graded Asphalt Concrete,4.07,4,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-041,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.0,4.1,6.92458,79.978391,6.925327,79.978866,23.7,Dense Graded Asphalt Concrete,4.14,3,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-042,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.1,4.2,6.925342,79.978876,6.926045,79.979415,26.3,Dense Graded Asphalt Concrete,3.86,8,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-043,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.2,4.3,6.926059,79.979427,6.926725,79.980007,27.8,Dense Graded Asphalt Concrete,3.66,2,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-044,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.3,4.4,6.926738,79.980018,6.927395,79.980615,30.9,Dense Graded Asphalt Concrete,4.28,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-045,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.4,4.5,6.927408,79.980628,6.927993,79.981288,32.6,Dense Graded Asphalt Concrete,3.63,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-046,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.5,4.6,6.928002,79.981303,6.928454,79.982071,31.0,Dense Graded Asphalt Concrete,3.89,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-047,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.6,4.7,6.928462,79.982085,6.929071,79.98269,25.9,Dense Graded Asphalt Concrete,3.5,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-048,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.7,4.8,6.929088,79.982696,6.929944,79.982578,20.6,Dense Graded Asphalt Concrete,3.89,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-049,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.8,4.9,6.929961,79.982574,6.930827,79.982403,19.3,Dense Graded Asphalt Concrete,3.71,12,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-050,B263,Madinnagoda - Rajagiriya,Class B Highway,2,4.9,5.0,6.930846,79.982401,6.931715,79.98253,20.9,Dense Graded Asphalt Concrete,4.24,5,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-051,B263,Madinnagoda - Rajagiriya,Class B Highway,2,5.0,5.1,6.931732,79.982535,6.932585,79.98245,22.4,Dense Graded Asphalt Concrete,4.24,3,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-052,B263,Madinnagoda - Rajagiriya,Class B Highway,2,5.1,5.2,6.932603,79.982443,6.933461,79.982249,22.9,Dense Graded Asphalt Concrete,3.46,6,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-053,B263,Madinnagoda - Rajagiriya,Class B Highway,2,5.2,5.3,6.933482,79.98225,6.934249,79.982632,23.8,Dense Graded Asphalt Concrete,4.04,4,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-054,B263,Madinnagoda - Rajagiriya,Class B Highway,2,5.3,5.4,6.934259,79.982646,6.93446,79.983488,20.1,Dense Graded Asphalt Concrete,3.92,2,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-055,B263,Madinnagoda - Rajagiriya,Class B Highway,2,5.4,5.5,6.934463,79.983505,6.935098,79.983974,16.7,Dense Graded Asphalt Concrete,3.96,4,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B263-SEC-056,B263,Madinnagoda - Rajagiriya,Class B Highway,2,5.5,5.6,6.935116,79.98398,6.93552,79.98413,16.1,Dense Graded Asphalt Concrete,4.18,2,31447,2380.8,4.83,2674.9,27.93,4.51,1.783
+B435-SEC-001,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.0,0.1,6.943903,79.878448,6.94422,79.879112,9.7,Dense Graded Asphalt Concrete,4.27,12,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-002,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.1,0.2,6.944224,79.879133,6.944375,79.880001,10.3,Dense Graded Asphalt Concrete,3.52,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-003,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.2,0.3,6.944379,79.88002,6.944549,79.880889,11.2,Dense Graded Asphalt Concrete,3.42,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-004,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.3,0.4,6.944553,79.880909,6.944702,79.881785,11.2,Dense Graded Asphalt Concrete,3.69,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-005,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.4,0.5,6.944704,79.881803,6.944716,79.882689,11.3,Dense Graded Asphalt Concrete,4.09,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-006,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.5,0.6,6.944714,79.882708,6.944441,79.883547,13.2,Dense Graded Asphalt Concrete,3.8,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-007,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.6,0.7,6.944434,79.883564,6.944076,79.884368,18.0,Dense Graded Asphalt Concrete,4.3,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-008,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.7,0.8,6.944067,79.884386,6.94364,79.885163,19.3,Dense Graded Asphalt Concrete,3.81,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-009,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.8,0.9,6.943631,79.885178,6.943124,79.885906,16.4,Dense Graded Asphalt Concrete,4.12,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-010,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,0.9,1.0,6.943111,79.885924,6.94258,79.886627,11.2,Dense Graded Asphalt Concrete,3.6,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-011,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.0,1.1,6.94257,79.88664,6.942026,79.887341,10.1,Dense Graded Asphalt Concrete,4.01,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-012,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.1,1.2,6.942015,79.887354,6.941459,79.888041,9.9,Dense Graded Asphalt Concrete,3.65,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-013,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.2,1.3,6.941447,79.888056,6.94089,79.888748,9.3,Dense Graded Asphalt Concrete,3.54,12,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-014,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.3,1.4,6.94088,79.888761,6.940398,79.889498,10.1,Dense Graded Asphalt Concrete,4.25,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-015,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.4,1.5,6.94039,79.889514,6.940034,79.890324,11.4,Dense Graded Asphalt Concrete,3.97,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-016,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.5,1.6,6.940029,79.890339,6.939724,79.891171,12.0,Dense Graded Asphalt Concrete,3.65,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-017,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.6,1.7,6.939719,79.891185,6.939448,79.892025,12.3,Dense Graded Asphalt Concrete,3.77,12,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-018,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.7,1.8,6.939443,79.892042,6.939197,79.892898,11.9,Dense Graded Asphalt Concrete,3.61,8,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-019,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.8,1.9,6.939194,79.892909,6.938999,79.893776,11.5,Dense Graded Asphalt Concrete,3.43,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-020,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,1.9,2.0,6.938996,79.893791,6.938796,79.894658,11.2,Dense Graded Asphalt Concrete,3.73,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-021,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.0,2.1,6.938791,79.894676,6.938291,79.895397,11.2,Dense Graded Asphalt Concrete,3.83,8,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-022,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.1,2.2,6.938275,79.895409,6.937546,79.895903,13.8,Dense Graded Asphalt Concrete,3.57,12,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-023,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.2,2.3,6.937532,79.895917,6.937237,79.89672,14.8,Dense Graded Asphalt Concrete,4.1,8,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-024,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.3,2.4,6.937235,79.896737,6.937194,79.89762,11.6,Dense Graded Asphalt Concrete,4.16,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-025,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.4,2.5,6.937194,79.897638,6.937153,79.898525,9.3,Dense Graded Asphalt Concrete,3.96,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-026,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.5,2.6,6.937152,79.898545,6.937114,79.899427,9.5,Dense Graded Asphalt Concrete,3.43,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-027,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.6,2.7,6.937113,79.899447,6.937061,79.900326,10.3,Dense Graded Asphalt Concrete,3.95,10,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-028,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.7,2.8,6.937061,79.900344,6.937017,79.901229,10.7,Dense Graded Asphalt Concrete,3.83,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-029,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.8,2.9,6.937016,79.901248,6.93693,79.902127,11.2,Dense Graded Asphalt Concrete,3.51,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-030,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,2.9,3.0,6.936928,79.902145,6.936806,79.903029,11.0,Dense Graded Asphalt Concrete,3.79,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-031,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.0,3.1,6.936803,79.903047,6.93669,79.903926,10.9,Dense Graded Asphalt Concrete,3.84,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-032,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.1,3.2,6.936687,79.903944,6.936531,79.904816,10.8,Dense Graded Asphalt Concrete,3.92,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-033,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.2,3.3,6.936526,79.904834,6.936408,79.905707,10.1,Dense Graded Asphalt Concrete,4.12,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-034,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.3,3.4,6.936406,79.905721,6.936265,79.906595,10.0,Dense Graded Asphalt Concrete,3.81,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-035,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.4,3.5,6.936262,79.906615,6.936126,79.907486,9.9,Dense Graded Asphalt Concrete,3.47,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-036,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.5,3.6,6.936123,79.907507,6.935983,79.90838,10.2,Dense Graded Asphalt Concrete,3.83,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-037,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.6,3.7,6.93598,79.9084,6.935857,79.909279,10.3,Dense Graded Asphalt Concrete,3.66,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-038,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.7,3.8,6.935855,79.909294,6.935825,79.910177,10.5,Dense Graded Asphalt Concrete,4.17,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-039,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.8,3.9,6.935826,79.910193,6.935948,79.911068,10.5,Dense Graded Asphalt Concrete,3.44,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-040,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,3.9,4.0,6.935951,79.911088,6.936094,79.91196,11.4,Dense Graded Asphalt Concrete,3.49,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-041,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.0,4.1,6.936097,79.911977,6.936262,79.912843,13.5,Dense Graded Asphalt Concrete,4.29,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-042,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.1,4.2,6.936265,79.91286,6.936399,79.913739,16.9,Dense Graded Asphalt Concrete,3.85,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-043,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.2,4.3,6.936401,79.913757,6.936367,79.914648,16.8,Dense Graded Asphalt Concrete,4.03,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-044,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.3,4.4,6.936366,79.914664,6.936209,79.915536,13.7,Dense Graded Asphalt Concrete,3.41,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-045,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.4,4.5,6.936205,79.915552,6.935958,79.916399,11.7,Dense Graded Asphalt Concrete,3.87,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-046,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.5,4.6,6.935955,79.916417,6.935927,79.917298,13.8,Dense Graded Asphalt Concrete,3.72,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-047,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.6,4.7,6.935927,79.917315,6.935977,79.918198,12.5,Dense Graded Asphalt Concrete,3.47,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-048,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.7,4.8,6.935978,79.918218,6.936041,79.9191,13.0,Dense Graded Asphalt Concrete,3.52,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-049,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.8,4.9,6.936043,79.91912,6.936065,79.920005,15.9,Dense Graded Asphalt Concrete,4.02,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-050,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,4.9,5.0,6.936064,79.920019,6.935954,79.920902,19.2,Dense Graded Asphalt Concrete,3.58,8,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-051,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.0,5.1,6.935952,79.920918,6.935853,79.9218,19.5,Dense Graded Asphalt Concrete,3.49,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-052,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.1,5.2,6.935852,79.921817,6.93587,79.922698,15.9,Dense Graded Asphalt Concrete,4.04,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-053,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.2,5.3,6.93587,79.922716,6.935908,79.923602,13.2,Dense Graded Asphalt Concrete,4.24,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-054,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.3,5.4,6.935908,79.923619,6.935947,79.924504,12.3,Dense Graded Asphalt Concrete,3.89,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-055,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.4,5.5,6.935948,79.924522,6.935984,79.925408,11.8,Dense Graded Asphalt Concrete,4.18,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-056,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.5,5.6,6.935985,79.925426,6.936028,79.926309,12.2,Dense Graded Asphalt Concrete,4.12,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-057,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.6,5.7,6.93603,79.92633,6.936073,79.927209,12.3,Dense Graded Asphalt Concrete,4.13,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-058,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.7,5.8,6.936073,79.92723,6.93612,79.928113,13.1,Dense Graded Asphalt Concrete,4.21,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-059,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.8,5.9,6.936121,79.928134,6.936165,79.929015,13.3,Dense Graded Asphalt Concrete,4.14,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-060,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,5.9,6.0,6.936167,79.929037,6.936213,79.929918,12.2,Dense Graded Asphalt Concrete,3.98,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-061,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.0,6.1,6.936213,79.929934,6.936258,79.93082,12.1,Dense Graded Asphalt Concrete,4.06,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-062,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.1,6.2,6.936259,79.930838,6.936321,79.931724,12.4,Dense Graded Asphalt Concrete,3.45,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-063,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.2,6.3,6.936322,79.931742,6.936358,79.93263,12.5,Dense Graded Asphalt Concrete,3.54,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-064,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.3,6.4,6.936359,79.93265,6.936404,79.933535,12.7,Dense Graded Asphalt Concrete,3.6,8,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-065,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.4,6.5,6.936404,79.933548,6.936445,79.934433,12.7,Dense Graded Asphalt Concrete,3.7,12,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-066,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.5,6.6,6.936446,79.934455,6.936486,79.935336,12.8,Dense Graded Asphalt Concrete,4.11,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-067,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.6,6.7,6.936487,79.935354,6.936537,79.936242,13.4,Dense Graded Asphalt Concrete,3.85,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-068,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.7,6.8,6.936538,79.936265,6.936584,79.937142,14.0,Dense Graded Asphalt Concrete,4.05,5,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-069,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.8,6.9,6.936585,79.937162,6.936635,79.938047,13.9,Dense Graded Asphalt Concrete,4.3,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-070,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,6.9,7.0,6.936635,79.938063,6.936681,79.938949,13.5,Dense Graded Asphalt Concrete,3.99,12,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-071,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,7.0,7.1,6.936682,79.93897,6.936692,79.939851,13.3,Dense Graded Asphalt Concrete,4.01,3,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-072,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,7.1,7.2,6.936689,79.939873,6.936522,79.940741,12.6,Dense Graded Asphalt Concrete,3.43,2,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-073,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,7.2,7.3,6.936518,79.940757,6.936402,79.941633,12.2,Dense Graded Asphalt Concrete,3.82,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-074,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,7.3,7.4,6.936402,79.941645,6.936592,79.942504,12.1,Dense Graded Asphalt Concrete,4.05,8,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-075,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,7.4,7.5,6.936596,79.942521,6.936845,79.943373,12.5,Dense Graded Asphalt Concrete,3.78,6,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-076,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,7.5,7.6,6.936852,79.943392,6.937117,79.944234,12.5,Dense Graded Asphalt Concrete,3.73,4,32604,4540.9,8.51,2674.9,27.93,4.51,1.783
+B435-SEC-077,B435,Sri Jayawardenepura - Kotte / Orugodawatta,Class B Highway,4,7.6,7.7,6.937123,79.944251,6.937358,79.944996,12.8,Dense Graded Asphalt Concrete,3.44,12,32604,4540.9,8.51,2674.9,27.93,4.51,1.783

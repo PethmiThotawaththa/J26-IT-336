@@ -1,0 +1,560 @@
+{
+  "metadata": {
+    "timestamp": "2026-10-21 21:54:03",
+    "dataset_version": "RDA_v1.0_Harmonized",
+    "total_samples": 675,
+    "train_samples": 540,
+    "test_samples": 135,
+    "random_seed": 42,
+    "best_regressor": "Linear Regression (Ridge Baseline)",
+    "best_classifier": "Random Forest Classifier",
+    "raw_features": [
+      "current_pci",
+      "pavement_age_years",
+      "structural_number",
+      "aadt",
+      "daily_esal",
+      "heavy_vehicle_pct",
+      "annual_precipitation_mm",
+      "mean_temp_c",
+      "mean_diurnal_range_c",
+      "monsoon_risk_factor",
+      "historical_decay_rate_annual",
+      "crack_density_pct",
+      "pothole_count",
+      "iri_roughness",
+      "rut_depth_mm"
+    ],
+    "all_features": [
+      "current_pci",
+      "pavement_age_years",
+      "structural_number",
+      "aadt",
+      "daily_esal",
+      "heavy_vehicle_pct",
+      "annual_precipitation_mm",
+      "mean_temp_c",
+      "mean_diurnal_range_c",
+      "monsoon_risk_factor",
+      "historical_decay_rate_annual",
+      "crack_density_pct",
+      "pothole_count",
+      "iri_roughness",
+      "rut_depth_mm",
+      "traffic_precipitation_interaction",
+      "heavy_traffic_load_ratio",
+      "distress_composite_index",
+      "climate_fatigue_index"
+    ]
+  },
+  "regression_benchmarks": [
+    {
+      "model_name": "Linear Regression (Ridge Baseline)",
+      "task": "regression",
+      "target": "target_pci_12m",
+      "mae": 0.75,
+      "rmse": 0.938,
+      "r2_score": 0.9944,
+      "train_time_sec": 0.0167,
+      "parameters": {
+        "alpha": 1.0,
+        "copy_X": true,
+        "fit_intercept": true,
+        "max_iter": null,
+        "positive": false,
+        "random_state": 42,
+        "solver": "auto",
+        "tol": 0.0001
+      }
+    },
+    {
+      "model_name": "Decision Tree Regressor (Baseline)",
+      "task": "regression",
+      "target": "target_pci_12m",
+      "mae": 1.411,
+      "rmse": 1.911,
+      "r2_score": 0.9767,
+      "train_time_sec": 0.0081,
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 6,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "random_state": 42,
+        "splitter": "best"
+      }
+    },
+    {
+      "model_name": "Random Forest Regressor",
+      "task": "regression",
+      "target": "target_pci_12m",
+      "mae": 1.19,
+      "rmse": 1.773,
+      "r2_score": 0.98,
+      "train_time_sec": 0.1695,
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 10,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 150,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "model_name": "XGBoost Regressor",
+      "task": "regression",
+      "target": "target_pci_12m",
+      "mae": 1.013,
+      "rmse": 1.304,
+      "r2_score": 0.9892,
+      "train_time_sec": 2.4147,
+      "parameters": {
+        "objective": "reg:squarederror",
+        "base_score": null,
+        "booster": null,
+        "callbacks": null,
+        "colsample_bylevel": null,
+        "colsample_bynode": null,
+        "colsample_bytree": null,
+        "device": null,
+        "early_stopping_rounds": null,
+        "enable_categorical": false,
+        "eval_metric": null,
+        "feature_types": null,
+        "feature_weights": null,
+        "gamma": null,
+        "grow_policy": null,
+        "importance_type": null,
+        "interaction_constraints": null,
+        "learning_rate": 0.08,
+        "max_bin": null,
+        "max_cat_threshold": null,
+        "max_cat_to_onehot": null,
+        "max_delta_step": null,
+        "max_depth": 5,
+        "max_leaves": null,
+        "min_child_weight": null,
+        "missing": NaN,
+        "monotone_constraints": null,
+        "multi_strategy": null,
+        "n_estimators": 150,
+        "n_jobs": -1,
+        "num_parallel_tree": null,
+        "random_state": 42,
+        "reg_alpha": null,
+        "reg_lambda": null,
+        "sampling_method": null,
+        "scale_pos_weight": null,
+        "subsample": 0.85,
+        "tree_method": null,
+        "validate_parameters": null,
+        "verbosity": null
+      }
+    },
+    {
+      "model_name": "LightGBM Regressor",
+      "task": "regression",
+      "target": "target_pci_12m",
+      "mae": 1.359,
+      "rmse": 2.4,
+      "r2_score": 0.9633,
+      "train_time_sec": 0.0624,
+      "parameters": {
+        "boosting_type": "gbdt",
+        "class_weight": null,
+        "colsample_bytree": 1.0,
+        "importance_type": "split",
+        "learning_rate": 0.08,
+        "max_depth": 5,
+        "min_child_samples": 20,
+        "min_child_weight": 0.001,
+        "min_split_gain": 0.0,
+        "n_estimators": 150,
+        "n_jobs": -1,
+        "num_leaves": 31,
+        "objective": null,
+        "random_state": 42,
+        "reg_alpha": 0.0,
+        "reg_lambda": 0.0,
+        "subsample": 0.85,
+        "subsample_for_bin": 200000,
+        "subsample_freq": 0,
+        "verbose": -1
+      }
+    }
+  ],
+  "multi_horizon_metrics": {
+    "3m": {
+      "mae": 0.476,
+      "rmse": 0.692,
+      "r2": 0.9962
+    },
+    "6m": {
+      "mae": 0.69,
+      "rmse": 0.954,
+      "r2": 0.9931
+    },
+    "12m": {
+      "mae": 1.013,
+      "rmse": 1.304,
+      "r2": 0.9892
+    },
+    "24m": {
+      "mae": 1.517,
+      "rmse": 2.016,
+      "r2": 0.9804
+    }
+  },
+  "classification_benchmarks": [
+    {
+      "model_name": "Logistic Regression (Baseline)",
+      "task": "classification",
+      "target": "target_risk_class_12m",
+      "accuracy": 0.9259,
+      "precision": 0.9268,
+      "recall": 0.9259,
+      "f1_score": 0.9263,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          17,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          43,
+          2
+        ],
+        [
+          0,
+          0,
+          3,
+          59
+        ]
+      ],
+      "classes": [
+        "Critical",
+        "Poor",
+        "Fair",
+        "Satisfactory",
+        "Good"
+      ],
+      "train_time_sec": 0.0535
+    },
+    {
+      "model_name": "Decision Tree Classifier (Baseline)",
+      "task": "classification",
+      "target": "target_risk_class_12m",
+      "accuracy": 0.9185,
+      "precision": 0.9263,
+      "recall": 0.9185,
+      "f1_score": 0.9188,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          19,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          46,
+          1
+        ],
+        [
+          0,
+          0,
+          9,
+          53
+        ]
+      ],
+      "classes": [
+        "Critical",
+        "Poor",
+        "Fair",
+        "Satisfactory",
+        "Good"
+      ],
+      "train_time_sec": 0.0116
+    },
+    {
+      "model_name": "Random Forest Classifier",
+      "task": "classification",
+      "target": "target_risk_class_12m",
+      "accuracy": 0.9556,
+      "precision": 0.9605,
+      "recall": 0.9556,
+      "f1_score": 0.956,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          48,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          57
+        ]
+      ],
+      "classes": [
+        "Critical",
+        "Poor",
+        "Fair",
+        "Satisfactory",
+        "Good"
+      ],
+      "train_time_sec": 0.2583
+    },
+    {
+      "model_name": "XGBoost Classifier",
+      "task": "classification",
+      "target": "target_risk_class_12m",
+      "accuracy": 0.9481,
+      "precision": 0.952,
+      "recall": 0.9481,
+      "f1_score": 0.9486,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          17,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          47,
+          1
+        ],
+        [
+          0,
+          0,
+          4,
+          58
+        ]
+      ],
+      "classes": [
+        "Critical",
+        "Poor",
+        "Fair",
+        "Satisfactory",
+        "Good"
+      ],
+      "train_time_sec": 0.3658
+    },
+    {
+      "model_name": "LightGBM Classifier",
+      "task": "classification",
+      "target": "target_risk_class_12m",
+      "accuracy": 0.9407,
+      "precision": 0.9434,
+      "recall": 0.9407,
+      "f1_score": 0.9412,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          46,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          57
+        ]
+      ],
+      "classes": [
+        "Critical",
+        "Poor",
+        "Fair",
+        "Satisfactory",
+        "Good"
+      ],
+      "train_time_sec": 0.3292
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature": "current_pci",
+      "rf_importance": 0.952,
+      "xgb_importance": 0.9069,
+      "ensemble_mean": 0.9294
+    },
+    {
+      "feature": "historical_decay_rate_annual",
+      "rf_importance": 0.0214,
+      "xgb_importance": 0.0205,
+      "ensemble_mean": 0.021
+    },
+    {
+      "feature": "distress_composite_index",
+      "rf_importance": 0.014,
+      "xgb_importance": 0.0124,
+      "ensemble_mean": 0.0132
+    },
+    {
+      "feature": "rut_depth_mm",
+      "rf_importance": 0.0029,
+      "xgb_importance": 0.014,
+      "ensemble_mean": 0.0084
+    },
+    {
+      "feature": "iri_roughness",
+      "rf_importance": 0.0029,
+      "xgb_importance": 0.0124,
+      "ensemble_mean": 0.0076
+    },
+    {
+      "feature": "crack_density_pct",
+      "rf_importance": 0.002,
+      "xgb_importance": 0.0126,
+      "ensemble_mean": 0.0073
+    },
+    {
+      "feature": "pothole_count",
+      "rf_importance": 0.0003,
+      "xgb_importance": 0.0112,
+      "ensemble_mean": 0.0057
+    },
+    {
+      "feature": "heavy_traffic_load_ratio",
+      "rf_importance": 0.0018,
+      "xgb_importance": 0.0028,
+      "ensemble_mean": 0.0023
+    },
+    {
+      "feature": "daily_esal",
+      "rf_importance": 0.0003,
+      "xgb_importance": 0.0029,
+      "ensemble_mean": 0.0016
+    },
+    {
+      "feature": "structural_number",
+      "rf_importance": 0.0012,
+      "xgb_importance": 0.0011,
+      "ensemble_mean": 0.0012
+    },
+    {
+      "feature": "pavement_age_years",
+      "rf_importance": 0.0006,
+      "xgb_importance": 0.001,
+      "ensemble_mean": 0.0008
+    },
+    {
+      "feature": "aadt",
+      "rf_importance": 0.0003,
+      "xgb_importance": 0.0014,
+      "ensemble_mean": 0.0008
+    },
+    {
+      "feature": "heavy_vehicle_pct",
+      "rf_importance": 0.0002,
+      "xgb_importance": 0.001,
+      "ensemble_mean": 0.0006
+    },
+    {
+      "feature": "traffic_precipitation_interaction",
+      "rf_importance": 0.0002,
+      "xgb_importance": 0.0,
+      "ensemble_mean": 0.0001
+    },
+    {
+      "feature": "annual_precipitation_mm",
+      "rf_importance": 0.0,
+      "xgb_importance": 0.0,
+      "ensemble_mean": 0.0
+    },
+    {
+      "feature": "mean_temp_c",
+      "rf_importance": 0.0,
+      "xgb_importance": 0.0,
+      "ensemble_mean": 0.0
+    },
+    {
+      "feature": "mean_diurnal_range_c",
+      "rf_importance": 0.0,
+      "xgb_importance": 0.0,
+      "ensemble_mean": 0.0
+    },
+    {
+      "feature": "monsoon_risk_factor",
+      "rf_importance": 0.0,
+      "xgb_importance": 0.0,
+      "ensemble_mean": 0.0
+    },
+    {
+      "feature": "climate_fatigue_index",
+      "rf_importance": 0.0,
+      "xgb_importance": 0.0,
+      "ensemble_mean": 0.0
+    }
+  ]
+}
